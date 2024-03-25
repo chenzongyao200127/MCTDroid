@@ -1,0 +1,1007 @@
+Node root : value: None
+
+  Node AndroidManifest.xml : value: 0.5
+  Node code : value: 0.5
+
+    Node uses-features : value: 0.2786885245901639
+    Node permission : value: 0.47540983606557374
+    Node intent : value: 0.2459016393442623
+    Node service : value: 0.49479768786127165
+    Node receiver : value: 0.33179190751445087
+    Node provider : value: 0.17341040462427745
+
+      Node hardware : value: 0.5588235294117647
+      Node software : value: 0.4411764705882353
+      Node normal_permission : value: 0.5172413793103449
+      Node signature_permission : value: 0.4827586206896552
+      Node activity_intent : value: 0.5333333333333333
+      Node broadcast_intent : value: 0.2
+      Node category_intent : value: 0.26666666666666666
+      Node ('crc64396a3fe5f8138e3f.KeepAliveService', ['com.aitcvn.TrangAES.Android', 'org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0']) : value: 0.002336448598130841
+      Node ('com.blankj.utilcode.util.MessengerUtils$ServerService', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('crc64eef5b458c815b87c.OnClearFromRecentService', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569']) : value: 0.002336448598130841
+      Node ('crc64eef5b458c815b87c.OnClearFromRecentServiceForTablet', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569']) : value: 0.002336448598130841
+      Node ('crc6458d1a6c1e5dab9ec.ProTradeFirebaseMessagingService', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569']) : value: 0.002336448598130841
+      Node ('crc64a98abb514ffad9f1.KeepAliveService', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'fr.scpgym.app', 'com.voicelessons.app']) : value: 0.002336448598130841
+      Node ('com.mexico.loan.module.service.PilippinasService', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD']) : value: 0.002336448598130841
+      Node ('com.mexico.loan.module.service.FirebaseMessageServiceImpl', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD']) : value: 0.002336448598130841
+      Node ('com.moor.imkf.service.IMService', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD']) : value: 0.002336448598130841
+      Node ('com.moor.imkf.websocket.SocketService', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD']) : value: 0.002336448598130841
+      Node ('com.volcanex.VesuviusVolcanopedia..datadownloader', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.002336448598130841
+      Node ('com.volcanex.VesuviusVolcanopedia..locationmonitor', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.002336448598130841
+      Node ('com.volcanex.VesuviusVolcanopedia..httputils2service', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.002336448598130841
+      Node ('com.facebook.browser.lite.BrowserLiteIntentService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.cameracore.mediapipeline.asyncscripting.AsyncScriptingService', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.002336448598130841
+      Node ('com.facebook.analytics.appstatelogger.AppStateIntentService', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.002336448598130841
+      Node ('com.facebook.appcomponentmanager.AppComponentManagerService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.facecast.display.debugoverlay.FacecastDebugOverlayService', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.002336448598130841
+      Node ('com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheJobService', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B', 'com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.rti.push.service.FbnsService', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B', 'com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.video.heroplayer.service.HeroService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.video.heroplayer.service.MainProcHeroService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.netease.pushservice.PushService', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.002336448598130841
+      Node ('com.netease.cc.screen_record.codec.screencapture.ScreenCaptureService', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.002336448598130841
+      Node ('com.twitter.sdk.android.tweetcomposer.TweetUploadService', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060', 'com.rcstudio.demoncollegeFE950CDABBE9C6E7AE7CF0103F1049CDA4089768']) : value: 0.002336448598130841
+      Node ('com.netease.inner.pushclient.firebase.MyFirebaseInstanceIDService', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.002336448598130841
+      Node ('com.netease.inner.pushclient.firebase.MyFirebaseMessagingService', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.002336448598130841
+      Node ('com.startapp.android.publish.common.metaData.PeriodicMetaDataService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF', 'io.kodular.ralom4404.gujrat', 'com.flowextra.myapp', 'com.exlivinapps.radiomartestereoappit']) : value: 0.002336448598130841
+      Node ('com.startapp.android.publish.common.metaData.InfoEventService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF', 'io.kodular.ralom4404.gujrat', 'com.flowextra.myapp', 'com.exlivinapps.radiomartestereoappit', 'com.exlivinapps.newstalkzbaucklandappradionz']) : value: 0.002336448598130841
+      Node ('com.startapp.android.publish.common.metaData.PeriodicJobService', ['com.flowextra.myapp', 'com.exlivinapps.radiomartestereoappit', 'com.exlivinapps.newstalkzbaucklandappradionz']) : value: 0.002336448598130841
+      Node ('com.onesignal.GcmIntentService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.onesignal.GcmIntentJobService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.onesignal.RestoreJobService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.onesignal.RestoreKickoffJobService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.onesignal.SyncService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.onesignal.SyncJobService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.onesignal.NotificationRestoreService', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.002336448598130841
+      Node ('com.qilesoft.en.eights.jetpack.service.JVoicePlayService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService', ['com.qilesoft.en.eights', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'app.downloadall.helptool']) : value: 0.002336448598130841
+      Node ('com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService', ['com.qilesoft.en.eights', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'app.downloadall.helptool']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.downloader.notification.DownloadNotificationService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.downloader.downloader.DownloadService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.downloader.impls.DownloadHandleService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.appdownloader.DownloadHandlerService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.ss.android.socialbase.appdownloader.RetryJobSchedulerService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService', ['com.qilesoft.en.eights', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.bytedance.tea.crash.upload.CrashUploadService', ['com.qilesoft.en.eights']) : value: 0.002336448598130841
+      Node ('com.szlanyou.nissaniov.push.LanyouPushService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.szlanyou.nissaniov.push.LanyouPushIntentService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.szlanyou.nissaniov.ui.home.manager.DownLoadService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.amap.api.location.APSService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3', 'com.zzkj.operator']) : value: 0.002336448598130841
+      Node ('com.szlanyou.nissaniov.ui.home.dvr.VideoDownService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.igexin.sdk.HmsPushMessageService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.xiaomi.mipush.sdk.PushMessageHandler', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.xiaomi.mipush.sdk.MessageHandleService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.meizu.cloud.pushsdk.NotificationService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.igexin.sdk.PushService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.huawei.hms.support.api.push.service.HmsMsgService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.vivo.push.sdk.service.CommandClientService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.igexin.sdk.OppoPushService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.igexin.sdk.OppoAppPushService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.getui.gtc.GtcService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.yaoxiaowen.download.service.DownloadService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.szlanyou.iov.patch.tinker.service.PatchResultService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.szlanyou.iov.patch.tinker.service.SampleResultService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.TinkerPatchForeService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.TinkerPatchService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.TinkerPatchService$InnerService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.ifeng.news2', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.DefaultTinkerResultService', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.huawei.agconnect.core.ServiceDiscovery', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7', 'hu.eKreta.KretaAndroid']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.ForegroundService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.webviewrtc.RTCService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.FbnsIntentService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.FbnsForegroundService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.analyticslite.memory.MemoryDumpUploadService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.notification.LiteFirebaseMessagingService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.intent.WakefulIntentService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.service.SnoozeNotificationService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.service.NotificationLoggingService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.service.AppInitService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.service.TaskLifeDetectingService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.messagingapps.FirstPartyMessagingAppsDetectionService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.bugreporter.screencast.ScreencastService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.service.MediaUploadService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.lite.browser.BrowserLiteCallbackService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.videolite.api.VideoUploadForegroundService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.videolite.api.jobscheduler.UploadJobSchedulerService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.facebook.secure.packagefinder.PackageFinderService', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.002336448598130841
+      Node ('com.applovin.impl.sdk.utils.AppKilledService', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.flowextra.myapp', 'com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8', 'com.be.happy.timbercraft', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.applovin.impl.adview.activity.FullscreenAdService', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8', 'com.be.happy.timbercraft', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.ideaworks3d.marmalade.s3eApkExpansionFile.MyDownloaderService', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E']) : value: 0.002336448598130841
+      Node ('com.ideaworks3d.marmalade.s3eAndroidMarketBilling.s3eAndroidMarketBilling', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E']) : value: 0.002336448598130841
+      Node ('com.sina.weibo.sdk.net.DownloadService', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.002336448598130841
+      Node ('com.unity3d.plugin.downloader.UnityDownloaderService', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.002336448598130841
+      Node ('com.kongregate.android.api.swrve.KongSwrveGcmIntentService', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.002336448598130841
+      Node ('com.swrve.sdk.gcm.SwrveGcmInstanceIDListenerService', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.002336448598130841
+      Node ('com.thinkyeah.photoeditor.toolbar.service.ToolbarService', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.002336448598130841
+      Node ('com.thinkyeah.photoeditor.main.service.MainService', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.002336448598130841
+      Node ('com.thinkyeah.photoeditor.main.service.AppNotificationListenerService', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.002336448598130841
+      Node ('com.thinkyeah.common.push.service.PushFirebaseMessagingService', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.002336448598130841
+      Node ('com.appyet.service.SyncService', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.002336448598130841
+      Node ('com.appyet.service.MediaService', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.002336448598130841
+      Node ('com.appyet.exoplayer.ExoDownloadService', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.002336448598130841
+      Node ('com.appyet.service.FCMService', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.002336448598130841
+      Node ('com.baidu.location.f', ['com.ifeng.news2', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.mia.miababy', 'com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.ifeng.news2.commend.CommandService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.ipush.client.service.PushService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.ipush.client.service.EventService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.xiaomi.push.service.XMJobService', ['com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.xiaomi.push.service.XMPushService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.huawei.android.pushagent.PushService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.news2.service.IfengMonitorService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.news2.service.IfengDaemonService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('cn.shuzilm.core.DUService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.news2.service.KeepAliveJobService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.news2.push.AccountAuthenticatorService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.ifeng.news2.push.AccountSyncService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.heytap.mcssdk.PushService', ['com.ifeng.news2', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.heytap.mcssdk.AppPushService', ['com.ifeng.news2', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.hpplay.component.screencapture.ScreenCaptureService', ['com.ifeng.news2']) : value: 0.002336448598130841
+      Node ('com.tencent.bugly.beta.tinker.TinkerResultService', ['com.ifeng.news2', 'com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.baidu.puying.PuyingService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424']) : value: 0.002336448598130841
+      Node ('com.baidu.techain.THService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.techain.TechainService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.techain.push.HWPushMsgService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.heytap.msp.push.service.CompatibleDataMessageCallbackService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.heytap.msp.push.service.DataMessageCallbackService', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.sofire.MyService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('io.rong.push.platform.hms.HMSPushService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.qxb.student.logic.service.MyJCommonService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.qxb.student.logic.service.HBBUploadService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.tencent.smtt.export.external.DexClassLoaderProviderService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.alibaba.mtl.appmonitor.AppMonitorService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.tencent.android.tpush.rpc.XGRemoteService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.tencent.android.tpush.service.XGPushServiceV3', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('cn.jpush.android.service.PushService', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.zzkj.operator']) : value: 0.002336448598130841
+      Node ('cn.jpush.android.service.DaemonService', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('cn.jpush.android.service.MessagingIntentService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.mob.guard.MobGuardPullUpService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.mob.id.MobIDService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.mob.MobACService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('io.rong.imlib.ipc.RongService', ['com.qxb.student', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('io.rong.push.rongpush.PushService', ['com.qxb.student', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.xuexiang.xupdate.service.DownloadService', ['com.qxb.student']) : value: 0.002336448598130841
+      Node ('com.yingteng.mvp.ui.service.MainService', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.yingteng.mvp.ui.service.DownloadService', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.yingteng.mvp.ui.service.JpushService', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.qiyukf.nimlib.service.NimService', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.qiyukf.nimlib.service.NimService$Aux', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.qiyukf.unicorn.analytics.AnalyticsService', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.qiyukf.nimlib.service.WakeupService', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.secneo.apkwrapper.r.S', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.002336448598130841
+      Node ('com.remote.control.roku.tv.cast.app.service.CommandService', ['tvremote.peer.smart.allremotecontrole']) : value: 0.002336448598130841
+      Node ('com.remote.control.roku.tv.cast.app.service.NotificationService', ['tvremote.peer.smart.allremotecontrole']) : value: 0.002336448598130841
+      Node ('com.abinbev.android.tapwiser.push.FireBaseService', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.002336448598130841
+      Node ('com.appboy.AppboyFirebaseMessagingService', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.002336448598130841
+      Node ('com.hot.downloader.DownloadService', ['twittervideodownloader.twittervideosaver.twimate.savetwittergif200BD8D3FE13ADD044D91568A12A90E53FE079CA']) : value: 0.002336448598130841
+      Node ('com.taobao.accs.ChannelService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.taobao.accs.data.MsgDistributeService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.taobao.accs.internal.AccsJobService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('org.android.agoo.accs.AgooService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.umeng.message.UmengIntentService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.umeng.message.XiaomiIntentService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.umeng.message.UmengMessageIntentReceiverService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.umeng.message.UmengMessageCallbackHandlerService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.umeng.message.UmengDownloadResourceService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.taobao.accs.ChannelService$KernelService', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.async.AlarmRestoreOnRebootService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.services.MainService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.services.NotificationListener', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.services.DailyNotificationService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.alive.sync.GenericAccountService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.services.FirebasePushService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('easynotes.notes.notepad.notebook.privatenotes.note.java.MyFirebaseMessagingService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.widget.ListWidgetService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('notes.easy.android.mynotes.widget.UpdateWidgetService', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.002336448598130841
+      Node ('com.baidu.xenv.XenvService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.android.pushservice.PushService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.android.pushservice.CommandService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.android.pushservice.job.PushJobService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.swan.apps.process.messaging.service.SwanAppMessengerService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.swan.apps.process.messaging.client.SwanAppLocalService1', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.swan.apps.media.audio.service.SwanAppAudioService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.webkit.sdk.DumperService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.crashpad.DumperService', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.webkit.sdk.WebViewRendererService0', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.webkit.sdk.WebViewRendererService1', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('com.baidu.webkit.sdk.WebViewRendererService2', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.002336448598130841
+      Node ('crc647064d3f565c1c4ab.SynigoFirebaseMessagingService', ['com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344']) : value: 0.002336448598130841
+      Node ('com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService', ['com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344']) : value: 0.002336448598130841
+      Node ('com.microsoft.intune.mam.client.service.MAMBackgroundService', ['com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344']) : value: 0.002336448598130841
+      Node ('com.microsoft.intune.mam.client.service.MAMBackgroundJobService', ['com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344']) : value: 0.002336448598130841
+      Node ('crc64304164c5a52a31b5.MyFirebaseMessagingService', ['no.pts.pensjon6206A185981FEC449E3C0DC4454AFCE99A599990']) : value: 0.002336448598130841
+      Node ('cours.analyse.financiere.MyFirebaseMessagingService', ['cours.analyse.financiere']) : value: 0.002336448598130841
+      Node ('cours.analyse.financiere.MyFirebaseInstanceIDService', ['cours.analyse.financiere']) : value: 0.002336448598130841
+      Node ('com.licham.lichvannien.firebase.MyFirebaseMessagingService', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.002336448598130841
+      Node ('com.licham.lichvannien.utils.service.AppService', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.002336448598130841
+      Node ('com.licham.lichvannien.utils.service.JobService', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.core.hotfix.tinker.TinkerResultService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.core.hotfix.HotFixService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.allinone.base.famp.core.service.MPService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.web.ipc.service.FAWebProcessService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.allinone.base.process.service.FAProcessServiceForHost', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.allinone.watch.floating.FALiveFloatWindowService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.allinone.common.base.ForegroundStubService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.hook.NativeMemoryFloatingService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.shortvideo.common.filemanager.DownloadService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('org.fourthline.cling.android.AndroidUpnpServiceImpl', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.modul.taskcenter.RewardVideoService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.umeng.update.net.DownloadingService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.push.huawei.HWPushService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('com.kugou.fanxing.push.oppo.OPPushService', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.002336448598130841
+      Node ('apps.allworld.translatenow.services.QktranslateService', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.002336448598130841
+      Node ('apps.allworld.translatenow.services.QuickTranslateService$InnerService', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.002336448598130841
+      Node ('apps.allworld.translatenow.services.TranslateJobService', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.002336448598130841
+      Node ('apps.allworld.translatenow.services.TextTranslateJobService', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.002336448598130841
+      Node ('apps.allworld.translatenow.services.BaseTranslateService', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.002336448598130841
+      Node ('apps.allworld.translatenow.utility.TranslateSyncAccount', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.002336448598130841
+      Node ('com.firebase.jobdispatcher.GooglePlayReceiver', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('crc64fef826565e5277d7.DialMessagingService', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.002336448598130841
+      Node ('crc6421f2eb22eb1ffde6.DetectedActivitiesJobIntentService', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.002336448598130841
+      Node ('crc6421f2eb22eb1ffde6.HuaweiActivityIdentificationJobIntentService', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.002336448598130841
+      Node ('crc6421f2eb22eb1ffde6.HuaweiGeofencejobIntentService', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.002336448598130841
+      Node ('crc6421f2eb22eb1ffde6.ApiCallWorkForegroundService', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.002336448598130841
+      Node ('crc649d8d040841e6069b.AndroidTrackingService', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.002336448598130841
+      Node ('com.hyundai.hyundain.service.TrackingService', ['com.hyundai.hyundain']) : value: 0.002336448598130841
+      Node ('com.apk_shield.ServiceAhope', ['com.hyundai.hyundain']) : value: 0.002336448598130841
+      Node ('com.goggles.ProcessRunningWatcherService', ['com.hyundai.hyundain']) : value: 0.002336448598130841
+      Node ('com.app.drivermktaxi.LatLongService', ['com.app.fenixejecutivotaxiapp']) : value: 0.002336448598130841
+      Node ('com.app.drivermktaxi.notificationService.FcmToken', ['com.app.fenixejecutivotaxiapp']) : value: 0.002336448598130841
+      Node ('com.app.drivermktaxi.notificationService.FireBaseNotificationService', ['com.app.fenixejecutivotaxiapp']) : value: 0.002336448598130841
+      Node ('com.app.drivermktaxi.util.GPSTracker', ['com.app.fenixejecutivotaxiapp']) : value: 0.002336448598130841
+      Node ('com.app.drivermktaxi.util.MyService', ['com.app.fenixejecutivotaxiapp']) : value: 0.002336448598130841
+      Node ('com.snail.antifake.jni.EmulatorCheckService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.appsflyer.FirebaseInstanceIdListener', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.youzu.push.fcm.MyFirebaseMessagingService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.youzu.push.fcm.MyFirebaseInstanceIDService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.youzu.push.fcm.MyJobService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.youzu.push.localpush.LocalAlarmService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.youzu.push.localpush.NotifyService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('com.youzu.push.localpush.StopForwardService', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.002336448598130841
+      Node ('crc641d02564e5ea75eb5.DaemonService', ['com.cryptzone.appgate.xdp884184C693F0BD200E894BC5418670A1F46932F9']) : value: 0.002336448598130841
+      Node ('crc640b86a835ec56858f.VpnService', ['com.cryptzone.appgate.xdp884184C693F0BD200E894BC5418670A1F46932F9']) : value: 0.002336448598130841
+      Node ('com.mia.miababy.module.parenting.story.play.service.MusicService', ['com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.mia.miababy.module.step.service.StepService', ['com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.sobot.chat.core.channel.SobotTCPServer', ['com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.sobot.chat.server.SobotSessionServer', ['com.mia.miababy']) : value: 0.002336448598130841
+      Node ('org.android.agoo.huawei.HuaweiPushMessageService', ['com.mia.miababy']) : value: 0.002336448598130841
+      Node ('com.getsensibill.core.notifications.ReminderNotificationJobService', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('com.fismobile.mbank.app.ui.support.services.FisInstanceIDListenerService', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('o.ӏɭ', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('o.ӀΞ', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('o.Іх', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('o.ӏІ', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('com.squareup.leakcanary.DisplayLeakService', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('o.bU', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.002336448598130841
+      Node ('com.plotprojects.retail.android.EmulatorTestingService', ['com.shopgate.android.app29476']) : value: 0.002336448598130841
+      Node ('com.plotprojects.retail.android.BackgroundProcessingService', ['com.shopgate.android.app29476']) : value: 0.002336448598130841
+      Node ('com.pandora.PandoraService', ['com.milad.khaaanee']) : value: 0.002336448598130841
+      Node ('com.appbrain.AppBrainService', ['com.milad.khaaanee']) : value: 0.002336448598130841
+      Node ('com.appbrain.AppBrainJobService', ['com.milad.khaaanee']) : value: 0.002336448598130841
+      Node ('com.payegis.caesar.sdk.service.DynamicSdkService', ['com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3']) : value: 0.002336448598130841
+      Node ('com.payegis.caesar.sdk.service.DynamicJobService', ['com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3']) : value: 0.002336448598130841
+      Node ('cn.com.fri.BleDeviceService.BleDeviceService', ['com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3']) : value: 0.002336448598130841
+      Node ('com.joz7.forat.ap..starter', ['com.joz7.forat.ap']) : value: 0.002336448598130841
+      Node ('com.samsung.android.sdk.shealth.PluginService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.papd.msgcenter.MsgCenterService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('cn.jpush.android.service.DownloadService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.im.core.xmpp.ImService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.papd.ui.activities.main.HomeManagerService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.papd.service.AppUpdateService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.video.launcher.service.RoomChatProxyService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.video.mediaplayer.PlayerService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.videocore.service.MediaPlayerService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.papd.trafficstatus.TrafficDataService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.papd.trafficstatus.TrafficDataJobService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.imsdk.im.ImService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.device.service.BluetoothLeService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pa.uploadfile.service.UploadFileService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pa.health.lib.photo.UploadPhotoService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.comphealth.step.lib.HealthStepService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.comphealth.run.http.RunningUploadFileService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.comphealth.run.location.MusicHelperService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.modulemessage.oppo.service.PushMessageService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.modulemessage.oppo.service.AppPushMessageService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.modulemessage.huawei.HmsPushService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.psycourse.player.service.PsyCourseAduioMediaPlayService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.psycourse.player.service.UploadCountOrProgressService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.mensesrecord.SyncMensesDataService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.base.upload.UploadVideoService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.run.location.MapLocationService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.runmusic.music.SoundMediaPlayService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.base.download.DownloadService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.runmusic.playservice.RunPlayService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.healthmanage.course.audioNode.AudioNodeMediaPlayService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.reactnative.download.DLPluginDownloadService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.advertmodule.util.startup.StartupAdsService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.pedometer.coremodule.stepcore.RemoteStepService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.pedometer.coremodule.stepcore.RemoteStepService$CancelNoticeService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.pedometer.coremodule.stepcore.StepJobSchedService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.wristband.wristband_lib.sdk.BandService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.wristband.wristband_lib.sdk.notify.NotificationService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.plugin.ui.PluginManagerService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.ondemand.DemandResService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.speech.Services.UnisoundSpeechService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.imcore.service.RoomChatService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.mini.todaystep.TodayStepService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.mini.pgmini.main.PGService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.mini.pgmini.api.media.audio.AudioService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.mini.pgmini.download.service.MinaDownloadService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pingan.mini.pgmini.ipc.HostProcessCommService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.pajk.providers.downloads.DownloadService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.002336448598130841
+      Node ('com.rayark.sisyphus_service.BackgroundDownloaderService', ['com.rayark.plutoB511C07F8E636E3BC1D11D993CC74C618747AC6E']) : value: 0.002336448598130841
+      Node ('net.audiobyte.hydra.remote..starter', ['net.audiobyte.hydra.remote']) : value: 0.002336448598130841
+      Node ('crc64dc63aa61ca6cee8c.FirebaseRegistrationService', ['org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0']) : value: 0.002336448598130841
+      Node ('crc64dc63aa61ca6cee8c.FirebaseNotificationService', ['org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.service.ClipboardManagerService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.aidl.TranslateService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.service.FloatWindowService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.service.FeedBackService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.speech.VoiceRecognitionService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.module.appwidget.service.FunctionWidgetRemoteViewsService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.module.appwidget.service.FunctionWidgetPicskUpdateService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.cross.service.CrossFloatService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.baidutranslate.media.AudioPlayService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.te.iol8.telibrary.core.AlarmService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.baidu.searchbox.logsystem.basic.LokiService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.eyou.translate.bluetooth.service.BleRemoteService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.eyou.translate.bluetooth.service.BleService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.eyou.translate.bluetooth.service.BleUpdateService', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.002336448598130841
+      Node ('com.ilongyuan.google.impl.MyFirebaseMessagingService', ['com.rcstudio.demoncollegeFE950CDABBE9C6E7AE7CF0103F1049CDA4089768']) : value: 0.002336448598130841
+      Node ('crc64eb2f74639dfc0a83.MyFirebaseMessagingService', ['com.kubaflo.drawbook']) : value: 0.002336448598130841
+      Node ('com.microsoft.windowsazure.messaging.notificationhubs.FirebaseReceiver', ['com.kubaflo.drawbook']) : value: 0.002336448598130841
+      Node ('com.ss.android.ugc.aweme.scheduler.PublishService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.ss.android.ugc.aweme.tools.policysecurity.OriginalSoundUploadService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.aweme.storage.JobService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.aweme.storage.CompatJobService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.aweme.storage.experiments.EnlargeJobService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.aweme.storage.experiments.EnlargeCompatJobService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.ss.android.ugc.aweme.tools.mvtemplate.cutsame.CutSameSdkDownloadService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.ss.android.ugc.aweme.player.plugin.mediasession.common.MediaSessionService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.ss.android.ugc.cut_ui_impl.core.TemplateService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.ss.android.ugc.cut_imageloader_fresco_dmt.DmtToolsFrescoImageService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('leakcanary.internal.HeapAnalyzerService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.tt.miniapphost.placeholder.MiniAppChildProcessMultiInsService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.tt.miniapphost.placeholder.MiniappService1', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.tt.miniapphost.placeholder.MiniappService2', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.tt.miniapphost.placeholder.MiniappService3', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.tt.miniapphost.placeholder.MiniappService4', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.tt.miniapphost.feedback.FeedbackRecordService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.bdp.bdpbase.ipc.extention.MainDefaultIpcService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.common.wschannel.server.WsChannelService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.ixigua.downloader.DownloadService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.ies.xelement.defaultimpl.player.impl.plugin.mediasession.session.MediaSessionService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.minigame.bdpbase.ipc.extention.MainDefaultIpcService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.minigame.miniapphost.placeholder.MiniappService0', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.minigame.miniapphost.placeholder.MiniappService1', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.minigame.miniapphost.placeholder.MiniappService2', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.minigame.miniapphost.placeholder.MiniappService3', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.minigame.miniapphost.placeholder.MiniappService4', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.minigame.miniapphost.feedback.FeedbackRecordService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.bdp.unitycontainer.service.UcAppService200', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.bdp.unitycontainer.service.UcAppService201', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.bytedance.bdp.unitycontainer.service.UcAppService202', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.alibaba.sdk.android.push.CloudPushIntentService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.alibaba.sdk.android.push.PushIntentService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.alibaba.sdk.android.push.MsgService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.alibaba.sdk.android.push.channel.TaobaoRecvService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('com.huawei.MessageService', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.002336448598130841
+      Node ('app.downloadall.helptool.services.DownloadManagerIntentService', ['app.downloadall.helptool']) : value: 0.002336448598130841
+      Node ('app.downloadall.helptool.services.TiktokClipboardMonitorService', ['app.downloadall.helptool']) : value: 0.002336448598130841
+      Node ('com.booster.gamespeedbooster.ram.free.ScreenFilterService', ['com.booster.gamespeedbooster.ram.free']) : value: 0.002336448598130841
+      Node ('com.booster.gamespeedbooster.ram.free.NotificationService', ['com.booster.gamespeedbooster.ram.free']) : value: 0.002336448598130841
+      Node ('com.ram.speed.booster.services.LightService', ['com.booster.gamespeedbooster.ram.free']) : value: 0.002336448598130841
+      Node ('com.booster.gamespeedbooster.ram.free.RunConfigService', ['com.booster.gamespeedbooster.ram.free']) : value: 0.002336448598130841
+      Node ('com.ram.speed.booster.services.LightServiceJob', ['com.booster.gamespeedbooster.ram.free']) : value: 0.002336448598130841
+      Node ('crc642910ae34a736f185.FirebaseIdService', ['hu.eKreta.KretaAndroid']) : value: 0.002336448598130841
+      Node ('crc642910ae34a736f185.FirebaseMessageService', ['hu.eKreta.KretaAndroid']) : value: 0.002336448598130841
+      Node ('com.ahnlab.enginesdk.ReportService', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.itgen.mainlib.widget.EuginWidget4x4Provider$EuginWidgetRemoteService', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.itgen.mainlib.fido.EugeneFidoService', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.itgen.mainlib.MainPushReceiver', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.h2osystech.smartalimi.servicealimi.SyncJobService', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.callgate.launcher.fcc.FCCLockService', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.callgate.launcher.webvoice.WVService', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.002336448598130841
+      Node ('com.moxtra.mepwl.fcm.FCMService', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.002336448598130841
+      Node ('com.moxtra.binder.ui.clip2.RecordService', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.002336448598130841
+      Node ('com.moxtra.binder.ui.meet.ScreenShareService', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.002336448598130841
+      Node ('com.moxtra.binder.ui.clip2.FloatingWindowService', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.002336448598130841
+      Node ('com.moxtra.binder.ui.meet.MeetService', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.002336448598130841
+      Node ('org.acra.sender.SenderService', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.002336448598130841
+      Node ('com.cotton.photoeditor.service.StartWorkJobService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.cotton.photoeditor.service.WorkAllService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.xdandroid.hellodaemon.AbsWorkService$WorkNotificationService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.xdandroid.hellodaemon.JobSchedulerService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.xdandroid.hellodaemon.WatchDogService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.xdandroid.hellodaemon.WatchDogService$WatchDogNotificationService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.evernote.android.job.v21.PlatformJobService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.evernote.android.job.v14.PlatformAlarmService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.evernote.android.job.v14.PlatformAlarmServiceExact', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.evernote.android.job.gcm.PlatformGcmService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.evernote.android.job.JobRescheduleService', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.002336448598130841
+      Node ('com.zzkj.operator.jpush.ZZCXService', ['com.zzkj.operator']) : value: 0.002336448598130841
+      Node ('zlc.season.rxdownload2.function.DownloadService', ['com.zzkj.operator']) : value: 0.002336448598130841
+      Node ('com.zzkj.core.download.sys.DownloadService', ['com.zzkj.operator']) : value: 0.002336448598130841
+      Node ('io.trigger.forge.android.modules.parse.StaffbaseMessagingService', ['com.utc.asnews.android9AF16E17E198F5F0F3A3B57C746E6F4C143D3865']) : value: 0.002336448598130841
+      Node ('crc64b3f637a523d25997.ClipboardBackgroundTask', ['com.ubs.safe9298C3A5B94B31FD780EC8AD30B5962A9E093AEF']) : value: 0.002336448598130841
+      Node ('cn.thinkingdata.android.TDQuitSafelyService$TDKeepAliveService', ['com.bc.avenger8480E35A20CEC2A5A66BD34E84FF81DF4C866627']) : value: 0.002336448598130841
+      Node ('crc64e3550ba6e82c1586.FCMIIDService', ['com.app.p3139HE']) : value: 0.002336448598130841
+      Node ('crc64e3550ba6e82c1586.MyFirebaseMessagingService', ['com.app.p3139HE']) : value: 0.002336448598130841
+      Node ('crc640d3b4080958e7d40.AMGcmListenerService', ['com.app.p3139HE']) : value: 0.002336448598130841
+      Node ('crc640d3b4080958e7d40.AMInstanceIDListenerService', ['com.app.p3139HE']) : value: 0.002336448598130841
+      Node ('crc640d3b4080958e7d40.RegistrationIntentService', ['com.app.p3139HE']) : value: 0.002336448598130841
+      Node ('com.lbandy.mobilelib.obbdownloader.MobileLibDownloaderService', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.yandex.metrica.MetricaService', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.yandex.metrica.ConfigurationService', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.yandex.metrica.ConfigurationJobService', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.002336448598130841
+      Node ('com.innovatise.fcm.MFFcmMessagingService', ['com.innovatise.timeoutfitness4B8697464A239E66C1D5EEB6C11E965B4BB49B06']) : value: 0.002336448598130841
+      Node ('com.innovatise.accounts.MFAuthenticatorService', ['com.innovatise.timeoutfitness4B8697464A239E66C1D5EEB6C11E965B4BB49B06']) : value: 0.002336448598130841
+      Node ('org.eclipse.paho.android.service.MqttService', ['com.innovatise.timeoutfitness4B8697464A239E66C1D5EEB6C11E965B4BB49B06']) : value: 0.002336448598130841
+      Node ('org.altbeacon.beacon.service.BeaconService', ['com.innovatise.timeoutfitness4B8697464A239E66C1D5EEB6C11E965B4BB49B06']) : value: 0.002336448598130841
+      Node ('org.altbeacon.beacon.BeaconIntentProcessor', ['com.innovatise.timeoutfitness4B8697464A239E66C1D5EEB6C11E965B4BB49B06']) : value: 0.002336448598130841
+      Node ('crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver', ['com.aitcvn.TrangAES.Android', 'com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'com.pressmatrix.itadministrator', 'com.b_monk.oficioE8D6B88674589906D195601274AEC518186EE3FE', 'com.roundit', 'com.toolwatch.toolops', 'fr.scpgym.app', 'com.pb.sstoC8E7F08EF5368CF03BE0D9E9B34066C0E348A35D', 'com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344', 'no.pts.pensjon6206A185981FEC449E3C0DC4454AFCE99A599990', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0', 'com.kubaflo.drawbook', 'hu.eKreta.KretaAndroid', 'com.ubs.safe9298C3A5B94B31FD780EC8AD30B5962A9E093AEF']) : value: 0.003484320557491289
+      Node ('com.pycredit.xycx.wxapi.AppRegister', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05']) : value: 0.003484320557491289
+      Node ('com.download.library.NotificationCancelReceiver', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B']) : value: 0.003484320557491289
+      Node ('crc64ce859fd100f03ce0.NotificationClickReceiver', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569']) : value: 0.003484320557491289
+      Node ('crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'com.pressmatrix.itadministrator', 'com.toolwatch.toolops', 'fr.scpgym.app', 'com.pb.sstoC8E7F08EF5368CF03BE0D9E9B34066C0E348A35D', 'com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344', 'no.pts.pensjon6206A185981FEC449E3C0DC4454AFCE99A599990', 'hu.eKreta.KretaAndroid']) : value: 0.003484320557491289
+      Node ('crc64f98dd38067c0c88b.CustomTabsActionsBroadcastReceiver', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'com.voicelessons.app', 'hu.eKreta.KretaAndroid']) : value: 0.003484320557491289
+      Node ('com.appsflyer.MultipleInstallBroadcastReceiver', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD', 'com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.bc.avenger8480E35A20CEC2A5A66BD34E84FF81DF4C866627']) : value: 0.003484320557491289
+      Node ('com.m7.imkfsdk.receiver.NewMsgReceiver', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD']) : value: 0.003484320557491289
+      Node ('com.facebook.CurrentAccessTokenExpirationBroadcastReceiver', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.multiplayergames.globalwarE569F84171C7B44CBAC31FB4F85FA7F080DE0E0A', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.aastocks.ccba', 'air.air.RedSun699ED372E5C079357A2F25468D2B511ECF9735E7', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.voicelessons.app', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3', 'com.shopgate.android.app29476', 'com.rcstudio.demoncollegeFE950CDABBE9C6E7AE7CF0103F1049CDA4089768', 'com.kubaflo.drawbook', 'com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.003484320557491289
+      Node ('com.volcanex.VesuviusVolcanopedia..datadownloader$datadownloader_BR', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.003484320557491289
+      Node ('com.volcanex.VesuviusVolcanopedia..locationmonitor$locationmonitor_BR', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.003484320557491289
+      Node ('com.volcanex.VesuviusVolcanopedia..ftpdownloaddb$ftpdownloaddb_BR', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.003484320557491289
+      Node ('com.volcanex.VesuviusVolcanopedia..httputils2service$httputils2service_BR', ['com.volcanex.VesuviusVolcanopediaC37140E595E1D1ADECF10E3B39415C4534E39B3B']) : value: 0.003484320557491289
+      Node ('com.facebook.contacts.service.ContactLocaleChangeReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.messaging.livelocation.bindings.MessengerLiveLocationBooter', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.messaging.chatheads.service.ChatHeadsBooter', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.rtc.receivers.RtcShowCallUiReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.rtc.receivers.RtcPictureInPictureReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.rtc.receivers.RtcDeviceStateBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.appcomponentmanager.testreceivers.AppComponentManagerTestingReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.appcomponentmanager.testreceivers.FirstEnableStageTestReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.appcomponentmanager.testreceivers.SecondEnableStageTestReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.carriermessaging.receiver.message.mms.MmsDownloadedBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.carriermessaging.receiver.status.sent.mms.MmsNotificationPduSentBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.carriermessaging.receiver.status.sent.mms.MmsMessageSentBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.carriermessaging.receiver.status.sms.SmsStatusBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.device_id.UniqueIdSupplier', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.errorreporting.lacrima.detector.broadcast.SecureShutdownBootBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.errorreporting.lacrima.detector.broadcast.LockScreenBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.fdidlite.FDIDSyncLiteReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.messaging.accountlogin.notification.MessengerLoginNotificationServiceScheduler', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.mobileconfig.init.MobileConfigEnableReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.messaging.remindme.RemindMeReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.nobreak.CrashLoop$LastState', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.oxygen.preloads.integration.tosacceptance.TosAcceptedFlagComponent', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B', 'com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B', 'com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.oxygen.preloads.sdk.firstparty.settings.TosAcceptedFlag', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B', 'com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.push.init.PushInitializer$LocalBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.push.crossapp.PackageFullyRemovedBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.rti.push.service.idsharing.FbnsSharingStateReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.facebook.rti.orca.FbnsLiteBroadcastReceiver', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.003484320557491289
+      Node ('com.netease.messiah.PushReceiver', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.003484320557491289
+      Node ('com.facebook.CampaignTrackingReceiver', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'com.voicelessons.app', 'com.shopgate.android.app29476']) : value: 0.003484320557491289
+      Node ('com.startapp.android.publish.common.metaData.BootCompleteListener', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF', 'io.kodular.ralom4404.gujrat', 'com.flowextra.myapp', 'com.exlivinapps.radiomartestereoappit', 'com.exlivinapps.newstalkzbaucklandappradionz']) : value: 0.003484320557491289
+      Node ('com.onesignal.GcmBroadcastReceiver', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.003484320557491289
+      Node ('com.onesignal.NotificationOpenedReceiver', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.003484320557491289
+      Node ('com.onesignal.BootUpReceiver', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.003484320557491289
+      Node ('com.onesignal.UpgradeReceiver', ['com.Nasir354.browserE47EFFE39E877734B9817A0B45161912F5F5E7DF']) : value: 0.003484320557491289
+      Node ('com.bytedance.embedapplog.collector.Collector', ['com.qilesoft.en.eights']) : value: 0.003484320557491289
+      Node ('com.ss.android.downloadlib.core.download.DownloadReceiver', ['com.qilesoft.en.eights']) : value: 0.003484320557491289
+      Node ('com.igexin.sdk.MiuiPushReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.003484320557491289
+      Node ('com.meizu.cloud.pushsdk.SystemReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.igexin.sdk.FlymePushReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.003484320557491289
+      Node ('com.igexin.sdk.PushReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.003484320557491289
+      Node ('com.huawei.hms.support.api.push.PushMsgReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.huawei.hms.support.api.push.PushReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.igexin.sdk.VivoPushMessageReceiver', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.pretos.LiteAppComponentReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.rtc.IncomingCallReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.campaign.CampaignReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.appManager.AppManagerReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.deviceid.FbLitePhoneIdRequestReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.appupdate.DownloadCompleteReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.deviceid.FbLitePhoneIdUpdater$LocalBroadcastReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.FbnsIntentService$CallbackReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.rti.push.service.MqttSystemBroadcastReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.AppController$NetworkStateBroadcastReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.notification.PushNotificationLogBroadcastReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.shortcuts.ShortcutCreationReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.notification.LocalNotificationLogBroadcastReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.notification.NotificationsRemovalTimerReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.browser.ChromeCustomTabsReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.intent.IntentScheduler', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.intent.WakefulIntentForwarder', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.datausage.DataUsageBroadCastReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.facebook.lite.registration.EmptyAppNotifServiceReceiver', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.003484320557491289
+      Node ('com.tapjoy.TapjoyReceiver', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.003484320557491289
+      Node ('com.ideaworks3d.marmalade.s3eApkExpansionFile.MyAlarmReceiver', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E']) : value: 0.003484320557491289
+      Node ('com.ideaworks3d.marmalade.s3eAndroidMarketBilling.s3eAndroidMarketBillingReceiver', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E']) : value: 0.003484320557491289
+      Node ('com.herocraft.sdk.android.CommonReceiver', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E']) : value: 0.003484320557491289
+      Node ('com.ltgame.hjlmzbz.AndroidNotificator', ['com.multiplayergames.globalwarE569F84171C7B44CBAC31FB4F85FA7F080DE0E0A']) : value: 0.003484320557491289
+      Node ('com.adjust.sdk.AdjustReferrerReceiver', ['com.multiplayergames.globalwarE569F84171C7B44CBAC31FB4F85FA7F080DE0E0A', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.rayark.plutoB511C07F8E636E3BC1D11D993CC74C618747AC6E', 'com.rcstudio.demoncollegeFE950CDABBE9C6E7AE7CF0103F1049CDA4089768']) : value: 0.003484320557491289
+      Node ('com.unity3d.plugin.downloader.UnityAlarmReceiver', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.003484320557491289
+      Node ('com.swrve.sdk.SwrveWakefulReceiver', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.003484320557491289
+      Node ('com.netease.epay.sdk.base.receiver.NetBroadCast', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.003484320557491289
+      Node ('com.thinkyeah.common.ad.think.AdThinkPackageEventReceiver', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.003484320557491289
+      Node ('com.kochava.base.ReferralReceiver', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'app.downloadall.helptool']) : value: 0.003484320557491289
+      Node ('com.fyber.inneractive.sdk.dv.DVKit', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.003484320557491289
+      Node ('com.fyber.inneractive.sdk.video.IAVideoKit', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.003484320557491289
+      Node ('com.fyber.inneractive.sdk.mraid.IAMraidKit', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.003484320557491289
+      Node ('com.appyet.receiver.DownloadReceiver', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.appyet.receiver.CommonReceiver', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.appyet.receiver.AlarmUpdateReceiver', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.appyet.receiver.AlarmHeartBeatReceiver', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.appyet.receiver.BootCompletedReceiver', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.appyet.provider.WidgetProvider', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.appyet.provider.WidgetProvider_4_1', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.003484320557491289
+      Node ('com.ifeng.ipush.client.receiver.PushReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.xiaomi.push.service.receivers.NetworkStatusReceiver', ['com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.xiaomi.push.service.receivers.PingReceiver', ['com.ifeng.news2', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.ifeng.news2.push.MiPushStateReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.huawei.android.pushagent.PushEventReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.huawei.android.pushagent.PushBootReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.ifeng.news2.service.MonitorReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.ifeng.news2.service.DaemonReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.ifeng.news2.receiver.FollowReveiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.ifeng.news2.receiver.MyReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.analysys.track.receiver.AnalysysReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.hpplay.sdk.source.process.LelinkReceiver', ['com.ifeng.news2']) : value: 0.003484320557491289
+      Node ('com.baidu.bce.receiver.BceReceiver', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424']) : value: 0.003484320557491289
+      Node ('com.baidu.techain.THReceiver', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.techain.push.MIUIPushReceiver', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.techain.push.MZPushReceiver', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.techain.push.VIVOPushReceiver', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.BigSoftInc.VideoSlideshow.broadcast.CheckUseAppReceiver', ['com.mvbit.videostatusmaker.lyrical.ly']) : value: 0.003484320557491289
+      Node ('com.BigSoftInc.VideoSlideshow.broadcast.BootCompletedReceived', ['com.mvbit.videostatusmaker.lyrical.ly']) : value: 0.003484320557491289
+      Node ('crc645786eb440a4ee5db.ZebraScannerBroadcastReceiver', ['com.pb.sstoC8E7F08EF5368CF03BE0D9E9B34066C0E348A35D']) : value: 0.003484320557491289
+      Node ('com.qxb.student.ui.receiver.LiveAlarmReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('com.qxb.student.ui.receiver.ZXHAlarmReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('io.rong.push.platform.mi.MiMessageReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('io.rong.push.platform.vivo.VivoPushMessageReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('com.qxb.student.common.listener.OnPushMessageReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('com.qxb.student.logic.receiver.MyJPushMessageReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('com.tencent.android.tpush.XGPushReceiver', ['com.qxb.student']) : value: 0.003484320557491289
+      Node ('cn.jpush.android.service.PushReceiver', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.zzkj.operator']) : value: 0.003484320557491289
+      Node ('cn.jpush.android.service.AlarmReceiver', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.zzkj.operator']) : value: 0.003484320557491289
+      Node ('cn.jpush.android.service.SchedulerReceiver', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.003484320557491289
+      Node ('cn.jpush.android.asus.AsusPushMessageReceiver', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.003484320557491289
+      Node ('io.rong.imlib.ConnectChangeReceiver', ['com.qxb.student', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('io.rong.imlib.HeartbeatReceiver', ['com.qxb.student', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('io.rong.push.rongpush.PushReceiver', ['com.qxb.student', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.yingteng.mvp.ui.receiver.JpushReceiver', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.003484320557491289
+      Node ('com.qiyukf.nimlib.service.NimReceiver', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.003484320557491289
+      Node ('com.remote.control.roku.tv.cast.app.widget.RokuAppWidgetProvider', ['tvremote.peer.smart.allremotecontrole']) : value: 0.003484320557491289
+      Node ('com.remote.control.roku.tv.cast.app.receiver.CommandReceiver', ['tvremote.peer.smart.allremotecontrole']) : value: 0.003484320557491289
+      Node ('com.abinbev.android.tapwiser.notifications.DeliveryWindowReminderReceiver', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.abinbev.android.tapwiser.notifications.OrderDeadlineReminderReceiver', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.abinbev.android.tapwiser.common.AppboyBroadcastReceiver', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.optimizely.ab.android.datafile_handler.DatafileRescheduler', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.optimizely.ab.android.event_handler.EventRescheduler', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.appboy.AppboyFcmReceiver', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.appboy.receivers.AppboyActionReceiver', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.003484320557491289
+      Node ('com.twitter.downloader.receiver.MultipleInstallBroadcastReceiver', ['twittervideodownloader.twittervideosaver.twimate.savetwittergif200BD8D3FE13ADD044D91568A12A90E53FE079CA']) : value: 0.003484320557491289
+      Node ('com.hot.downloader.DownloadReceiver', ['twittervideodownloader.twittervideosaver.twimate.savetwittergif200BD8D3FE13ADD044D91568A12A90E53FE079CA']) : value: 0.003484320557491289
+      Node ('com.taobao.accs.EventReceiver', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.taobao.accs.ServiceReceiver', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.taobao.agoo.AgooCommondReceiver', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.umeng.message.NotificationProxyBroadcastReceiver', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.003484320557491289
+      Node ('notes.easy.android.mynotes.receiver.AlarmReceiver', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.003484320557491289
+      Node ('notes.easy.android.mynotes.receiver.DailyReminderReceiver', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.003484320557491289
+      Node ('notes.easy.android.mynotes.receiver.BootCompleteReceiver', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.003484320557491289
+      Node ('notes.easy.android.mynotes.widget.SelectFunctionWidgetProvider', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.003484320557491289
+      Node ('notes.easy.android.mynotes.widget.SelectNoteWidgetProvider', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.003484320557491289
+      Node ('com.baidu.yimei.push.YimeiPushMessageReceiver', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.android.pushservice.PushServiceReceiver', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.android.pushservice.RegistrationReceiver', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.android.pushservice.PushPatchMessageReceiver', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.android.pushservice.MzPushPatchMessageReceiver', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.android.pushservice.viproxy.ViPushMessageReceiver', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.swan.uuid.sync.SyncProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.003484320557491289
+      Node ('com.baidu.helios.DummyProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.fgl.enhance.referral.ReferralReceiver', ['com.flowextra.myapp']) : value: 0.003484320557491289
+      Node ('com.fgl.enhance.notification.FGLLocalNotificationReceiver', ['com.flowextra.myapp']) : value: 0.003484320557491289
+      Node ('com.microsoft.intune.mam.client.service.MAMBackgroundReceiver', ['com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344']) : value: 0.003484320557491289
+      Node ('com.licham.lichvannien.firebase.MyReceiver', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.003484320557491289
+      Node ('com.licham.lichvannien.utils.rcb.AppAlarmRcv', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.003484320557491289
+      Node ('com.licham.lichvannien.utils.rcb.AppNotRcv', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.003484320557491289
+      Node ('com.licham.lichvannien.utils.rcb.AppBoostRcv', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.003484320557491289
+      Node ('com.licham.lichvannien.utils.rcb.AppJobRcv', ['com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8']) : value: 0.003484320557491289
+      Node ('com.kugou.fanxing.push.mi.MIPushReceiver', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.003484320557491289
+      Node ('apps.allworld.translatenow.receiver.InstalledReceiver', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.003484320557491289
+      Node ('apps.allworld.translatenow.receiver.BootReceiver', ['apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6']) : value: 0.003484320557491289
+      Node ('crc64fef826565e5277d7.DroidNotificationReciever', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.BluetoothConnectionsBroadcastReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.ServiceStartReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.SignalDrivingReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.GeofenceTransitionsBroadcastReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.DetectedActivitiesBroadcastReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.PhoneUnlockedReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.HuaweiActivityIdentificationBroadcastReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc6421f2eb22eb1ffde6.SettingsChangeReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D']) : value: 0.003484320557491289
+      Node ('crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0']) : value: 0.003484320557491289
+      Node ('crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver', ['za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0']) : value: 0.003484320557491289
+      Node ('com.app.drivermktaxi.util.RestarterBroadcastReceiver', ['com.app.fenixejecutivotaxiapp']) : value: 0.003484320557491289
+      Node ('com.facebook.FacebookBroadcastReceiver', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.003484320557491289
+      Node ('com.youzu.push.localpush.LocalReceiver', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.003484320557491289
+      Node ('com.youzu.push.localpush.NotificationReceiver', ['com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8']) : value: 0.003484320557491289
+      Node ('com.mia.miababy.utils.localreminder.LocalReminderReceiver', ['com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.mia.miababy.module.account.LoginSuccessReceiver', ['com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.mia.miababy.module.customerservice.CustomerServiceReciver', ['com.mia.miababy']) : value: 0.003484320557491289
+      Node ('org.android.agoo.vivo.PushMessageReceiverImpl', ['com.mia.miababy']) : value: 0.003484320557491289
+      Node ('org.android.agoo.xiaomi.MiPushBroadcastReceiver', ['com.mia.miababy']) : value: 0.003484320557491289
+      Node ('com.fismobile.mbank.sensibill.service.ReminderNotificationClickReceiver', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.003484320557491289
+      Node ('o.Ӏɹ$ı', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.003484320557491289
+      Node ('o.Ӏɹ$ɩ', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.003484320557491289
+      Node ('o.ӀƖ', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.003484320557491289
+      Node ('org.piwik.sdk.extra.InstallReferrerReceiver', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.003484320557491289
+      Node ('a.a.a.c', ['com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3']) : value: 0.003484320557491289
+      Node ('a.a.a.d', ['com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3']) : value: 0.003484320557491289
+      Node ('com.vungle.warren.NetworkProviderReceiver', ['com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.003484320557491289
+      Node ('com.shopgate.android.lib.controller.installtracking.SGReferrerReceiver', ['com.shopgate.android.app29476']) : value: 0.003484320557491289
+      Node ('com.shopgate.android.lib.controller.geofencing.plotprojects.SGPlotNotificationOpenReceiver', ['com.shopgate.android.app29476']) : value: 0.003484320557491289
+      Node ('com.shopgate.android.lib.controller.geofencing.plotprojects.SGPlotConfigHook', ['com.shopgate.android.app29476']) : value: 0.003484320557491289
+      Node ('com.plotprojects.retail.android.PlotBootReceiver', ['com.shopgate.android.app29476']) : value: 0.003484320557491289
+      Node ('com.plotprojects.retail.android.PlotBroadcastHandler', ['com.shopgate.android.app29476']) : value: 0.003484320557491289
+      Node ('com.payegis.caesar.sdk.service.AlarmReceiver', ['com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3']) : value: 0.003484320557491289
+      Node ('com.joz7.forat.ap..starter$starter_BR', ['com.joz7.forat.ap']) : value: 0.003484320557491289
+      Node ('com.pingan.papd.receiver.BootCompleteReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.papd.receiver.NotificationClickReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.papd.receiver.JPushMsgReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('main.java.com.pajk.sns.weixin.AppRegister', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.papd.health.groupcommand.GroupCommandReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.papd.receiver.NewMessageBadgeReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.comphealth.step.lib.EmptyReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.modulemessage.notification.PushNotificationClickReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.modulemessage.notification.LocalNotificationClickReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.modulemessage.im.IMMessageReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.modulemessage.mipush.MiPushMessageReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.modulemessage.vivo.VPushMsgReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.healthmanage.util.NotificationUtils$NotifitcationReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.healthmanage.base.download.DownloadReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.pedometer.coremodule.stepcore.algorithm.HeartBeatReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.wristband.wristband_lib.sdk.notify.PhoneReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.main.receiver.PGMiniReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.main.receiver.PGMiniReceiver2', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.main.receiver.PGMiniReceiver3', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.main.receiver.PGMiniReceiver4', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.main.receiver.PGMiniReceiver5', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.media.BackgroundAudioNoticeReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.pgmini.ipc.HostProcessCommReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pingan.mini.sdk.common.talkingdata.service.TDService', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.bricks2.infonotify.notification.BadgeNotificationClickReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('com.pajk.providers.downloads.DownloadReceiver', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.003484320557491289
+      Node ('net.audiobyte.hydra.remote..starter$starter_BR', ['net.audiobyte.hydra.remote']) : value: 0.003484320557491289
+      Node ('crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver', ['org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0']) : value: 0.003484320557491289
+      Node ('com.baidu.baidutranslate.receiver.UpdateReceiver', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.baidutranslate.module.appwidget.widget.TranslateWidgetProvider', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.baidutranslate.module.appwidget.widget.FunctionWidgetProvider', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.translate.push.PushReceiver', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.baidu.baidutranslate.receiver.GalaxyReceiver', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.003484320557491289
+      Node ('com.ss.android.message.MessageReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.ss.android.ugc.awemepushlib.os.receiver.NotificationBroadcastReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.ss.android.message.sswo.SswoReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.ss.android.ugc.aweme.scheduler.PublishBroadcastReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.bytedance.liko.leakdetector.TriggerLeakCanaryReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.ss.android.push.DefaultReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.bytedance.ies.xelement.defaultimpl.player.impl.plugin.mediasession.MediaSessionReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.smartisanos.push.PushReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.bytedance.applog.collector.Collector', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.xiaomi.push.service.receivers.MIPushMessageHandler', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.a.b.SmpReceiver1', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.a.b.SmpReceiver2', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.a.b.SmpReceiver3', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.ss.android.push.window.oppo.ScreenReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.ss.android.ugc.rhea.receiver.ControllerReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.alibaba.sdk.android.push.SystemEventReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.aliyun.AliyunMessageReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.vivo.VivoPushMessageReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('com.meizu.message.MzMessageReceiver', ['com.ss.android.ugc.aweme3AEAC8980562610C33C2A1187EFDB618ED92F51A']) : value: 0.003484320557491289
+      Node ('app.downloadall.helptool.receiver.MyBroadcastReceiver', ['app.downloadall.helptool']) : value: 0.003484320557491289
+      Node ('com.booster.gamespeedbooster.ram.free.ConfigBroadcast', ['com.booster.gamespeedbooster.ram.free']) : value: 0.003484320557491289
+      Node ('com.booster.gamespeedbooster.ram.free.ui.home.BatInfoReceiver', ['com.booster.gamespeedbooster.ram.free']) : value: 0.003484320557491289
+      Node ('crc642910ae34a736f185.NotificationBroadcastReceiver', ['hu.eKreta.KretaAndroid']) : value: 0.003484320557491289
+      Node ('com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver', ['hu.eKreta.KretaAndroid']) : value: 0.003484320557491289
+      Node ('com.ahnlab.enginesdk.ConnectivityChangeReceiver', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.003484320557491289
+      Node ('com.itgen.mainlib.net.session.NetStateReceiver', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.003484320557491289
+      Node ('com.h2osystech.smartalimi.servicealimi.RestartReceiver', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.003484320557491289
+      Node ('com.h2osystech.smartalimi.servicealimi.NetworkStatusReceiver', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.003484320557491289
+      Node ('com.moxtra.mepwl.fcm.HeadsUpBroadcastReceiver', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.003484320557491289
+      Node ('com.moxtra.binder.ui.meet.misc.CallReceiver', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.003484320557491289
+      Node ('com.cotton.photoeditor.service.InstallReferrerReceiver', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.003484320557491289
+      Node ('com.xdandroid.hellodaemon.WakeUpReceiver', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.003484320557491289
+      Node ('com.xdandroid.hellodaemon.WakeUpReceiver$WakeUpAutoStartReceiver', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.003484320557491289
+      Node ('com.evernote.android.job.v14.PlatformAlarmReceiver', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.003484320557491289
+      Node ('com.evernote.android.job.JobBootReceiver', ['com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538']) : value: 0.003484320557491289
+      Node ('com.zzkj.operator.jpush.ZZCXReceiver', ['com.zzkj.operator']) : value: 0.003484320557491289
+      Node ('com.zzkj.operator.jpush.MyReceiver', ['com.zzkj.operator']) : value: 0.003484320557491289
+      Node ('com.parse.ForgePushBroadcastReceiver', ['com.utc.asnews.android9AF16E17E198F5F0F3A3B57C746E6F4C143D3865', 'com.utc.asnews.android9AF16E17E198F5F0F3A3B57C746E6F4C143D3865']) : value: 0.003484320557491289
+      Node ('com.smartlook.sdk.smartlook.analytics.receiver.ReferrerReceiver', ['app.uk.co.incase.keebles93741E4929A2E23F8440D1B2F0BAF90F849F86D4']) : value: 0.003484320557491289
+      Node ('crc64e3550ba6e82c1586.AlarmBroadcastReceiver', ['com.app.p3139HE']) : value: 0.003484320557491289
+      Node ('crc64e3550ba6e82c1586.RemoteControlReceiver', ['com.app.p3139HE']) : value: 0.003484320557491289
+      Node ('crc64e3550ba6e82c1586.ConnectivityReciever', ['com.app.p3139HE']) : value: 0.003484320557491289
+      Node ('crc64499481265b28a309.AudioActionReceiver', ['com.app.p3139HE']) : value: 0.003484320557491289
+      Node ('com.yandex.metrica.MetricaEventHandler', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.003484320557491289
+      Node ('com.yandex.metrica.ConfigurationServiceReceiver', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.003484320557491289
+      Node ('org.altbeacon.beacon.startup.StartupBroadcastReceiver', ['com.innovatise.timeoutfitness4B8697464A239E66C1D5EEB6C11E965B4BB49B06']) : value: 0.003484320557491289
+      Node ('mono.MonoRuntimeProvider', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'com.pressmatrix.itadministrator', 'com.roundit', 'essentionalDevotionalR.LakshmiTel2', 'com.toolwatch.toolops', 'fr.scpgym.app', 'com.pb.sstoC8E7F08EF5368CF03BE0D9E9B34066C0E348A35D', 'com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344', 'no.pts.pensjon6206A185981FEC449E3C0DC4454AFCE99A599990', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.voicelessons.app', 'com.cryptzone.appgate.xdp884184C693F0BD200E894BC5418670A1F46932F9', 'com.bridgestone.toolboxtouchDCF2C0C3485CB0E0B02B5DD6EBD9A69EF6A57849', 'com.ppg.aim.Mobile_STAGEA7C8D96CF827357EFA42640DA17653DAE3D13EC4', 'org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0', 'com.appsjooms.copi', 'com.kubaflo.drawbook', 'hu.eKreta.KretaAndroid', 'com.ubs.safe9298C3A5B94B31FD780EC8AD30B5962A9E093AEF', 'com.app.p3139HE']) : value: 0.006666666666666667
+      Node ('com.blankj.utilcode.util.UtilsFileProvider', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.006666666666666667
+      Node ('com.luck.picture.lib.PictureFileProvider', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.006666666666666667
+      Node ('com.liulishuo.okdownload.OkDownloadProvider', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.mia.miababy']) : value: 0.006666666666666667
+      Node ('com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.just.agentweb.AgentWebFileProvider', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05', 'com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.006666666666666667
+      Node ('com.download.library.DownloadFileProvider', ['com.pycredit.xycx8147A5A4CDDC9AD5D819A5342EBB96235F69CC05']) : value: 0.006666666666666667
+      Node ('mono.android.MultiDexLoader', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'com.pressmatrix.itadministrator', 'com.pb.sstoC8E7F08EF5368CF03BE0D9E9B34066C0E348A35D', 'com.synigo.pulse.app7620611DFD3FFB044109F4C1E193E35508187344', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('com.crashlytics.android.CrashlyticsInitProvider', ['com.protrade.vachana4646E613F858564AA70DDE63638D951A7ED77569', 'com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'fr.scpgym.app', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060', 'com.shopgate.android.app29476', 'app.uk.co.incase.keebles93741E4929A2E23F8440D1B2F0BAF90F849F86D4']) : value: 0.006666666666666667
+      Node ('xamarin.essentials.fileProvider', ['com.pressmatrix.itadministrator', 'fr.scpgym.app', 'no.pts.pensjon6206A185981FEC449E3C0DC4454AFCE99A599990', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.ppg.aim.Mobile_STAGEA7C8D96CF827357EFA42640DA17653DAE3D13EC4', 'org.suncoast.mobile388CA4CF72D5C879B7890EB49BD595D424B258A0', 'hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('me.jessyan.autosize.InitProvider', ['com.loan.cash.credit.branch.tala.fast.lending.mexico71AA23D7085F10F65596E4DAFE432D3AF2217ACD', 'com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.006666666666666667
+      Node ('com.facebook.secure.fileprovider.SecureFileProvider', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B', 'com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.006666666666666667
+      Node ('com.facebook.messaging.provider.FamilyAppsUserValuesProvider', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.006666666666666667
+      Node ('com.facebook.platform.common.provider.PlatformProviderBase', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.006666666666666667
+      Node ('com.facebook.messaging.sms.defaultapp.MmsFileProvider', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.006666666666666667
+      Node ('com.facebook.push.fcm.withprovider.FirebaseInitCustomProvider', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.006666666666666667
+      Node ('com.facebook.xapp.messaging.composer.broadcast.transportagnostic.attachment.source.TamAttachmentProvider', ['com.facebook.orcaA35889D4EEFB19B1338EFDBD3EF1D1A09D81AC8B']) : value: 0.006666666666666667
+      Node ('com.netease.unisdk.gmbridge5.provider.GmFileProvider', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.006666666666666667
+      Node ('com.netease.ntunisdk.UniTwitterFileProvider', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.006666666666666667
+      Node ('com.netease.ntunisdk.UniQRFileProvider', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.006666666666666667
+      Node ('com.facebook.FacebookContentProvider', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'com.multiplayergames.globalwarE569F84171C7B44CBAC31FB4F85FA7F080DE0E0A']) : value: 0.006666666666666667
+      Node ('com.netease.ntunisdk.UniFacebookFileProvider', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC']) : value: 0.006666666666666667
+      Node ('com.facebook.internal.FacebookInitProvider', ['com.netease.sheltergpBD646023D26B2C1C04E9E7A639064413046D3CBC', 'com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.multiplayergames.globalwarE569F84171C7B44CBAC31FB4F85FA7F080DE0E0A', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.aastocks.ccba', 'air.air.RedSun699ED372E5C079357A2F25468D2B511ECF9735E7', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.voicelessons.app', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.shopgate.android.app29476', 'com.rcstudio.demoncollegeFE950CDABBE9C6E7AE7CF0103F1049CDA4089768', 'com.kubaflo.drawbook', 'com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538', 'com.bc.avenger8480E35A20CEC2A5A66BD34E84FF81DF4C866627']) : value: 0.006666666666666667
+      Node ('com.bytedance.sdk.openadsdk.TTFileProvider', ['com.qilesoft.en.eights']) : value: 0.006666666666666667
+      Node ('com.bytedance.sdk.openadsdk.multipro.TTMultiProvider', ['com.qilesoft.en.eights', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('cn.bmob.v3.util.BmobContentProvider', ['com.qilesoft.en.eights']) : value: 0.006666666666666667
+      Node ('com.qilesoft.en.eights.provider.MyProvider', ['com.qilesoft.en.eights']) : value: 0.006666666666666667
+      Node ('com.xuexiang.xui.XUIInitProvider', ['com.qilesoft.en.eights']) : value: 0.006666666666666667
+      Node ('com.just.agentweb.core.web.AgentWebFileProvider', ['com.qilesoft.en.eights']) : value: 0.006666666666666667
+      Node ('com.squareup.picasso.PicassoProvider', ['com.qilesoft.en.eights', 'com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'com.app.fenixejecutivotaxiapp', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('com.huawei.hms.support.api.push.PushProvider', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.qxb.student', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.getui.gtc.base.GtcProvider', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197']) : value: 0.006666666666666667
+      Node ('com.huawei.hms.aaid.InitProvider', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7', 'hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('com.huawei.hms.update.provider.UpdateProvider', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7', 'hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('com.huawei.agconnect.core.provider.AGConnectInitializeProvider', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.qxb.student', 'com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA', 'za.co.dialdirect.drivewithdialE8558E812DDF4A136B5916F96C219FA6A232D85D', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7', 'hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.mia.miababy', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78', 'hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('com.secneo.apkwrapper.CP', ['com.szlanyou.nissaniov55946E0B7AC502A04C70AE4D8F3B1110A22B6197', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3']) : value: 0.006666666666666667
+      Node ('com.facebook.lite.deviceid.FbLitePhoneIdProvider', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.006666666666666667
+      Node ('com.facebook.lite.photo.PhotoFileProvider', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.006666666666666667
+      Node ('com.facebook.lite.photo.MediaContentProvider', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.006666666666666667
+      Node ('com.facebook.lite.diode.UserValuesProvider', ['com.facebook.lite7DCBF4BD268608A175E4F7D02A053F015EAA7373']) : value: 0.006666666666666667
+      Node ('com.applovin.sdk.AppLovinInitProvider', ['com.herocraft.game.f2p.tinybangstoryD362ABD5C7DE1FC4A23A1E631E9073CD60BC514E', 'collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('com.facebook.ads.AudienceNetworkContentProvider', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.mvbit.videostatusmaker.lyrical.ly', 'tvremote.peer.smart.allremotecontrole', 'easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060', 'com.gtarcade.dl8CC2730F6A3C245C1193B14F5366FB617B06E6B8', 'com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3', 'com.cottonly.featured.camera27A9251031DC918511B3CDA1EEBA152C69470538', 'com.bc.avenger8480E35A20CEC2A5A66BD34E84FF81DF4C866627', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('com.helpshift.support.providers.HelpshiftFileProvider', ['com.multiplayergames.globalwarE569F84171C7B44CBAC31FB4F85FA7F080DE0E0A']) : value: 0.006666666666666667
+      Node ('com.netease.unisdk.gmbridge.provider.GmFileProvider', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.006666666666666667
+      Node ('com.netease.epay.sdk.provider.EpayInitProvider', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.006666666666666667
+      Node ('com.netease.ntsharesdk.UniNgshareFileProvider', ['com.netease.ma71462D7B6B090AE8E2FE77F1DAB23701B35070D8C5']) : value: 0.006666666666666667
+      Node ('com.thinkyeah.common.ThFileProvider', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550']) : value: 0.006666666666666667
+      Node ('com.ironsource.lifecycle.IronsourceLifecycleProvider', ['collage.photocollage.collagemaker.photoeditor.photogrid053EF7772F2236082D807C246E24615385AC6550', 'com.lichvannien.licham2021988F242B260EFB01DF964117C15028FF89681AC8', 'com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('com.appyet.provider.SuggestionProvider', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.006666666666666667
+      Node ('com.flurry.android.agent.FlurryContentProvider', ['com.dortmundECC79F2737C0CFEF369EE98B569DDA7383FE5D9B', 'apps.allworld.translatenow08BA1381843E51C8D8969BDCEA5FA2A97BE267C6', 'com.gremio.hojeB557DF61E21C1A147D81B3DFA751193F29F61060']) : value: 0.006666666666666667
+      Node ('com.ifeng.news2.push.AccountStubProvider', ['com.ifeng.news2']) : value: 0.006666666666666667
+      Node ('com.ifeng.news2.short_video.okdownload.OkDownloadProvider', ['com.ifeng.news2']) : value: 0.006666666666666667
+      Node ('com.huawei.hwid.openapi.update.OtaFileProvider', ['com.ifeng.news2']) : value: 0.006666666666666667
+      Node ('com.tencent.bugly.beta.utils.BuglyFileProvider', ['com.ifeng.news2', 'com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.mia.miababy']) : value: 0.006666666666666667
+      Node ('com.baidu.techain.THProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.baidu.techain.TechainProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.huawei.hms.device.provider.CheckHmsProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424']) : value: 0.006666666666666667
+      Node ('com.baidu.sapi2.provider.FileProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424', 'com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.baidu.sofire.MyProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('per.goweii.anylayer.ActivityProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424']) : value: 0.006666666666666667
+      Node ('io.sentry.android.core.SentryInitProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424']) : value: 0.006666666666666667
+      Node ('net.grandcentrix.tray.provider.TrayContentProvider', ['com.baidu.bceC0F12A1724EAB950047C21D665C26901B15DA424']) : value: 0.006666666666666667
+      Node ('com.adobe.air.CameraUIProvider', ['air.clashflash.justicekeepers.freeAC9F7CC90DE2BAD1712CBF1132FF563B0E60E511', 'air.air.RedSun699ED372E5C079357A2F25468D2B511ECF9735E7', 'air.com.bartbonte.yellow']) : value: 0.006666666666666667
+      Node ('com.qxb.student.utils.BuglyFileProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.alibaba.sdk.android.feedback.util.FBFileProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.tencent.android.tpush.XGPushProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.tencent.android.tpush.SettingsContentProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.tencent.mid.api.MidProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.growingio.android.sdk.collection.GrowingIOSettingsProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('cn.jpush.android.service.DataProvider', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.zzkj.operator']) : value: 0.006666666666666667
+      Node ('cn.jpush.android.service.DownloadProvider', ['com.qxb.student', 'com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449', 'com.zzkj.operator']) : value: 0.006666666666666667
+      Node ('com.xuexiang.xupdate.utils.UpdateFileProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.mob.MobProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('cn.sharesdk.framework.utils.ShareSDKFileProvider', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.SecShell.SecShell.CP', ['com.qxb.student']) : value: 0.006666666666666667
+      Node ('com.qiyukf.nim.uikit.provider.UnicornProvider', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.006666666666666667
+      Node ('razerdp.basepopup.BasePopupRuntimeTrojanProvider', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.006666666666666667
+      Node ('com.noober.background.BackgroundContentProvider', ['com.yingsoft.ksbao.Activity1AD2F57321152093A6059A305F7A8EEE80EE5449']) : value: 0.006666666666666667
+      Node ('com.abinbev.account.credit.ui.utils.CreditFileProvider', ['com.abinbev.android.tapwiser.beesEcuador6BA2277C0E05B8EF2B84C8C87C397E02F8B23105']) : value: 0.006666666666666667
+      Node ('com.RNFetchBlob.Utils.FileProvider', ['com.aastocks.ccba']) : value: 0.006666666666666667
+      Node ('com.umeng.message.provider.MessageProvider', ['com.aastocks.ccba', 'com.mia.miababy']) : value: 0.006666666666666667
+      Node ('notes.easy.android.mynotes.alive.sync.SyncProvider', ['easynotes.notes.notepad.notebook.privatenotes.noteE51E8A2A7DD82AF642878354CF0E8CB40693BA99']) : value: 0.006666666666666667
+      Node ('com.baidu.xenv.XenvProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.android.pushservice.PushInfoProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.swan.facade.provider.SwanFileProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.swan.facade.provider.SwanContentProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.swan.apps.database.favorite.SwanAppFavoriteProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.swan.apps.database.subscribe.SwanAppSubscribeMsgProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.swan.pms.database.provider.PMSDBProviderProxy', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.searchbox.process.ipc.agent.provider.MainProcessDelegateProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2']) : value: 0.006666666666666667
+      Node ('com.baidu.pyramid.runtime.multiprocess.components.ServerProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.baidu.cesium.provider.SyncProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.baidu.helios.bridge.multiprocess.providers.defaultproc.DefaultIPCProvider', ['com.baidu.lemonACC091DC29C07C90D0A6D1B0C57020ECD452ECE2', 'com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.baidu.wallet.lightapp.business.LightappFileProvider', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('crc647c3ddcd418b664a1.ClipboardContentProvider', ['no.pts.pensjon6206A185981FEC449E3C0DC4454AFCE99A599990']) : value: 0.006666666666666667
+      Node ('com.kugou.fanxing.proxy.ProxyProvider', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.006666666666666667
+      Node ('com.kugou.fanxing.allinone.common.storage.FileProviderWebProcess', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.006666666666666667
+      Node ('com.kugou.common.permission.FileProvider', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.006666666666666667
+      Node ('com.qq.e.adnet.GDTFileProvider', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.006666666666666667
+      Node ('com.kugou.fanxing.push.websocket.diff.FxContentProvider', ['com.kugou.fanxing890CA593215E1CD35D2E8985F74B2D4622F53BDA']) : value: 0.006666666666666667
+      Node ('com.sobot.chat.provider.SobotFileProvider', ['com.mia.miababy']) : value: 0.006666666666666667
+      Node ('o.гɩ', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.006666666666666667
+      Node ('o.Ιı', ['com.mfoundry.mb.android.mb_111308057']) : value: 0.006666666666666667
+      Node ('com.vungle.warren.utility.VungleProvider', ['com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3', 'com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer', ['com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3']) : value: 0.006666666666666667
+      Node ('com.smaato.sdk.sys.LifecycleProvider', ['com.jewelblast.puzzlelegendFE2E603E82AC7755EDCFA4966C1D615B9621B7F3']) : value: 0.006666666666666667
+      Node ('com.plotprojects.retail.android.DebugLogProvider', ['com.shopgate.android.app29476']) : value: 0.006666666666666667
+      Node ('com.plotprojects.retail.android.WorkContentProvider', ['com.shopgate.android.app29476']) : value: 0.006666666666666667
+      Node ('com.appbrain.AppBrainInitProvider', ['com.milad.khaaanee']) : value: 0.006666666666666667
+      Node ('com.bangcle.antihijack.api.IProvider', ['com.grcbank.zxbank26C749EC87CD527F7A45E894FD8703664EFF1FB3']) : value: 0.006666666666666667
+      Node ('com.imagepicker.FileProvider', ['com.connectedbits.sd311545DA353781708DD08E6F8527F230CFEE78FE3EE']) : value: 0.006666666666666667
+      Node ('com.chirag.RNMail.RNMailFileProvider', ['com.connectedbits.sd311545DA353781708DD08E6F8527F230CFEE78FE3EE']) : value: 0.006666666666666667
+      Node ('com.reactnativecommunity.webview.RNCWebViewFileProvider', ['com.connectedbits.sd311545DA353781708DD08E6F8527F230CFEE78FE3EE', 'com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.usercenter.provider.StatusContentProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.anydoor.sdk.common.utils.MFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.providers.downloads.DownloadProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.video.launcher.provider.PhotoFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.cameraphontopop.CameraFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.papd.service.AppUpdateFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.papd.media.video.VideoPreFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.pad.skyeye.data.rym.SkyEyeContentProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pah.util.UriForFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pa.health.picture.PictureFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.healthmanage.base.download.DownloadProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.paf.utils.PafCameraProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.pedometer.coremodule.newdata.dpreference.PreferenceProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.pedometer.coremodule.newdata.NewDataProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.pad.skyeye.data.SkyEyeContentProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.mini.pgmini.api.file.MinaFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.mini.pgmini.db.PAMinaProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.mini.library.pref.multiprocess.MultiProcessSharedPreferences', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pingan.mini.photopicker.utils.PhotoFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.pajk.sharemodule.provider.ShareFileProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.paic.pavc.crm.sdk.speech.library.token.PaicVoiceProvider', ['com.pingan.papd36BC1A516C0D32C058C06099450EBC4CCE645C78']) : value: 0.006666666666666667
+      Node ('com.baidu.baidutranslate.FileProvider', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('com.baidu.protect.StubProvider', ['com.baidu.baidutranslate0EEA70B6143AA884E6E759897599E1D428C505C7']) : value: 0.006666666666666667
+      Node ('crc641f94da3742e7b0b7.XamarinCustomProvider', ['hu.eKreta.KretaAndroid']) : value: 0.006666666666666667
+      Node ('com.h2osystech.smartalimi.servicealimimodule.DataProvider', ['com.eugenefn.smartchampion2D3D4BC0DEA6AE9703CA5C1407F0D9D69FE181945']) : value: 0.006666666666666667
+      Node ('com.moxtra.binder.MXFileProvider', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.006666666666666667
+      Node ('com.prolificinteractive.materialcalendarview.MaterialCalendarViewInitProvider', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.006666666666666667
+      Node ('org.acra.attachment.AcraContentProvider', ['com.moxtra.moxtrabusiness8A37E1E6DBA3F168B82A3A152418154BE0511743']) : value: 0.006666666666666667
+      Node ('io.trigger.forge.android.core.ForgeFileProvider', ['com.utc.asnews.android9AF16E17E198F5F0F3A3B57C746E6F4C143D3865']) : value: 0.006666666666666667
+      Node ('io.trigger.forge.android.core.ForgeContentProvider', ['com.utc.asnews.android9AF16E17E198F5F0F3A3B57C746E6F4C143D3865']) : value: 0.006666666666666667
+      Node ('com.pspdfkit.PSPDFKitInitializationProvider', ['com.ubs.safe9298C3A5B94B31FD780EC8AD30B5962A9E093AEF']) : value: 0.006666666666666667
+      Node ('com.pspdfkit.media.AssetsContentProvider', ['com.ubs.safe9298C3A5B94B31FD780EC8AD30B5962A9E093AEF']) : value: 0.006666666666666667
+      Node ('com.pspdfkit.document.sharing.DocumentSharingProvider', ['com.ubs.safe9298C3A5B94B31FD780EC8AD30B5962A9E093AEF']) : value: 0.006666666666666667
+      Node ('com.thinking.analyselibrary.TDContentProvider', ['com.bc.avenger8480E35A20CEC2A5A66BD34E84FF81DF4C866627']) : value: 0.006666666666666667
+      Node ('com.yodo1.onlineconfig.Yodo1OlConfigProvider', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+      Node ('com.yandex.metrica.PreloadInfoContentProvider', ['com.fourflash.usconflict142D41BC146FF32CAEBA1CA4F318E4E91A6B669A']) : value: 0.006666666666666667
+
+        Node {'android.hardware.vulkan.level', 'android.hardware.vulkan.compute', 'android.hardware.vulkan.version'} : value: 0.0641555903608073
+        Node {'android.hardware.sensor.barometer', 'android.hardware.sensor.hifi_sensors', 'android.hardware.sensor.compass', 'android.hardware.sensor.light', 'android.hardware.sensor.accelerometer', 'android.hardware.sensor.proximity', 'android.hardware.sensor.ambient_temperature', 'android.hardware.sensor.stepdetector', 'android.hardware.sensor.stepcounter', 'android.hardware.sensor.gyroscope', 'android.hardware.sensor.heartrate.ecg', 'android.hardware.sensor.heartrate', 'android.hardware.sensor.relative_humidity'} : value: 0.0003295259717136236
+        Node {'android.hardware.touchscreen.multitouch.jazzhand', 'android.hardware.touchscreen', 'android.hardware.touchscreen.multitouch.distinct', 'android.hardware.touchscreen.multitouch'} : value: 0.061810148447152366
+        Node {'android.hardware.bluetooth_le', 'android.hardware.bluetooth'} : value: 0.059721303287617246
+        Node {'android.hardware.opengles.aep'} : value: 0.04985906150550467
+        Node {'android.hardware.usb.accessory', 'android.hardware.usb.host'} : value: 0.059721303287617246
+        Node {'android.hardware.wifi.direct', 'android.hardware.wifi'} : value: 0.059721303287617246
+        Node {'android.hardware.location.gps', 'android.hardware.location.network', 'android.hardware.location'} : value: 0.0641555903608073
+        Node {'android.hardware.microphone'} : value: 0.04985906150550467
+        Node {'android.hardware.screen.landscape', 'android.hardware.screen.portrait'} : value: 0.059721303287617246
+        Node {'android.hardware.type.automotive', 'android.hardware.type.television', 'android.hardware.type.watch'} : value: 0.0641555903608073
+        Node {'android.hardware.camera.external', 'android.hardware.camera.capability.raw', 'android.hardware.camera.front', 'android.hardware.camera.autofocus', 'android.hardware.camera.any', 'android.hardware.camera.capability.manual_sensor', 'android.hardware.camera.flash', 'android.hardware.camera.level.full', 'android.hardware.camera.capability.manual_post_processing', 'android.hardware.camera'} : value: 0.005024959450680526
+        Node {'android.hardware.nfc', 'android.hardware.nfc.hce'} : value: 0.059721303287617246
+        Node {'android.hardware.faketouch.multitouch.distinct', 'android.hardware.faketouch.multitouch.jazzhand', 'android.hardware.faketouch'} : value: 0.0641555903608073
+        Node {'android.hardware.audio.low_latency', 'android.hardware.audio.output', 'android.hardware.audio.pro'} : value: 0.0641555903608073
+        Node {'android.hardware.fingerprint'} : value: 0.04985906150550467
+        Node {'android.hardware.consumerir'} : value: 0.04985906150550467
+        Node {'android.hardware.gamepad'} : value: 0.04985906150550467
+        Node {'android.hardware.telephony', 'android.hardware.telephony.gsm', 'android.hardware.telephony.cdma'} : value: 0.0641555903608073
+        Node {'android.software.home_screen'} : value: 0.07142375013299358
+        Node {'android.software.verified_boot'} : value: 0.07142375013299358
+        Node {'android.software.app_widgets'} : value: 0.07142375013299358
+        Node {'android.software.webview'} : value: 0.07142375013299358
+        Node {'android.software.managed_users'} : value: 0.07142375013299358
+        Node {'android.software.device_admin'} : value: 0.07142375013299358
+        Node {'android.software.print'} : value: 0.07142375013299358
+        Node {'android.software.leanback'} : value: 0.07142375013299358
+        Node {'android.software.live_wallpaper'} : value: 0.07142375013299358
+        Node {'android.software.midi'} : value: 0.07142375013299358
+        Node {'android.software.sip.voip', 'android.software.sip'} : value: 6.749813809006202e-05
+        Node {'android.software.input_methods'} : value: 0.07142375013299358
+        Node {'android.software.securely_removes_users'} : value: 0.07142375013299358
+        Node {'android.software.backup'} : value: 0.07142375013299358
+        Node {'android.software.live_tv'} : value: 0.07142375013299358
+        Node {'android.permission.ACCESS_NOTIFICATION_POLICY'} : value: 0.0345145055315471
+        Node {'android.permission.BROADCAST_STICKY'} : value: 0.0345145055315471
+        Node {'android.permission.CALL_COMPANION_APP'} : value: 0.0345145055315471
+        Node {'android.permission.CHANGE_WIFI_MULTICAST_STATE'} : value: 0.0345145055315471
+        Node {'android.permission.DELIVER_COMPANION_MESSAGES'} : value: 0.0345145055315471
+        Node {'android.permission.EXPAND_STATUS_BAR'} : value: 0.0345145055315471
+        Node {'android.permission.GET_PACKAGE_SIZE'} : value: 0.0345145055315471
+        Node {'android.permission.HIDE_OVERLAY_WINDOWS'} : value: 0.0345145055315471
+        Node {'android.permission.HIGH_SAMPLING_RATE_SENSORS'} : value: 0.0345145055315471
+        Node {'android.permission.KILL_BACKGROUND_PROCESSES'} : value: 0.0345145055315471
+        Node {'android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK'} : value: 0.0345145055315471
+        Node {'android.permission.MANAGE_OWN_CALLS'} : value: 0.0345145055315471
+        Node {'android.permission.MODIFY_AUDIO_SETTINGS'} : value: 0.0345145055315471
+        Node {'android.permission.NFC_PREFERRED_PAYMENT_INFO'} : value: 0.0345145055315471
+        Node {'android.permission.NFC_TRANSACTION_EVENT'} : value: 0.0345145055315471
+        Node {'android.permission.QUERY_ALL_PACKAGES'} : value: 0.0345145055315471
+        Node {'android.permission.READ_BASIC_PHONE_STATE'} : value: 0.0345145055315471
+        Node {'android.permission.RECEIVE_BOOT_COMPLETED'} : value: 0.0345145055315471
+        Node {'android.permission.REORDER_TASKS'} : value: 0.0345145055315471
+        Node {'android.permission.REQUEST_DELETE_PACKAGES'} : value: 0.0345145055315471
+        Node {'android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS'} : value: 0.0345145055315471
+        Node {'android.permission.REQUEST_PASSWORD_COMPLEXITY'} : value: 0.0345145055315471
+        Node {'android.permission.TRANSMIT_IR'} : value: 0.0345145055315471
+        Node {'android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION'} : value: 0.0345145055315471
+        Node {'android.permission.BLUETOOTH_ADMIN', 'android.permission.BLUETOOTH'} : value: 0.03536161849198589
+        Node {'android.permission.SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE', 'android.permission.DISABLE_KEYGUARD'} : value: 0.03536161849198589
+        Node {'com.android.launcher.permission.UNINSTALL_SHORTCUT', 'com.android.launcher.permission.INSTALL_SHORTCUT'} : value: 0.03536161849198589
+        Node {'android.permission.READ_ASSISTANT_APP_SEARCH_DATA', 'android.permission.READ_HOME_APP_SEARCH_DATA'} : value: 0.03536161849198589
+        Node {'android.permission.READ_SYNC_SETTINGS', 'android.permission.WRITE_SYNC_SETTINGS', 'android.permission.READ_SYNC_STATS'} : value: 0.030205360573402604
+        Node {'android.permission.USE_EXACT_ALARM', 'android.permission.USE_BIOMETRIC', 'android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND', 'android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE', 'android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND', 'android.permission.SCHEDULE_EXACT_ALARM', 'android.permission.SET_WALLPAPER', 'android.permission.USE_FINGERPRINT', 'android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND', 'android.permission.REQUEST_COMPANION_PROFILE_WATCH', 'com.android.alarm.permission.SET_ALARM', 'android.permission.USE_FULL_SCREEN_INTENT', 'android.permission.SET_WALLPAPER_HINTS', 'android.permission.REQUEST_COMPANION_SELF_MANAGED'} : value: 3.270152341118089e-08
+        Node {'android.permission.ACCESS_BLOBS_ACROSS_USERS'} : value: 0.03678138962427014
+        Node {'android.permission.ACCESS_CHECKIN_PROPERTIES'} : value: 0.03678138962427014
+        Node {'android.permission.ACCOUNT_MANAGER'} : value: 0.03678138962427014
+        Node {'android.permission.CAPTURE_AUDIO_OUTPUT'} : value: 0.03678138962427014
+        Node {'android.permission.DIAGNOSTIC'} : value: 0.03678138962427014
+        Node {'android.permission.DUMP'} : value: 0.03678138962427014
+        Node {'android.permission.FACTORY_TEST'} : value: 0.03678138962427014
+        Node {'android.permission.GLOBAL_SEARCH'} : value: 0.03678138962427014
+        Node {'android.permission.INSTANT_APP_FOREGROUND_SERVICE'} : value: 0.03678138962427014
+        Node {'android.permission.INTERACT_ACROSS_PROFILES'} : value: 0.03678138962427014
+        Node {'android.permission.MOUNT_FORMAT_FILESYSTEMS'} : value: 0.03678138962427014
+        Node {'android.permission.OVERRIDE_WIFI_CONFIG'} : value: 0.03678138962427014
+        Node {'android.permission.REBOOT'} : value: 0.03678138962427014
+        Node {'android.permission.SEND_RESPOND_VIA_MESSAGE'} : value: 0.03678138962427014
+        Node {'android.permission.SIGNAL_PERSISTENT_PROCESSES'} : value: 0.03678138962427014
+        Node {'android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND'} : value: 0.03678138962427014
+        Node {'android.permission.STATUS_BAR'} : value: 0.03678138962427014
+        Node {'android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER'} : value: 0.03678138962427014
+        Node {'android.permission.CHANGE_COMPONENT_ENABLED_STATE', 'android.permission.CHANGE_CONFIGURATION'} : value: 0.03798725621659744
+        Node {'android.permission.CLEAR_APP_CACHE', 'android.permission.MASTER_CLEAR'} : value: 0.03798725621659744
+        Node {'android.permission.REQUEST_COMPANION_PROFILE_COMPUTER', 'android.permission.REQUEST_COMPANION_PROFILE_APP_STREAMING', 'android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION'} : value: 0.03859361505094032
+        Node {'android.permission.SET_PROCESS_LIMIT', 'android.permission.SET_TIME', 'android.permission.SET_ANIMATION_SCALE', 'android.permission.SET_ALWAYS_FINISH', 'android.permission.SET_TIME_ZONE', 'android.permission.SET_DEBUG_APP'} : value: 0.03667368206162897
+        Node {'android.permission.BROADCAST_PACKAGE_REMOVED', 'android.permission.BROADCAST_SMS', 'android.permission.SMS_FINANCIAL_TRANSACTIONS', 'android.permission.BROADCAST_WAP_PUSH'} : value: 0.03857098566241066
+        Node {'android.permission.START_VIEW_APP_FEATURES', 'android.permission.START_VIEW_PERMISSION_USAGE'} : value: 0.03798725621659744
+        Node {'android.permission.LOADER_USAGE_STATS', 'android.permission.BATTERY_STATS', 'android.permission.PACKAGE_USAGE_STATS', 'android.permission.UPDATE_DEVICE_STATS'} : value: 0.03857098566241066
+        Node {'android.permission.DELETE_CACHE_FILES', 'android.permission.CONTROL_LOCATION_UPDATES', 'android.permission.INSTALL_LOCATION_PROVIDER', 'android.permission.LOCATION_HARDWARE', 'android.permission.DELETE_PACKAGES', 'android.permission.INSTALL_PACKAGES'} : value: 0.03667368206162897
+        Node {'android.permission.MANAGE_ONGOING_CALLS', 'android.permission.MANAGE_EXTERNAL_STORAGE', 'android.permission.MANAGE_WIFI_INTERFACES', 'android.permission.MANAGE_DOCUMENTS', 'android.permission.MANAGE_MEDIA', 'android.permission.MANAGE_WIFI_NETWORK_SELECTION', 'android.permission.MEDIA_CONTENT_CONTROL'} : value: 0.03489016453652774
+        Node {'android.permission.BIND_CONDITION_PROVIDER_SERVICE', 'android.permission.WRITE_GSERVICES', 'android.permission.BIND_TV_INTERACTIVE_APP', 'android.permission.BIND_WALLPAPER', 'android.permission.BIND_CARRIER_SERVICES', 'android.permission.BIND_CARRIER_MESSAGING_SERVICE', 'android.permission.BIND_DREAM_SERVICE', 'android.permission.BIND_DEVICE_ADMIN', 'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE', 'android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE', 'com.android.voicemail.permission.READ_VOICEMAIL', 'android.permission.BIND_AUTOFILL_SERVICE', 'android.permission.BIND_INCALL_SERVICE', 'android.permission.BIND_CHOOSER_TARGET_SERVICE', 'android.permission.BIND_PRINT_SERVICE', 'android.permission.BIND_SCREENING_SERVICE', 'android.permission.BIND_VISUAL_VOICEMAIL_SERVICE', 'android.permission.GET_ACCOUNTS_PRIVILEGED', 'android.permission.BIND_TELECOM_CONNECTION_SERVICE', 'android.permission.READ_PRECISE_PHONE_STATE', 'android.permission.BIND_VPN_SERVICE', 'android.permission.BIND_VOICE_INTERACTION', 'android.permission.BLUETOOTH_PRIVILEGED', 'android.permission.WRITE_SECURE_SETTINGS', 'android.permission.BIND_MIDI_DEVICE_SERVICE', 'android.permission.BIND_NFC_SERVICE', 'android.permission.BIND_VR_LISTENER_SERVICE', 'android.permission.READ_NEARBY_STREAMING_POLICY', 'android.permission.BIND_APPWIDGET', 'android.permission.MODIFY_PHONE_STATE', 'android.permission.BIND_QUICK_SETTINGS_TILE', 'android.permission.BIND_ACCESSIBILITY_SERVICE', 'android.permission.WRITE_APN_SETTINGS', 'android.permission.BIND_CALL_REDIRECTION_SERVICE', 'android.permission.BIND_TV_INPUT', 'android.permission.BIND_REMOTEVIEWS', 'android.permission.BIND_COMPANION_DEVICE_SERVICE', 'android.permission.CALL_PRIVILEGED', 'com.android.voicemail.permission.WRITE_VOICEMAIL', 'android.permission.BIND_INPUT_METHOD', 'android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE', 'android.permission.BIND_TEXT_SERVICE', 'android.permission.BIND_CONTROLS'} : value: 1.0307779765782482e-07
+        Node {'android.intent.action.ATTACH_DATA'} : value: 0.07109914632284242
+        Node {'android.intent.action.EDIT'} : value: 0.07109914632284242
+        Node {'android.intent.action.CHOOSER'} : value: 0.07109914632284242
+        Node {'android.intent.action.GET_CONTENT'} : value: 0.07109914632284242
+        Node {'android.intent.action.DIAL'} : value: 0.07109914632284242
+        Node {'android.intent.action.CALL'} : value: 0.07109914632284242
+        Node {'android.intent.action.SEND'} : value: 0.07109914632284242
+        Node {'android.intent.action.SENDTO'} : value: 0.07109914632284242
+        Node {'android.intent.action.ANSWER'} : value: 0.07109914632284242
+        Node {'android.intent.action.INSERT'} : value: 0.07109914632284242
+        Node {'android.intent.action.DELETE'} : value: 0.07109914632284242
+        Node {'android.intent.action.RUN'} : value: 0.07109914632284242
+        Node {'android.intent.action.SYNC'} : value: 0.07109914632284242
+        Node {'android.intent.action.FACTORY_TEST'} : value: 0.07109914632284242
+        Node {'android.intent.action.PICK_ACTIVITY', 'android.intent.action.PICK'} : value: 0.0023059757401030652
+        Node {'android.intent.action.SEARCH', 'android.intent.action.WEB_SEARCH'} : value: 0.0023059757401030652
+        Node {'android.intent.action.BOOT_COMPLETED'} : value: 0.14757903402020467
+        Node {'android.intent.action.UID_REMOVED'} : value: 0.14757903402020467
+        Node {'android.intent.action.TIME_TICK', 'android.intent.action.TIME_SET'} : value: 0.2294167748084204
+        Node {'android.intent.action.PACKAGES_UNSUSPENDED', 'android.intent.action.PACKAGES_SUSPENDED'} : value: 0.2294167748084204
+        Node {'android.intent.action.ACTION_POWER_DISCONNECTED', 'android.intent.action.ACTION_SHUTDOWN', 'android.intent.action.ACTION_POWER_CONNECTED'} : value: 0.21004147949425694
+        Node {'android.intent.action.BATTERY_CHANGED', 'android.intent.action.PACKAGE_RESTARTED', 'android.intent.action.PACKAGE_CHANGED', 'android.intent.action.PACKAGE_DATA_CLEARED', 'android.intent.action.TIMEZONE_CHANGED'} : value: 0.03596690284849287
+        Node {'android.intent.category.TAB'} : value: 0.13566615843122448
+        Node {'android.intent.category.INFO'} : value: 0.13566615843122448
+        Node {'android.intent.category.PREFERENCE'} : value: 0.13566615843122448
+        Node {'android.intent.category.TEST'} : value: 0.13566615843122448
+        Node {'android.intent.category.APP_MARKET'} : value: 0.13566615843122448
+        Node {'android.intent.category.SELECTED_ALTERNATIVE', 'android.intent.category.ALTERNATIVE'} : value: 0.15732996671780078
+        Node {'android.intent.category.HOME', 'android.intent.category.VR_HOME'} : value: 0.15732996671780078
+        Node {'android.intent.category.LE_DESK_DOCK', 'android.intent.category.CAR_DOCK', 'android.intent.category.HE_DESK_DOCK', 'android.intent.category.CAR_MODE', 'android.intent.category.DESK_DOCK'} : value: 0.007009274408276115
