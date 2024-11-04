@@ -1,23 +1,30 @@
 #!/bin/bash
 
-# Define the base command with common parameters
-BASE_CMD="python main.py -R drebin-SVM-ADZ -N 100 --detection drebin --classifier svm --attacker ADZ --ADZ_attack"
+# Common parameters
+PYTHON_CMD="python main.py"
+COMMON_PARAMS="-N 100 --attacker ADZ --ADZ_attack"
+P_VALUES=(10 50 100)
 
-# Run the commands with varying -P values
-# $BASE_CMD -P 10
-# $BASE_CMD -P 50
-# $BASE_CMD -P 100
+# Function to run experiments for a given configuration
+run_experiments() {
+    local run_tag=$1
+    local detection=$2
+    local classifier=$3
 
-BASE_CMD="python main.py -R mamadroid-RF-ADZ -N 100 --detection mamadroid --classifier rf --attacker ADZ --ADZ_attack"
+    for p in "${P_VALUES[@]}"; do
+        echo "Running experiment: $run_tag with P=$p"
+        $PYTHON_CMD -R "$run_tag" $COMMON_PARAMS \
+            --detection "$detection" \
+            --classifier "$classifier" \
+            -P "$p"
+    done
+}
 
-# Run the commands with varying -P values
-$BASE_CMD -P 10
-$BASE_CMD -P 50
-$BASE_CMD -P 100
+# Run experiments for different configurations
+run_experiments "drebin-SVM-ADZ" "drebin" "svm"
 
-BASE_CMD="python main.py -R mamadroid-3nn-ADZ -N 100 --detection mamadroid --classifier 3nn --attacker ADZ --ADZ_attack"
+# Mamadroid-RF experiments
+run_experiments "mamadroid-RF-ADZ" "mamadroid" "rf"
 
-# Run the commands with varying -P values
-$BASE_CMD -P 10
-$BASE_CMD -P 50
-$BASE_CMD -P 100
+# Mamadroid-3NN experiments  
+run_experiments "mamadroid-3nn-ADZ" "mamadroid" "3nn"

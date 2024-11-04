@@ -141,3 +141,5 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 model_results/features/drebin_total/drebin_total_feature.json
+
+notebooks/
