@@ -4,201 +4,207 @@ import random
 import shutil
 import traceback
 import multiprocessing as mp
-from androguard.misc import AnalyzeAPK
-from settings import config
-import tempfile
-from utils import run_java_component
-from androguard.core.androconf import show_logging
 import logging
+import tempfile
+from pathlib import Path
+from typing import Dict, List, Set, Optional
+from androguard.misc import AnalyzeAPK
+from androguard.core.androconf import show_logging
 from tqdm import tqdm
+from settings import config
+from utils import run_java_component
 
 
-def extract_the_components_of_apk(apk_path):
-    # Print the name of the APK being processed
-    print("Process the APK: {}".format(os.path.basename(apk_path)))
-    res_data = dict()  # Initialize an empty dictionary to store results
-
+def extract_apk_components(apk_path: str) -> Optional[Dict[str, List[str]]]:
+    """
+    Extract components (activities, providers, receivers, services) from an APK file.
+    
+    Args:
+        apk_path: Path to the APK file
+        
+    Returns:
+        Dictionary containing lists of components, or None if extraction fails
+    """
+    print(f"Processing APK: {Path(apk_path).name}")
+    
     try:
-        # Analyze the APK file and extract its components
-        a, d, dx = AnalyzeAPK(apk_path)
-        # Retrieve the activities, providers, receivers, and services from the APK
-        activities = a.get_activities()
-        providers = a.get_providers()
-        receivers = a.get_receivers()
-        services = a.get_services()
-        # Store these components in the res_data dictionary
-        res_data["activities"] = activities
-        res_data["providers"] = providers
-        res_data["receivers"] = receivers
-        res_data["services"] = services
-        return res_data  # Return the dictionary containing the components
-    except:
-        # Print an error message if there's an issue processing the APK
-        print("Error occurred in APK: {}".format(os.path.basename(apk_path)))
+        a, _, _ = AnalyzeAPK(apk_path)
+        return {
+            "activities": a.get_activities(),
+            "providers": a.get_providers(), 
+            "receivers": a.get_receivers(),
+            "services": a.get_services()
+        }
+    except Exception as e:
+        print(f"Error processing APK {Path(apk_path).name}: {e}")
         traceback.print_exc()
         return None
 
 
-def is_system_class(name):
-    # Define a list of common system package prefixes
-    system_packages = [
-        "java.", "javax.", "android.", "androidx.", "dalvik.", "kotlin.", "kotlinx.",
-        "junit.", "sun.", "org.w3c.", "org.xmlpull.", "org.xml.", "org.json.",
-        "org.apache.", "com.google.", "com.android."
-    ]
-    for package in system_packages:
-        # Check if the provided class name starts with any of the system package prefixes
-        if name.startswith(package):
-            return True
-    return False
+def is_system_class(class_name: str) -> bool:
+    """
+    Check if a class belongs to the Android system packages.
+    
+    Args:
+        class_name: Fully qualified class name
+        
+    Returns:
+        True if class belongs to system packages, False otherwise
+    """
+    SYSTEM_PACKAGES = {
+        "java.", "javax.", "android.", "androidx.", "dalvik.", 
+        "kotlin.", "kotlinx.", "junit.", "sun.", "org.w3c.",
+        "org.xmlpull.", "org.xml.", "org.json.", "org.apache.",
+        "com.google.", "com.android."
+    }
+    return any(class_name.startswith(pkg) for pkg in SYSTEM_PACKAGES)
 
 
-def slice_one_apk(apk, component_name, output_dir):
-    # Retrieve necessary paths from the configuration
-    apk_res_dir = config['source_apk_path']
-    tmp_parent_dir = config['tmp_dir']
-
-    # Construct the full path to the APK file by joining the resource directory and the APK filename
-    apk_path = os.path.join(apk_res_dir, apk + ".apk")
-
-    # Create a temporary directory for processing within the specified parent directory
-    tmp_dir = tempfile.mkdtemp(dir=tmp_parent_dir)
-    # Ensure the temporary directory exists, create it if it does not. This is redundant due to the behavior of mkdtemp.
-    os.makedirs(tmp_dir, exist_ok=True)
-
-    # Define the path where the APK will be copied for processing
-    copy_apk_path = os.path.join(tmp_dir, os.path.basename(apk_path))
-    # Copy the APK to the newly created temporary directory for isolated processing
-    shutil.copy(apk_path, copy_apk_path)
-
-    # Retrieve the Java slicer tool executable path and the arguments from the configuration
-    jar = config['slicer']
-    args = [component_name, copy_apk_path, output_dir, config['android_sdk']]
-    # Print the operation details to inform the user of the current process
-    print("Extracting the apk - {}, Component Name - {}".format(apk, component_name))
-    # Execute the Java slicer tool with the specified arguments and temporary directory as the working directory
-    out = run_java_component(jar, args, tmp_dir)
-
-    # Check if the output string contains success indication
-    if "Successfully" not in out:
-        # If the process was unsuccessful, create a "failed" directory in the specified output directory
-        os.mkdir(os.path.join(output_dir, "failed"))
-
-    # Remove the temporary directory and all its contents to clean up after processing
-    shutil.rmtree(tmp_dir)
+def slice_apk(apk_name: str, component_name: str, output_dir: str) -> None:
+    """
+    Slice an APK to extract a specific component.
+    
+    Args:
+        apk_name: Name of the APK file (without extension)
+        component_name: Name of component to extract
+        output_dir: Directory to store slicing results
+    """
+    apk_path = Path(config['source_apk_path']) / f"{apk_name}.apk"
+    
+    # Create temporary working directory
+    with tempfile.TemporaryDirectory(dir=config['tmp_dir']) as tmp_dir:
+        tmp_dir = Path(tmp_dir)
+        copy_apk_path = tmp_dir / apk_path.name
+        
+        # Copy APK to temp directory
+        shutil.copy(apk_path, copy_apk_path)
+        
+        print(f"Extracting component {component_name} from APK {apk_name}")
+        
+        # Run Java slicer
+        args = [component_name, str(copy_apk_path), output_dir, config['android_sdk']]
+        result = run_java_component(config['slicer'], args, str(tmp_dir))
+        
+        if "Successfully" not in result:
+            Path(output_dir, "failed").mkdir(exist_ok=True)
 
 
-def get_candidate_benign_components(sampled_apk_num=100):
-    # Set the logging level to INFO
+def get_candidate_benign_components(sample_size: int = 100) -> None:
+    """
+    Extract and process components from benign APKs to create a component pool.
+    
+    Args:
+        sample_size: Number of APKs to sample
+    """
     show_logging(logging.INFO)
-
-    # Load metadata from a JSON file to sample benign apps
-    with open(config['meta_data'], "r") as f:
+    
+    # Load and sample benign APKs
+    with open(config['meta_data']) as f:
         meta = json.load(f)
+    
+    benign_apks = [data['location'] for data in meta if data['label'] == 0]
+    sampled_apks = random.sample(benign_apks, min(len(benign_apks), sample_size))
+    
+    # Initialize component tracking
+    components_by_type: Dict[str, Dict[str, List[str]]] = {
+        "services": {}, "providers": {}, "receivers": {}
+    }
+    unique_components: Dict[str, Set[str]] = {
+        "services": set(), "providers": set(), "receivers": set()
+    }
+    
+    # Process APKs
+    for apk in tqdm(sampled_apks, desc="Extracting APK Components"):
+        components = extract_apk_components(apk)
+        if components:
+            process_components(components, unique_components, components_by_type, apk)
+    
+    # Save results
+    save_dir = Path("./slices_candidates")
+    save_dir.mkdir(exist_ok=True)
+    with open(save_dir / "candidates.json", "w") as f:
+        json.dump(components_by_type, f, indent=4)
+        
+    print_component_stats(sample_size, unique_components)
+    prepare_and_queue_slicing_tasks(components_by_type)
 
-    benign_apk_paths = []
-    for data in meta:
-        if data['label'] == 0:
-            benign_apk_paths.append(data['location'])
 
-    # Randomly sample a specified number of APK paths
-    benign_apk_paths = random.sample(benign_apk_paths, min(
-        len(benign_apk_paths), sampled_apk_num))
+def process_components(
+    components: Dict[str, List[str]],
+    unique_components: Dict[str, Set[str]], 
+    components_by_type: Dict[str, Dict[str, List[str]]],
+    apk_path: str
+) -> None:
+    """Process extracted components and update tracking dictionaries."""
+    apk_name = Path(apk_path).stem
+    
+    for comp_type in ["services", "providers", "receivers"]:
+        for component in components.get(comp_type, []):
+            if not is_system_class(component):
+                unique_components[comp_type].add(component)
+                components_by_type[comp_type].setdefault(component, []).append(apk_name)
 
-    # Initialize sets for storing unique components
-    services, providers, receivers = set(), set(), set()
-    components_list = ["services", "providers", "receivers"]
-    components_apk_map = {component: {}
-                          for component in components_list}  # Simplified initialization
 
-    # Process each APK to extract components
-    for apk in tqdm(benign_apk_paths, desc="Extracting APK Components"):
-        res_data = extract_the_components_of_apk(apk)
-        for component in components_list:
-            # Default to empty list if not found
-            for component_class in res_data.get(component, []):
-                # Assume this checks for system-specific classes
-                if is_system_class(component_class):
-                    continue
-                # Add the component class to the appropriate set based on its type
-                # Dynamically add to the correct set
-                locals()[component].add(component_class)
-
-                # Update the APK mapping for the component
-                components_apk_map[component].setdefault(component_class, []).append(
-                    os.path.basename(apk)[:-4])
-
-    # Save the component-to-APK mapping to a JSON file
-    with open("./slices_candidates/candidates.json", "w") as f:
-        # Added indent for better readability
-        json.dump(components_apk_map, f, indent=4)
-
-    # Print summary statistics
+def print_component_stats(sample_size: int, unique_components: Dict[str, Set[str]]) -> None:
+    """Print summary statistics of extracted components."""
     print(
-        f"The sample num: {sampled_apk_num}, The services: {len(services)}, providers: {len(providers)}, receivers: {len(receivers)}")
-
-    # Prepare directories for slicing and queue slicing tasks
-    prepare_and_queue_slicing_tasks(components_apk_map)
-
-
-def prepare_and_queue_slicing_tasks(components_apk_map):
-    apk_list, component_list, output_list = [], [], []
-    res_dir_path = config['slice_database']
-
-    # Create necessary directories and queue up slicing tasks
-    for component_type, components in components_apk_map.items():
-        component_type_dir = os.path.join(res_dir_path, component_type)
-        # Ensure the directory exists
-        os.makedirs(component_type_dir, exist_ok=True)
-
-        for component_class_name, candidate_apks in components.items():
-            component_dir = os.path.join(
-                component_type_dir, component_class_name)
-            # Ensure the directory exists
-            os.makedirs(component_dir, exist_ok=True)
-
-            for apk in candidate_apks:
-                apk_dir = os.path.join(component_dir, apk)
-                # Ensure the directory exists
-                os.makedirs(apk_dir, exist_ok=True)
-                slice_res_dir = apk_dir  # Redundant assignment, could be used directly
-
-                # Queue up slicing tasks
-                apk_list.append(apk)
-                component_list.append(component_class_name)
-                output_list.append(slice_res_dir)
-
-    # Execute slicing in parallel using multiprocessing
-    with mp.Pool(processes=10) as p:
-        p.starmap(slice_one_apk, zip(apk_list, component_list, output_list))
+        f"Sample size: {sample_size}, "
+        f"Services: {len(unique_components['services'])}, "
+        f"Providers: {len(unique_components['providers'])}, "
+        f"Receivers: {len(unique_components['receivers'])}"
+    )
 
 
-def load_component_candidates():
-    # Initialize a dictionary to store components categorized as services, providers, and receivers
+def prepare_and_queue_slicing_tasks(components_by_type: Dict[str, Dict[str, List[str]]]) -> None:
+    """
+    Prepare directories and execute slicing tasks in parallel.
+    
+    Args:
+        components_by_type: Mapping of component types to their APKs
+    """
+    slice_tasks = []
+    slice_base = Path(config['slice_database'])
+    
+    for comp_type, components in components_by_type.items():
+        type_dir = slice_base / comp_type
+        
+        for comp_name, apks in components.items():
+            comp_dir = type_dir / comp_name
+            
+            for apk in apks:
+                output_dir = comp_dir / apk
+                output_dir.mkdir(parents=True, exist_ok=True)
+                slice_tasks.append((apk, comp_name, str(output_dir)))
+    
+    with mp.Pool(processes=10) as pool:
+        pool.starmap(slice_apk, slice_tasks)
+
+
+def load_component_candidates() -> Dict[str, Dict[str, List[str]]]:
+    """
+    Load and validate previously sliced components.
+    
+    Returns:
+        Dictionary mapping component types to their successfully sliced instances
+    """
     sliced_components = {
-        'services': dict(), 'providers': dict(), 'receivers': dict()}
-
-    # Load the mapping of component types to APKs from a JSON file
-    with open("./slices_candidates/candidates.json", "r") as f:
+        'services': {}, 'providers': {}, 'receivers': {}
+    }
+    
+    candidates_path = Path("./slices_candidates/candidates.json")
+    with open(candidates_path) as f:
         component_apk_dict = json.load(f)
-
-    # Iterate over the component-to-APK mapping to populate the sliced_components dictionary
-    for component_type, value in component_apk_dict.items():
-        for component_class_name, candidate_apks in value.items():
-            for apk in candidate_apks:
-                # Construct the directory path for the sliced result of each component
-                slice_res_dir = os.path.join(
-                    config['slice_database'], component_type, component_class_name, apk)
-                # Check for the absence of a "failed" directory to determine successful slicing
-                if not os.path.exists(os.path.join(slice_res_dir, "failed")):
-                    # If the component class name does not exist in the dictionary, initialize it with the current APK
-                    if sliced_components[component_type].get(component_class_name) is None:
-                        sliced_components[component_type][component_class_name] = [
-                            apk]
-                    else:
-                        # If the component class name exists, append the current APK to its list
-                        sliced_components[component_type][component_class_name].append(
-                            apk)
-
-    # Return the dictionary containing categorized and successfully sliced components
+    
+    slice_base = Path(config['slice_database'])
+    
+    for comp_type, components in component_apk_dict.items():
+        for comp_name, apks in components.items():
+            successful_apks = [
+                apk for apk in apks
+                if not (slice_base / comp_type / comp_name / apk / "failed").exists()
+            ]
+            
+            if successful_apks:
+                sliced_components[comp_type][comp_name] = successful_apks
+    
     return sliced_components
