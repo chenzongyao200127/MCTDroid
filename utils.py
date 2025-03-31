@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 import hashlib
 import os
+import shutil
 import sys
 import logging
 import subprocess
@@ -10,6 +11,7 @@ from settings import config
 from termcolor import colored
 import sklearn
 import numpy as np
+import multiprocessing as mp
 
 
 def red(x): return colored(x, 'red')
@@ -88,69 +90,117 @@ def calculate_base_metrics(model, y_pred, y_scores):
         }
     }
 
+def copy_and_rename_apks_to_sha256(source_directory, destination_directory):
+    """Copy APK files from source directory to destination directory and rename them to their SHA256 hash."""
+    for filename in os.listdir(source_directory):
+        if filename.endswith(".apk"):
+            source_file_path = os.path.join(source_directory, filename)
+            # Calculate SHA256 hash of the filename only (which may contain package name)
+            sha256 = calculate_sha256(filename)
+            destination_file_path = os.path.join(destination_directory, sha256 + ".apk")
+            # Copy and rename the file
+            shutil.copy(source_file_path, destination_file_path)
+            print(f"Copied and renamed {filename} to {sha256}.apk")
 
-def calculate_sha256(file_path):
+
+def calculate_sha256(filename):
+    """Calculate SHA256 hash of a filename string."""
     sha256_hash = hashlib.sha256()
-    with open(file_path, 'rb') as f:
-        # Read and update hash in chunks of 4K
-        for byte_block in iter(lambda: f.read(4096), b""):
-            sha256_hash.update(byte_block)
+    sha256_hash.update(filename.encode('utf-8'))
     return sha256_hash.hexdigest()
 
-
-def rename_apks_to_sha256(directory):
-    for filename in os.listdir(directory):
+def rename_and_move_apks_to_sha256(source_directory, destination_directory):
+    """Rename APK files to their SHA256 hash of the original filename and move them to a new directory."""
+    for filename in os.listdir(source_directory):
         if filename.endswith(".apk"):
-            file_path = os.path.join(directory, filename)
-            # Calculate SHA256 hash of the file
-            sha256 = calculate_sha256(file_path)
-            new_file_path = os.path.join(directory, sha256 + ".apk")
-            # Rename the file
-            os.rename(file_path, new_file_path)
-            print(f"Renamed {filename} to {sha256}.apk")
+            source_file_path = os.path.join(source_directory, filename)
+            # Calculate SHA256 hash of the filename only (which may contain package name)
+            sha256 = calculate_sha256(filename)
+            destination_file_path = os.path.join(destination_directory, sha256 + ".apk")
+            # Move and rename the file
+            shutil.move(source_file_path, destination_file_path)
 
+# rename_and_move_apks_to_sha256("/mnt/sdb2/andro_apk/Drebin/Benign", "/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS")
 
-# # Replace 'your_directory_path' with the path to the directory containing your APK files
-# directory_path = '/disk2/chenzy/MCTDroid/sample_apks/benign'
-# rename_apks_to_sha256(directory_path)
-
-# 单文件处理逻辑，返回对应的JSON数据
+# Process a single APK file and return its metadata
 def process_file(filepath, label):
-    file_hash = calculate_sha256(filepath)
+    """
+    Process a single APK file and return its metadata.
+    
+    Args:
+        filepath: Path to the APK file
+        label: Label for the APK (0 for benign, 1 for malware)
+        
+    Returns:
+        dict: Metadata for the APK file
+    """
+    # Extract the base filename (e.g., "a3g.emyshoppinglist.apk")
+    filename = os.path.basename(filepath)
+    # Remove the APK extension from the filename
+    filename_without_apk = filename.replace('.apk', '')
+    # Calculate SHA256 hash of the filename (not the file content)
+    file_hash = calculate_sha256(filename_without_apk)
+    
     return {
         "sha256": file_hash,
-        "name": os.path.basename(filepath),
+        "name": filename_without_apk,
         "label": label,
-        "location": filepath  # 添加文件的绝对路径
+        "location": filepath  # Absolute path to the file
     }
 
-
-# 创建JSON数据，使用多线程
 def create_json_data(folder_path, label):
-    json_data = []
-    with ThreadPoolExecutor() as executor:
-        # 创建一个Future到文件处理函数的映射
-        future_to_file = {executor.submit(process_file, os.path.join(folder_path, filename), label): filename
-                          for filename in os.listdir(folder_path) if filename.endswith('.apk')}
-        for future in as_completed(future_to_file):
-            # 从Future中获取结果并添加到json_data列表
-            json_data.append(future.result())
+    """
+    Process APK files in parallel to create JSON metadata.
+    
+    Args:
+        folder_path: Path to folder containing APK files
+        label: Label for the APKs (0 for benign, 1 for malware)
+        
+    Returns:
+        list: List of metadata dictionaries for each APK
+    """
+    # Find all APK files in the directory
+    apk_files = [os.path.join(folder_path, filename) 
+                for filename in os.listdir(folder_path) 
+                if filename.endswith('.apk')]
+    
+    # Use multiprocessing with a reasonable number of workers
+    num_workers = min(mp.cpu_count(), config['nproc_feature'])
+    
+    # Process files in parallel batches
+    with mp.Pool(processes=num_workers) as pool:
+        json_data = pool.starmap(
+            process_file, 
+            [(filepath, label) for filepath in apk_files]
+        )
+    
     return json_data
 
 
-# # 文件夹路径
-# benign_folder = "/disk2/Androzoo/SelectedBenign"
-# malware_folder = "/disk2/Androzoo/SelectedMalware"
+def generate_metadata_json(benign_folder, malware_folder, output_path=None):
+    """
+    Generate metadata JSON file from benign and malware APK folders.
+    
+    Args:
+        benign_folder: Path to folder containing benign APK files
+        malware_folder: Path to folder containing malware APK files
+        output_path: Path to save the JSON file (defaults to config['meta_data'])
+    
+    Returns:
+        list: Combined list of metadata for all APKs
+    """
+    # Create JSON structures
+    benign_data = create_json_data(benign_folder, 0)
+    malware_data = create_json_data(malware_folder, 1)
+    
+    # Merge both datasets
+    all_data = benign_data + malware_data
+    
+    # Save to JSON file
+    output_file = output_path or config['meta_data']
+    with open(output_file, "w") as json_file:
+        json.dump(all_data, json_file, indent=4)
+    
+    return all_data
 
-# # 创建JSON结构
-# benign_data = create_json_data(benign_folder, 0)
-# malware_data = create_json_data(malware_folder, 1)
-
-# # 合并两部分数据
-# all_data = benign_data + malware_data
-
-# # 保存为JSON文件
-# with open("apks_data.json", "w") as json_file:
-#     json.dump(all_data, json_file, indent=4)
-
-# print("JSON文件已创建。")
+# generate_metadata_json("/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS", "/mnt/sdb2/andro_apk/Drebin/Malware")

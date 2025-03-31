@@ -1,97 +1,84 @@
 import os
 import logging
-from settings import config
+import re
 import numpy as np
 import traceback
 from androguard.misc import AnalyzeAPK
-import networkx as nx
+from settings import config
+from utils import red, green
 
-targeted_families = ["java.", "android.", "com.", "org.", "javax."]
-
-
-def is_target_family(fam_smali: str) -> bool:
-    fam = fam_smali.split(";")[0][1:].replace("/", ".")
-    return any(fam.startswith(target) for target in targeted_families)
+# Precompiled regex for finding intent actions in the manifest
+INTENT_ACTION_PATTERN = re.compile('action\s+android:name=\"(?P<action>.+)\"')
 
 
-def get_call_graph(dx) -> nx.DiGraph:
-    CG = nx.DiGraph()
-    nodes = dx.find_methods('.*', '.*', '.*', '.*')
-    for m in nodes:
-        API = m.get_method()
-        class_name = API.get_class_name()
-        method_name = API.get_name()
-        descriptor = API.get_descriptor()
-        api_call = f"{class_name}->{method_name}{descriptor}"
-        if not is_target_family(class_name) or not m.get_xref_to():
-            continue
-
-        CG.add_node(api_call)
-
-        for _, callee, _ in m.get_xref_to():
-            if not is_target_family(callee.get_class_name()):
-                continue
-            _callee = f"{callee.get_class_name()}->{callee.get_name()}{callee.get_descriptor()}"
-            CG.add_node(_callee)
-            if not CG.has_edge(api_call, _callee):
-                CG.add_edge(api_call, _callee)
-
-    return CG
-
-
-def smali_to_abstract(func_sin: str, abstract_list: list) -> str:
-    class_name = func_sin.split(";")[0][1:].replace("/", ".")
-    for abstract in abstract_list:
-        if class_name.startswith(abstract):
-            return abstract
-
-    items = class_name.split('.')
-    if sum(len(item) < 3 for item in items) > (len(items) / 2):
-        return "obfuscated"
-    return "self-defined"
-
-
-def build_markov_feature_androidguard(CG: nx.DiGraph, output_path: str = None) -> np.ndarray:
-    with open(config['family_list'], "r") as f:
-        families = [line.strip() for line in f]
-    families.extend(["self-defined", "obfuscated"])
-
-    markov_family_features = np.zeros((len(families), len(families)))
-    if CG is not None:
-        total_edges = len(CG.edges())
-        for caller, callee in CG.edges():
-            caller_family = smali_to_abstract(caller, families[:-2])
-            callee_family = smali_to_abstract(callee, families[:-2])
-            caller_family_index = families.index(caller_family)
-            callee_family_index = families.index(callee_family)
-            markov_family_features[caller_family_index][callee_family_index] += 1
-
-        if total_edges != 0:
-            markov_family_features = markov_family_features.flatten() / total_edges
-        else:
-            markov_family_features = markov_family_features.flatten()
-    else:
-        markov_family_features = markov_family_features.flatten()
-
-    if output_path is not None:
-        np.savez(output_path, family_feature=markov_family_features)
-        logging.critical(
-            f'Successfully saved the Markov feature in: {output_path}')
-    return markov_family_features
-
-
-def get_mamadroid_feature(apk_path: str, output_path: str = None, graph_path: str = None) -> np.ndarray:
+def get_vae_fd_feature(apk_path, output_path=None):
+    """
+    Extract VAE-based feature descriptor from an APK file.
+    
+    Args:
+        apk_path: Path to the APK file
+        output_path: Optional path to save the extracted features
+        
+    Returns:
+        numpy.ndarray: Feature vector containing binary encodings of permissions, 
+                      actions, and API calls
+    """
+    # Initialize feature vector
+    total_feature = []
+    
     try:
+        # Analyze the APK file
         a, d, dx = AnalyzeAPK(apk_path)
-        CG = get_call_graph(dx)
-        if graph_path is not None:
-            nx.write_gml(CG, graph_path)
 
-        logging.critical(
-            f'Successfully extracted APK: {os.path.basename(apk_path)}')
-    except Exception as e:
-        logging.error(f'Error occurred in APK: {os.path.basename(apk_path)}')
+        # Process permissions
+        with open(config['vae_permissions'], "r") as f:
+            total_permissions = [line.strip() for line in f]
+            
+        apk_permissions = {permission.split(".")[-1] for permission in a.get_permissions()}
+        
+        for permission in total_permissions:
+            total_feature.append(1 if permission in apk_permissions else 0)
+
+        # Process intent actions
+        with open(config['vae_actions'], "r") as f:
+            total_actions = [line.strip() for line in f]
+            
+        android_manifest = a.get_android_manifest_axml().get_xml().decode()
+        apk_actions = {match.group('action').split('.')[-1] 
+                      for match in INTENT_ACTION_PATTERN.finditer(android_manifest)}
+        
+        for action in total_actions:
+            total_feature.append(1 if action in apk_actions else 0)
+
+        # Process API calls
+        with open(config['vae_apis'], "r") as f:
+            total_apis = [line.strip() for line in f]
+            
+        apk_methods = {f"{method.get_method().get_class_name()}->{method.get_method().get_name()}" 
+                      for method in dx.find_methods('.*', '.*', '.*', '.*')}
+        
+        for api in total_apis:
+            total_feature.append(1 if api in apk_methods else 0)
+            
+    except Exception:
+        logging.error(red(f"Error occurred in APK: {os.path.basename(apk_path)}"))
         traceback.print_exc()
-        CG = None
+        
+        # Ensure consistent feature vector size on error
+        expected_size = 147 + 126 + 106  # permissions + actions + apis
+        total_feature = [0] * expected_size
 
-    return build_markov_feature_androidguard(CG, output_path)
+    # Ensure consistent feature vector size
+    expected_size = 147 + 126 + 106
+    if len(total_feature) < expected_size:
+        total_feature = [0] * expected_size
+
+    # Convert to numpy array
+    total_feature = np.array(total_feature, dtype=np.int)
+    
+    # Save features if output path is provided
+    if output_path is not None:
+        np.savez(output_path, vae_fd_feature=total_feature)
+        logging.critical(green(f'Successfully saved the vae-fd feature in: {output_path}'))
+        
+    return total_feature

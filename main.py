@@ -138,50 +138,31 @@ def perform_attack_stage(attack_function, attack_name, apks, model, query_budget
 
 def prepare_res_save_dir(args):
     """ Prepare the attack result saving dir """
-    # Malware Detection Model Saving Dir
-    if not os.path.exists(config['saved_models']):
-        os.makedirs(config['saved_models'], exist_ok=True)
+    # Ensure all necessary directories exist
+    dirs_to_create = [
+        config['saved_models'],
+        config['saved_features'],
+        os.path.join(config['saved_features'], 'drebin'),
+        os.path.join(config['saved_features'], 'drebin_total'),
+        os.path.join(config['saved_features'], 'mamadroid'),
+        os.path.join(config['saved_features'], 'mamadroid_total'),
+    ]
+    for dir_path in dirs_to_create:
+        os.makedirs(dir_path, exist_ok=True)
 
-    if not os.path.exists(config['saved_features']):
-        os.makedirs(config['saved_features'], exist_ok=True)
-
-    if not os.path.exists(os.path.join(config['saved_features'], 'drebin')):
-        os.makedirs(os.path.join(
-            config['saved_features'], 'drebin'), exist_ok=True)
-
-    if not os.path.exists(os.path.join(config['saved_features'], 'drebin_total')):
-        os.makedirs(os.path.join(
-            config['saved_features'], 'drebin_total'), exist_ok=True)
-
-    if not os.path.exists(os.path.join(config['saved_features'], 'mamadroid')):
-        os.makedirs(os.path.join(
-            config['saved_features'], 'mamadroid'), exist_ok=True)
-
-    if not os.path.exists(os.path.join(config['saved_features'], 'mamadroid_total')):
-        os.makedirs(os.path.join(
-            config['saved_features'], 'mamadroid_total'), exist_ok=True)
-
+    # Construct the output result directory
     output_result_dir = os.path.join(config['results_dir'], args.dataset,
-                                     "_".join(
-                                         [args.detection, args.classifier]),
+                                     "_".join([args.detection, args.classifier]),
                                      "_".join([args.attacker, str(args.attack_num), str(args.query_budget)]))
-    if not os.path.exists(output_result_dir):
-        os.makedirs(output_result_dir, exist_ok=True)
-    else:
+    # Ensure the output result directory exists, removing and recreating if necessary
+    if os.path.exists(output_result_dir):
         shutil.rmtree(output_result_dir)
-        os.makedirs(output_result_dir, exist_ok=True)
+    os.makedirs(output_result_dir, exist_ok=True)
 
-    # Save the success misclassified malicious APKs
-    if not os.path.exists(os.path.join(output_result_dir, "success")):
-        os.mkdir(os.path.join(output_result_dir, "success"))
-
-    # Save the fail misclassified malicious APKs
-    if not os.path.exists(os.path.join(output_result_dir, "fail")):
-        os.mkdir(os.path.join(output_result_dir, "fail"))
-
-    # Save the malicious APKs which cannnot be modified
-    if not os.path.exists(os.path.join(output_result_dir, "modification_crash")):
-        os.mkdir(os.path.join(output_result_dir, "modification_crash"))
+    # Create subdirectories for success, fail, and modification crash
+    subdirs_to_create = ['success', 'fail', 'modification_crash']
+    for subdir in subdirs_to_create:
+        os.makedirs(os.path.join(output_result_dir, subdir), exist_ok=True)
 
     return output_result_dir
 
@@ -198,7 +179,7 @@ def parse_args():
                    help="The creating process of the malware perturbation set.")
 
     # Choose the target android dataset
-    p.add_argument('--dataset', type=str, default="Androzoo",
+    p.add_argument('--dataset', type=str, default="Drebin",
                    help='The target malware dataset.')
 
     # Choose the target feature extraction method

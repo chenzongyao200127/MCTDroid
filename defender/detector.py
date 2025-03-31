@@ -23,74 +23,108 @@ class Detector:
         self.X = self.X_train = self.y_train = self.X_test = self.y_test = None
 
     def build_classifier(self, dataset, save=True):
+        """Build and train a classifier using the specified dataset"""
         X, X_train = self._extract_features(dataset)
         y = np.asarray(dataset.label)
-
-        if self.feature in {"drebin", "apigraph"}:
+        
+        # Handle vectorization for text-based features
+        if self.feature in ["drebin", "apigraph"]:
             X, X_train = self._handle_vectorizer(X, X_train)
-
+        else:
+            X = np.asarray(X)
+            
+        # Split dataset into training and testing sets
         self._split_dataset(X, y, dataset)
-
+        
+        # Load or train the classifier
         if os.path.exists(f"{self.saving_path}.clf"):
             self._load_model()
         else:
             self._train_classifier()
+            
             if save:
                 self.save_to_file()
 
     def _extract_features(self, dataset):
-        if self.feature == "drebin":
+        """
+        Extract features based on the selected feature type
+        """
+        X_train = None
+        
+        if self.feature == "malscan":
+            X = [np.asarray(apk.malscan_feature) for apk in dataset.total_set]
+        elif self.feature == "drebin":
             X = [apk.drebin_feature for apk in dataset.total_set]
-            X_train = [
-                dataset.total_set[train_idx].drebin_feature for train_idx in dataset.train_idxs]
+            X_train = [dataset.total_set[train_idx].drebin_feature for train_idx in dataset.train_idxs]
         elif self.feature == "mamadroid":
-            X = [np.asarray(apk.mamadroid_family_feature)
-                 for apk in dataset.total_set]
-            X_train = None
+            X = [np.asarray(apk.mamadroid_family_feature) for apk in dataset.total_set]
+        elif self.feature == "apigraph":
+            X = [apk.apigraph_feature for apk in dataset.total_set]
+            X_train = [dataset.total_set[train_idx].apigraph_feature for train_idx in dataset.train_idxs]
+        elif self.feature == "vae_fd":
+            X = [np.asarray(apk.vae_fd_feature) for apk in dataset.total_set]
         else:
-            raise ValueError("Unknown Feature Extraction Method")
+            raise ValueError(f"Unknown feature extraction method: {self.feature}")
+            
         return X, X_train
 
     def _handle_vectorizer(self, X, X_train):
-        if os.path.exists(f"{self.saving_path}.vec"):
-            logging.debug(blue(f'Loading model from {self.saving_path}.vec'))
-            with open(f"{self.saving_path}.vec", "rb") as f:
+        """Handle vectorization for text-based features"""
+        vec_path = f"{self.saving_path}.vec"
+        
+        if os.path.exists(vec_path):
+            logging.debug(blue(f'Loading vectorizer from {vec_path}'))
+            with open(vec_path, "rb") as f:
                 self.vec = pickle.load(f)
             X = self.vec.transform(X)
         else:
             self.vec = DictVectorizer()
             X_train = self.vec.fit_transform(X_train)
             X = self.vec.transform(X)
+            
         return X, X_train
 
     def _split_dataset(self, X, y, dataset):
-        self.X = np.asarray(X)
-        self.X_train = self.X[np.asarray(dataset.train_idxs)]
-        self.y_train = y[np.asarray(dataset.train_idxs)]
-        self.X_test = self.X[np.asarray(dataset.test_idxs)]
-        self.y_test = y[np.asarray(dataset.test_idxs)]
+        """Split the dataset into training and testing sets"""
+        train_idxs = np.asarray(dataset.train_idxs)
+        test_idxs = np.asarray(dataset.test_idxs)
+        
+        self.X = X
+        self.X_train = X[train_idxs]
+        self.y_train = y[train_idxs]
+        self.X_test = X[test_idxs]
+        self.y_test = y[test_idxs]
 
     def _load_model(self):
-        logging.debug(blue(f'Loading model from {self.saving_path}.clf'))
-        with open(f"{self.saving_path}.clf", "rb") as f:
+        """Load a pre-trained classifier from disk"""
+        model_path = f"{self.saving_path}.clf"
+        logging.debug(blue(f'Loading model from {model_path}'))
+        with open(model_path, "rb") as f:
             self.clf = pickle.load(f)
 
     def _train_classifier(self):
+        """Train a new classifier"""
         classifiers = {
             "svm": LinearSVC(C=1, verbose=True),
             "3nn": KNeighborsClassifier(n_neighbors=3),
             "mlp": MLP(input_dim=self.X_train[0].shape[-1], epochs=self.mlp_epochs),
-            "rf": RandomForestClassifier(max_depth=8, random_state=0)
+            "rf": RandomForestClassifier(max_depth=8, random_state=0),
         }
+        
         self.clf = classifiers.get(self.classifier)
         if self.clf is None:
-            raise ValueError("Unknown Classifier Type")
+            raise ValueError(f"Unknown classifier type: {self.classifier}")
+            
         self.clf.fit(self.X_train, self.y_train)
         logging.info(green("Training Finished! Start the next step"))
 
     def save_to_file(self):
+        """Save the trained model and vectorizer to disk"""
+        # Save classifier
         with open(f"{self.saving_path}.clf", "wb") as f:
             pickle.dump(self.clf, f, protocol=4)
-        if self.feature == "drebin":
+            
+        # Save vectorizer if needed
+        if self.feature in ["drebin", "apigraph"] and self.vec is not None:
             with open(f"{self.saving_path}.vec", "wb") as f:
                 pickle.dump(self.vec, f, protocol=4)
