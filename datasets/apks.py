@@ -151,10 +151,7 @@ class APKSET:
 
         # Calculate train/test split sizes
         train_benign_size = int(total_benign * train_ratio)
-        test_benign_size = total_benign - train_benign_size
-
         train_malicious_size = int(total_malicious * train_ratio)
-        test_malicious_size = total_malicious - train_malicious_size
 
         # Sample the datasets
         selected_benign = random.sample(benign_samples, total_benign)
@@ -180,6 +177,18 @@ class APKSET:
             sample) for sample in train_set]
         self.test_idxs = [self.total_set.index(sample) for sample in test_set]
         self.test_set = test_set
+
+        # log dataset information
+        logging.info(
+            f"Train set size: {len(train_set)}, Test set size: {len(test_set)}")
+        logging.info(
+            f"Train set benign: {len([s for s in train_set if s.label == 0])}, "
+            f"malicious: {len([s for s in train_set if s.label == 1])}"
+        )
+        logging.info(
+            f"Test set benign: {len([s for s in test_set if s.label == 0])}, "
+            f"malicious: {len([s for s in test_set if s.label == 1])}"
+        )
 
     def extract_the_feature(self, method):
         """Extract the training dataset feature"""
