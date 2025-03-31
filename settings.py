@@ -1,41 +1,40 @@
 import os
 
-class Config:
-    _project_path = '/disk2/chenzy/MCTDroid/'
+# Constants
+PROJECT_PATH = "/mnt/sdb2/czy/MCTDroid/"
+ANDROID_SDK_PATH = '/mnt/sdb2/andro_apk/android-sdk/'
+SOURCE_APK_PATH = '/mnt/sdb2/andro_apk/Drebin/Benign'
 
-    @classmethod
-    def _project(cls, base):
-        return os.path.join(cls._project_path, base)
 
-    saved_models = _project.__func__('model_results/models')
-    saved_features = _project.__func__('model_results/features')
-    meta_data = _project.__func__('meta_info/dataset/total_apks_data.json')
-    android_sdk = '/disk2/chenzy/android-sdk/'
-    tmp_dir = _project.__func__('tmp')
-    results_dir = _project.__func__('results')
-    source_apk_path = '/disk2/Androzoo/SelectedBenign'
-    slice_database = _project.__func__('slices_database')
-    resigner = _project.__func__('java-components/apk-signer.jar')
+def project(base):
+    return os.path.join(PROJECT_PATH, base)
 
-    # drebin
-    drebin_feature_extractor = _project.__func__('drebin-feature-extractor')
-    drebin_api_path = _project.__func__('drebin-feature-extractor/APIcalls.txt')
 
-    # mamadroid
-    family_list = _project.__func__('meta_info/mamadroid/families.txt')
-    package_list = _project.__func__('meta_info/mamadroid/packages.txt')
+config = {
+    'saved_models': project('model_results/models'),
+    'saved_features': project('model_results/features'),
+    'meta_data': project('meta_info/dataset/total_apks_data.json'),
+    'android_sdk': ANDROID_SDK_PATH,
+    'tmp_dir': project('/mnt/sdb2/andro_apk/tmp'),
+    'results_dir': project('results'),
+    'source_apk_path': SOURCE_APK_PATH,
+    'slice_database': project('slices_database'),
+    'resigner': project('java-components/apk-signer.jar'),
 
-    # Modifier
-    slicer = _project.__func__('java-components/slicer.jar')
-    manifest = _project.__func__('java-components/manifest.jar')
-    injector = _project.__func__('java-components/injector.jar')
+    'drebin_feature_extractor': project('drebin-feature-extractor'),
+    'drebin_api_path': project('drebin-feature-extractor/APIcalls.txt'),
 
-    # Misc
-    nproc_feature = 20
-    nproc_slicer = 10
-    nproc_attacker = 10
-    sign = False
-    extract_feature = False  # Extract the feature
-    serial = False  # Attack in serial
+    'family_list': project('meta_info/mamadroid/families.txt'),
+    'package_list': project('meta_info/mamadroid/packages.txt'),
 
-config = Config()
+    'slicer': project('java-components/slicer.jar'),
+    'manifest': project('java-components/manifest.jar'),
+    'injector': project('java-components/injector.jar'),
+
+    'nproc_feature': 30,
+    'nproc_slicer': 10,
+    'nproc_attacker': 10,
+    'sign': False,
+    'extract_feature': False,
+    'serial': False,
+}

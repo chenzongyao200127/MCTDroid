@@ -154,7 +154,8 @@ def copyIcon(sampleFile, unpackLocation, workingDir):
                                 stdout=subprocess.PIPE,
                                 stdin=subprocess.PIPE,
                                 stderr=subprocess.PIPE)
-    manifest = manifest.communicate(0)[0].decode("utf-8", "replace").split("\n")
+    manifest = manifest.communicate(0)[0].decode(
+        "utf-8", "replace").split("\n")
     for line in manifest:
         if "application:" in line:
             try:
@@ -224,7 +225,8 @@ def getActivities(sampleFile):
                 # print 'VEDIAMO', nextLine
                 nextLine = re.compile('[%s]' % re.escape(CC)).sub('', nextLine)
                 if (nextLine not in activities) and (nextLine != ""):
-                    activities.append(nextLine.encode('ascii', 'replace').decode())
+                    activities.append(nextLine.encode(
+                        'ascii', 'replace').decode())
                 else:
                     continue
             except:
@@ -242,7 +244,8 @@ def getFeatures(logFile, sampleFile):
                                    stdout=subprocess.PIPE,
                                    stdin=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
-    sampleInfos = sampleInfos.communicate()[0].decode("utf-8", "replace").split("\n")
+    sampleInfos = sampleInfos.communicate()[0].decode(
+        "utf-8", "replace").split("\n")
     log(logFile, 0, "application features", 0)
     for sampleInfo in sampleInfos:
         # use this to add features - ping
@@ -253,7 +256,8 @@ def getFeatures(logFile, sampleFile):
                                                                    sampleFeature)
             log(logFile, "Feature:", sampleFeature, 1)
             if (sampleFeature not in appFeatures) and (sampleFeature != ""):
-                appFeatures.append(sampleFeature.encode('ascii', 'replace').decode())
+                appFeatures.append(sampleFeature.encode(
+                    'ascii', 'replace').decode())
         else:
             continue
     return appFeatures
@@ -339,7 +343,8 @@ def getPermissions(logFile, sampleFile):
         stderr=subprocess.PIPE)
     # print 'into permissions'
     # print permissions.communicate(0)
-    permissions = permissions.communicate()[0].decode("utf-8", "replace").split("uses-permission: ")
+    permissions = permissions.communicate()[0].decode(
+        "utf-8", "replace").split("uses-permission: ")
     log(logFile, 0, "granted permissions", 0)
     i = 1
     while i < len(permissions):
@@ -370,7 +375,8 @@ def getProviders(logFile, sampleFile):
                 provider = re.compile('[%s]' % re.escape(CC)).sub('', provider)
                 log(logFile, "AndroidManifest", provider, 1)
                 if appProviders != "":
-                    appProviders.append(provider.encode('ascii', 'replace').decode())
+                    appProviders.append(provider.encode(
+                        'ascii', 'replace').decode())
             except:
                 continue
         else:
@@ -397,7 +403,8 @@ def getSampleInfo(logFile, sampleFile):
                                    stdout=subprocess.PIPE,
                                    stdin=subprocess.PIPE,
                                    stderr=subprocess.PIPE)
-    sampleInfos = sampleInfos.communicate()[0].decode("utf-8", "replace").split("\n")
+    sampleInfos = sampleInfos.communicate()[0].decode(
+        "utf-8", "replace").split("\n")
     i = 0
     while i < len(sampleInfos):
         sampleInfo = sampleInfos[i].strip()
@@ -410,7 +417,8 @@ def getSampleInfo(logFile, sampleFile):
             if i == (len(sampleInfos) - 1):
                 sampleLable = "NO_LABEL"
                 log(logFile, "Label:", "no application label specified", 1)
-                appInfos.append(sampleLable.encode('ascii', 'replace').decode())
+                appInfos.append(sampleLable.encode(
+                    'ascii', 'replace').decode())
                 break
             else:
                 i = i + 1
