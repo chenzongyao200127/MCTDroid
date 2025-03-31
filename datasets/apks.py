@@ -117,14 +117,14 @@ class APKSET:
             )
             self.label.append(int(sample['label']))
 
-    def split_the_dataset(self, train_ratio=0.8):
+    def split_the_dataset(self, train_ratio=0.8, benign_ratio=0.8, seed=42):
         """
-        Split the dataset into training and testing sets.
-
-        Both training and testing sets maintain a 4:1 ratio of benign to malicious samples.
+        Split the dataset into training and testing sets while maintaining a specified benign-to-malicious ratio.
 
         Args:
-            train_ratio: Ratio of training data to total data (default: 0.8)
+            train_ratio (float): Proportion of the dataset to use for training (default: 0.8).
+            benign_ratio (float): Desired ratio of benign to total samples (default: 0.8).
+            seed (int): Random seed for reproducibility (default: 42).
         """
         # Separate benign and malicious samples
         benign_samples = [
@@ -132,63 +132,42 @@ class APKSET:
         malicious_samples = [
             sample for sample in self.total_set if sample.label == 1]
 
-        # Set seed for reproducibility
-        random.seed(42)
+        random.seed(seed)
 
-        # 4:1 ratio means 80% benign, 20% malicious
-        benign_ratio = 0.8
-
-        # Calculate maximum samples we can use while maintaining the benign:malicious ratio
-        total_usable = min(
+        max_usable_samples = min(
             len(benign_samples) / benign_ratio,
             len(malicious_samples) / (1 - benign_ratio)
         )
-        total_usable = int(total_usable)
+        max_usable_samples = int(max_usable_samples)
 
-        # Calculate exact numbers for each category
-        total_benign = int(total_usable * benign_ratio)
-        total_malicious = total_usable - total_benign
+        num_benign = int(max_usable_samples * benign_ratio)
+        num_malicious = max_usable_samples - num_benign
 
-        # Calculate train/test split sizes
-        train_benign_size = int(total_benign * train_ratio)
-        train_malicious_size = int(total_malicious * train_ratio)
+        selected_benign = random.sample(benign_samples, num_benign)
+        selected_malicious = random.sample(malicious_samples, num_malicious)
 
-        # Sample the datasets
-        selected_benign = random.sample(benign_samples, total_benign)
-        selected_malicious = random.sample(
-            malicious_samples, int(total_malicious))
+        train_benign_size = int(num_benign * train_ratio)
+        train_malicious_size = int(num_malicious * train_ratio)
 
-        # Split into train and test sets
-        train_benign = selected_benign[:train_benign_size]
-        test_benign = selected_benign[train_benign_size:]
-
-        train_malicious = selected_malicious[:train_malicious_size]
-        test_malicious = selected_malicious[train_malicious_size:]
-
-        # Combine and shuffle
-        train_set = train_benign + train_malicious
-        test_set = test_benign + test_malicious
+        train_set = selected_benign[:train_benign_size] + \
+            selected_malicious[:train_malicious_size]
+        test_set = selected_benign[train_benign_size:] + \
+            selected_malicious[train_malicious_size:]
 
         random.shuffle(train_set)
         random.shuffle(test_set)
 
-        # Store results
         self.train_idxs = [self.total_set.index(
             sample) for sample in train_set]
         self.test_idxs = [self.total_set.index(sample) for sample in test_set]
         self.test_set = test_set
 
-        # log dataset information
         logging.info(
             f"Train set size: {len(train_set)}, Test set size: {len(test_set)}")
-        logging.info(
-            f"Train set benign: {len([s for s in train_set if s.label == 0])}, "
-            f"malicious: {len([s for s in train_set if s.label == 1])}"
-        )
-        logging.info(
-            f"Test set benign: {len([s for s in test_set if s.label == 0])}, "
-            f"malicious: {len([s for s in test_set if s.label == 1])}"
-        )
+        logging.info(f"Train set - benign: {len([s for s in train_set if s.label == 0])}, "
+                     f"malicious: {len([s for s in train_set if s.label == 1])}")
+        logging.info(f"Test set - benign: {len([s for s in test_set if s.label == 0])}, "
+                     f"malicious: {len([s for s in test_set if s.label == 1])}")
 
     def extract_the_feature(self, method):
         """Extract the training dataset feature"""
