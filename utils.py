@@ -1,5 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 import json
 import hashlib
 import os
@@ -26,7 +27,21 @@ def configure_logging(run_tag, debug=True):
     fmt = f'[ {run_tag} | %(asctime)s | %(name)s | %(processName)s | %(levelname)s ] %(message)s'
     datefmt = '%Y-%m-%d | %H:%M:%S'
     level = logging.DEBUG if debug else 100  # 100 == no logging
-    logging.basicConfig(level=level, format=fmt, datefmt=datefmt)
+
+    # Create a log file with the current date and time
+    log_filename = f"{run_tag}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    log_file_path = os.path.join(os.getcwd(), log_filename)
+
+    # Configure logging to both console and file
+    logging.basicConfig(
+        level=level,
+        format=fmt,
+        datefmt=datefmt,
+        handlers=[
+            logging.StreamHandler(sys.stdout),  # Log to console
+            logging.FileHandler(log_file_path)  # Log to file
+        ]
+    )
 
 
 def run_java_component(jar, args, cwd, timeout=None):
@@ -90,6 +105,7 @@ def calculate_base_metrics(model, y_pred, y_scores):
         }
     }
 
+
 def copy_and_rename_apks_to_sha256(source_directory, destination_directory):
     """Copy APK files from source directory to destination directory and rename them to their SHA256 hash."""
     for filename in os.listdir(source_directory):
@@ -97,7 +113,8 @@ def copy_and_rename_apks_to_sha256(source_directory, destination_directory):
             source_file_path = os.path.join(source_directory, filename)
             # Calculate SHA256 hash of the filename only (which may contain package name)
             sha256 = calculate_sha256(filename)
-            destination_file_path = os.path.join(destination_directory, sha256 + ".apk")
+            destination_file_path = os.path.join(
+                destination_directory, sha256 + ".apk")
             # Copy and rename the file
             shutil.copy(source_file_path, destination_file_path)
             print(f"Copied and renamed {filename} to {sha256}.apk")
@@ -109,6 +126,7 @@ def calculate_sha256(filename):
     sha256_hash.update(filename.encode('utf-8'))
     return sha256_hash.hexdigest()
 
+
 def rename_and_move_apks_to_sha256(source_directory, destination_directory):
     """Rename APK files to their SHA256 hash of the original filename and move them to a new directory."""
     for filename in os.listdir(source_directory):
@@ -116,21 +134,24 @@ def rename_and_move_apks_to_sha256(source_directory, destination_directory):
             source_file_path = os.path.join(source_directory, filename)
             # Calculate SHA256 hash of the filename only (which may contain package name)
             sha256 = calculate_sha256(filename)
-            destination_file_path = os.path.join(destination_directory, sha256 + ".apk")
+            destination_file_path = os.path.join(
+                destination_directory, sha256 + ".apk")
             # Move and rename the file
             shutil.move(source_file_path, destination_file_path)
 
 # rename_and_move_apks_to_sha256("/mnt/sdb2/andro_apk/Drebin/Benign", "/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS")
 
 # Process a single APK file and return its metadata
+
+
 def process_file(filepath, label):
     """
     Process a single APK file and return its metadata.
-    
+
     Args:
         filepath: Path to the APK file
         label: Label for the APK (0 for benign, 1 for malware)
-        
+
     Returns:
         dict: Metadata for the APK file
     """
@@ -140,7 +161,7 @@ def process_file(filepath, label):
     filename_without_apk = filename.replace('.apk', '')
     # Calculate SHA256 hash of the filename (not the file content)
     file_hash = calculate_sha256(filename_without_apk)
-    
+
     return {
         "sha256": file_hash,
         "name": filename_without_apk,
@@ -148,59 +169,60 @@ def process_file(filepath, label):
         "location": filepath  # Absolute path to the file
     }
 
+
 def create_json_data(folder_path, label):
     """
     Process APK files in parallel to create JSON metadata.
-    
+
     Args:
         folder_path: Path to folder containing APK files
         label: Label for the APKs (0 for benign, 1 for malware)
-        
+
     Returns:
         list: List of metadata dictionaries for each APK
     """
     # Find all APK files in the directory
-    apk_files = [os.path.join(folder_path, filename) 
-                for filename in os.listdir(folder_path) 
-                if filename.endswith('.apk')]
-    
+    apk_files = [os.path.join(folder_path, filename)
+                 for filename in os.listdir(folder_path)
+                 if filename.endswith('.apk')]
+
     # Use multiprocessing with a reasonable number of workers
     num_workers = min(mp.cpu_count(), config['nproc_feature'])
-    
+
     # Process files in parallel batches
     with mp.Pool(processes=num_workers) as pool:
         json_data = pool.starmap(
-            process_file, 
+            process_file,
             [(filepath, label) for filepath in apk_files]
         )
-    
+
     return json_data
 
 
 def generate_metadata_json(benign_folder, malware_folder, output_path=None):
     """
     Generate metadata JSON file from benign and malware APK folders.
-    
+
     Args:
         benign_folder: Path to folder containing benign APK files
         malware_folder: Path to folder containing malware APK files
         output_path: Path to save the JSON file (defaults to config['meta_data'])
-    
+
     Returns:
         list: Combined list of metadata for all APKs
     """
     # Create JSON structures
     benign_data = create_json_data(benign_folder, 0)
     malware_data = create_json_data(malware_folder, 1)
-    
+
     # Merge both datasets
     all_data = benign_data + malware_data
-    
+
     # Save to JSON file
     output_file = output_path or config['meta_data']
     with open(output_file, "w") as json_file:
         json.dump(all_data, json_file, indent=4)
-    
+
     return all_data
 
 # generate_metadata_json("/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS", "/mnt/sdb2/andro_apk/Drebin/Malware")

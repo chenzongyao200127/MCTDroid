@@ -3,7 +3,7 @@
 # Common parameters
 PYTHON_CMD="python main.py"
 COMMON_PARAMS="-N 100 --attacker MCTDroid --MCTS_attack"
-P_VALUES=(10 50 100)
+P_VALUES=(10 20 30 40 50 100)
 
 # Function to run experiments for a given configuration
 run_experiments() {

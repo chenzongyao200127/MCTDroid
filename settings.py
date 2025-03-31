@@ -25,31 +25,39 @@ config = {
     'results_dir': project('results'),
     'slice_database': project('slices_database'),
     'tmp_dir': Path('/mnt/sdb2/andro_apk/tmp'),
-    
+
     # Source paths
     'meta_data': project(f'{META_INFO}/dataset/dataset_meta_data.json'),
     'android_sdk': ANDROID_SDK_PATH,
     'source_apk_path': SOURCE_APK_PATH,
-    
+
     # Java components
     'resigner': project(f'{JAVA_COMPONENTS}/apk-signer.jar'),
     'slicer': project(f'{JAVA_COMPONENTS}/slicer.jar'),
     'manifest': project(f'{JAVA_COMPONENTS}/manifest.jar'),
     'injector': project(f'{JAVA_COMPONENTS}/injector.jar'),
-    
+
     # Drebin feature extraction
     'drebin_feature_extractor': project('drebin-feature-extractor'),
     'drebin_api_path': project('drebin-feature-extractor/APIcalls.txt'),
-    
+
     # Mamadroid paths
     'family_list': project(f'{META_INFO}/mamadroid/families.txt'),
     'package_list': project(f'{META_INFO}/mamadroid/packages.txt'),
-    
+
+    # apigraph clustering info
+    "clustering_info": project(f'{META_INFO}/apigraph/method_cluster_mapping_2000.pkl'),
+
+    # vae-fd
+    "vae_permissions": project(f'{META_INFO}/vae/list_total_permissions.txt'),
+    "vae_actions": project(f'{META_INFO}/vae/list_total_actions.txt'),
+    "vae_apis": project(f'{META_INFO}/vae/list_total_apis.txt'),
+
     # Process configuration
-    'nproc_feature': 40,
+    'nproc_feature': 50,
     'nproc_slicer': 10,
     'nproc_attacker': 10,
-    
+
     # Flags
     'sign': False,
     'extract_feature': True,

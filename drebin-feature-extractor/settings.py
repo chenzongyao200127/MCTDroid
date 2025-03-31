@@ -34,8 +34,8 @@
 # AAPT = "/usr/local/bin/aapt"
 
 AAPT = "/usr/bin/aapt"  # location of the aapt binary
-EMPTYICON = "/disk2/chenzy/MCTDroid/drebin-feature-extractor/empty.png"
-APICALLS = "/disk2/chenzy/MCTDroid/drebin-feature-extractor/APIcalls.txt"
+EMPTYICON = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/empty.png"
+APICALLS = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/APIcalls.txt"
 # location of the baksmali.jar file
-BACKSMALI = "/disk2/chenzy/MCTDroid/drebin-feature-extractor/baksmali-2.0.3.jar"
-ADSLIBS = "/disk2/chenzy/MCTDroid/drebin-feature-extractor/ads.csv"
+BACKSMALI = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/baksmali-2.0.3.jar"
+ADSLIBS = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/ads.csv"

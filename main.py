@@ -18,6 +18,7 @@ from attacker.mcts import MCTS_attacker
 from attacker.adz import AdvDroidZero_attacker
 from attacker.ra import Random_attacker
 from androguard.core.androconf import show_logging
+from datetime import datetime
 
 random.seed(42)
 
@@ -25,6 +26,7 @@ random.seed(42)
 def main():
     args = parse_args()
     utils.configure_logging(args.run_tag, args.debug)
+
     output_result_dir = prepare_res_save_dir(args)
 
     # STAGE - Building the Malware Detection Methods
@@ -122,6 +124,10 @@ def perform_attacks(args, tp_apks, model, output_result_dir):
         perform_attack_stage(Random_attacker, 'Random Attack', tp_apks,
                              model, args.query_budget, output_result_dir, config)
 
+    # TODO: Add the attack stage for the new attack method here
+    if args.NEW_ATTACK:
+        unimplemented_attack_function = None  # Replace with the actual attack function
+
 
 # Define a general function to handle the attack stage
 def perform_attack_stage(attack_function, attack_name, apks, model, query_budget, output_result_dir, config):
@@ -152,7 +158,8 @@ def prepare_res_save_dir(args):
 
     # Construct the output result directory
     output_result_dir = os.path.join(config['results_dir'], args.dataset,
-                                     "_".join([args.detection, args.classifier]),
+                                     "_".join(
+                                         [args.detection, args.classifier]),
                                      "_".join([args.attacker, str(args.attack_num), str(args.query_budget)]))
     # Ensure the output result directory exists, removing and recreating if necessary
     if os.path.exists(output_result_dir):
@@ -202,7 +209,7 @@ def parse_args():
     p.add_argument('--RA_attack', action='store_true',
                    help='The Random Attack.')
     p.add_argument('-N', '--attack_num', type=int,
-                   default=100, help='The query budget.')
+                   default=100, help='attack apk numbers.')
     p.add_argument('-P', '--query_budget', type=int,
                    default=100, help='The query budget.')
 

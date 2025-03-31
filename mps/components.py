@@ -63,37 +63,43 @@ def get_candidate_benign_components(sampled_apk_num=100):
     """Extract and save candidate benign components from sampled APKs."""
     show_logging(logging.INFO)
 
+    # Load metadata and filter benign APK paths
     with open(config['meta_data'], "r") as f:
-        meta = json.load(f)
+        benign_apk_paths = [
+            data['location'] for data in json.load(f) if data['label'] == 0
+        ]
+    benign_apk_paths = random.sample(
+        benign_apk_paths, min(len(benign_apk_paths), sampled_apk_num)
+    )
 
-    benign_apk_paths = [data['location']
-                        for data in meta if data['label'] == 0]
-    benign_apk_paths = random.sample(benign_apk_paths, min(
-        len(benign_apk_paths), sampled_apk_num))
-
+    # Initialize component data structures
     components = {"services": set(), "providers": set(), "receivers": set()}
     components_apk_map = {key: {} for key in components}
 
+    # Extract components from APKs
     for apk in tqdm(benign_apk_paths, desc="Extracting APK Components"):
         res_data = extract_apk_components(apk)
         if not res_data:
             continue
         for component_type, component_classes in res_data.items():
-            for component_class in component_classes:
-                if is_system_class(component_class):
-                    continue
+            for component_class in filter(lambda c: not is_system_class(c), component_classes):
                 components[component_type].add(component_class)
                 components_apk_map[component_type].setdefault(component_class, []).append(
                     os.path.basename(apk)[:-4]
                 )
 
+    # Save extracted components to file
     os.makedirs("./slices_candidates", exist_ok=True)
     with open("./slices_candidates/candidates.json", "w") as f:
         json.dump(components_apk_map, f, indent=4)
 
-    print(f"Sampled APKs: {sampled_apk_num}, Services: {len(components['services'])}, "
-          f"Providers: {len(components['providers'])}, Receivers: {len(components['receivers'])}")
-
+    # Log summary and prepare slicing tasks
+    logging.info(
+        f"Sampled APKs: {sampled_apk_num}, "
+        f"Services: {len(components['services'])}, "
+        f"Providers: {len(components['providers'])}, "
+        f"Receivers: {len(components['receivers'])}"
+    )
     prepare_slicing_tasks(components_apk_map)
 
 
