@@ -2,14 +2,18 @@
 
 # Malware Detection Method Building Stage
 
-# models: apigraph, drebin, mamadroid, fd-vae
-# classifiers: rf, svm, 3nn, mlp
+models=("drebin" "apigraph" "mamadroid" "fd-vae")
+classifiers=("svm" "dl" "rf" "3nn" "mlp")
 
-models=("apigraph" "drebin" "mamadroid" "fd-vae")
-classifiers=("rf" "svm" "3nn" "mlp")
+declare -A model_classifier_map=(
+    ["drebin"]="svm dl"
+    ["apigraph"]="svm"
+    ["mamadroid"]="rf 3nn"
+    ["fd-vae"]="mlp"
+)
 
 for model in "${models[@]}"; do
-    for classifier in "${classifiers[@]}"; do
+    for classifier in ${model_classifier_map[$model]}; do
         python main.py -R "${model}-feature" \
             --train_model \
             -D \

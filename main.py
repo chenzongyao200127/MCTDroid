@@ -16,7 +16,7 @@ from defender.detector import Detector
 from mps.components import get_candidate_benign_components
 from attacker.mcts import MCTS_attacker
 from attacker.adz import AdvDroidZero_attacker
-from attacker.ra import Random_attacker
+from attacker.ra import random_select_attacker
 from androguard.core.androconf import show_logging
 from datetime import datetime
 
@@ -121,12 +121,16 @@ def perform_attacks(args, tp_apks, model, output_result_dir):
                              tp_apks, model, args.query_budget, output_result_dir, config)
 
     if args.RA_attack:
-        perform_attack_stage(Random_attacker, 'Random Attack', tp_apks,
+        perform_attack_stage(random_select_attacker, 'Random Attack', tp_apks,
                              model, args.query_budget, output_result_dir, config)
 
-    # TODO: Add the attack stage for the new attack method here
-    if args.NEW_ATTACK:
-        unimplemented_attack_function = None  # Replace with the actual attack function
+    if args.HRAT_attack:
+        perform_attack_stage(HRAT_attacker, 'Structural Attack against Graph Based Android Malware Detectors',
+                             tp_apks, model, args.query_budget, output_result_dir, config)
+
+    if args.OB_attack:
+        perform_attack_stage(OB_attacker, 'Obfuscation Attack using Obfuscapk',
+                             tp_apks, model, args.query_budget, output_result_dir, config)
 
 
 # Define a general function to handle the attack stage
@@ -206,8 +210,13 @@ def parse_args():
                    help='The Monte-Carlo Tree Search Attack.')
     p.add_argument('--ADZ_attack', action='store_true',
                    help='The AdvDroidZero Attack.')
-    p.add_argument('--RA_attack', action='store_true',
-                   help='The Random Attack.')
+    p.add_argument('--RSA_attack', action='store_true',
+                   help='The Random Select Attack.')
+    p.add_argument('--HRAT_attack', action='store_true',
+                   help='Structural Attack against Graph Based Android Malware Detectors.')
+    p.add_argument('--OB_attack', action='store_true',
+                   help='The Obfuscation Attack, useing Obfuscapk')
+
     p.add_argument('-N', '--attack_num', type=int,
                    default=100, help='attack apk numbers.')
     p.add_argument('-P', '--query_budget', type=int,
