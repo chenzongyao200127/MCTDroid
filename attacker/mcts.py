@@ -26,8 +26,6 @@ MODIFICATION_CRASH_STATUS = {'True': 0, 'False': 1, 'Unknown': 2}
 STRATEGIES = ['service', 'receiver', 'permission',
               'intent', 'uses-features', 'provider']
 
-# Data classes for structured data
-
 
 @dataclass
 class APKInfo:
@@ -149,8 +147,6 @@ def predict_apk(model, location: str) -> Tuple[int, float]:
         else model.clf.predict_proba(victim_feature)[0][1]
     )
     return predict_label[0], predict_confidence
-
-# Classes
 
 
 class APKStateNode:

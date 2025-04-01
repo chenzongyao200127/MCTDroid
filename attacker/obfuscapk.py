@@ -96,6 +96,8 @@ def obfuscation_attack(apk, model, query_budget, output_result_dir):
     # Attempt obfuscation attack within query budget
     for attempt_idx in range(query_budget):
         # Define Obfuscapk obfuscation parameters
+        # make sure the docker image is installed
+        # ref: https://github.com/ClaudiuGeorgiu/Obfuscapk
         obfuscation_cmd = [
             "docker", "run", "--rm", "-it",
             "-u", f"{os.getuid()}:{os.getgid()}",
@@ -146,6 +148,8 @@ def obfuscation_attack(apk, model, query_budget, output_result_dir):
                     tmp_dir, obfuscated_apk_path if success else copy_apk_path,
                     start_time, attempt_idx)
 
+# TODO: add more features and detectors
+
 
 def extract_victim_feature(apk, model):
     if model.feature == "drebin":
@@ -153,6 +157,8 @@ def extract_victim_feature(apk, model):
     elif model.feature == "mamadroid":
         return np.expand_dims(apk.mamadroid_family_feature, axis=0)
     return None
+
+# TODO: add more features and detectors
 
 
 def get_model_predictions(model, victim_feature):

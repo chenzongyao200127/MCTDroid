@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Malware Detection Method Building Stage
+# if you want to train the models, please make sure config['extract_feature'] is set to False
 
 models=("drebin" "apigraph" "mamadroid" "fd-vae")
 classifiers=("svm" "dl" "rf" "3nn" "mlp")

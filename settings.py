@@ -60,6 +60,6 @@ config = {
 
     # Flags
     'sign': False,
-    'extract_feature': True,
+    'extract_feature': False,  # only when the feature extractor is not in the pipeline
     'serial': False,
 }
