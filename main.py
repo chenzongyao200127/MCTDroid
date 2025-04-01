@@ -1,6 +1,7 @@
 import random
 import argparse
 import os
+from attacker.obfuscapk import obfuscation_attack
 import utils
 import shutil
 import logging
@@ -90,7 +91,7 @@ def build_and_test_model(args, dataset):
 
 
 def test_model(args, model):
-    if args.classifier in ["svm", "mlp", "rf", "3nn"]:
+    if args.classifier in ["svm", "mlp", "rf", "3nn", "fd-vae-mlp"]:
         y_pred = model.clf.predict(model.X_test)
         y_scores = (model.clf.decision_function(model.X_test)
                     if args.classifier == "svm" else model.clf.predict_proba(model.X_test))
@@ -120,7 +121,7 @@ def perform_attacks(args, tp_apks, model, output_result_dir):
         perform_attack_stage(MCTS_attacker, 'Monte-Carlo Tree Search Attack',
                              tp_apks, model, args.query_budget, output_result_dir, config)
 
-    if args.RA_attack:
+    if args.RSA_attack:
         perform_attack_stage(random_select_attacker, 'Random Attack', tp_apks,
                              model, args.query_budget, output_result_dir, config)
 
@@ -129,7 +130,7 @@ def perform_attacks(args, tp_apks, model, output_result_dir):
                              tp_apks, model, args.query_budget, output_result_dir, config)
 
     if args.OB_attack:
-        perform_attack_stage(OB_attacker, 'Obfuscation Attack using Obfuscapk',
+        perform_attack_stage(obfuscation_attack, 'Obfuscation Attack using Obfuscapk',
                              tp_apks, model, args.query_budget, output_result_dir, config)
 
 
@@ -156,6 +157,8 @@ def prepare_res_save_dir(args):
         os.path.join(config['saved_features'], 'drebin_total'),
         os.path.join(config['saved_features'], 'mamadroid'),
         os.path.join(config['saved_features'], 'mamadroid_total'),
+        os.path.join(config['saved_features'], 'fd-vae'),
+        os.path.join(config['saved_features'], 'fd-vae_total'),
     ]
     for dir_path in dirs_to_create:
         os.makedirs(dir_path, exist_ok=True)

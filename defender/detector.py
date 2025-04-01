@@ -1,56 +1,38 @@
 import os
-import numpy as np
-import pickle
 import logging
-from sklearn.feature_extraction import DictVectorizer
+import pdb
+
+from utils import blue, green
+import pickle
 from sklearn.svm import LinearSVC
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
-from utils import blue, green
+from lib.vae import FD_VAE_MLP
 from lib.mlp import MLP
+import numpy as np
 
 
 class Detector:
     def __init__(self, name, saving_path, feature, classifier):
-        self.name = f"{name}.model"
+        self.name = name + ".model"
         self.mlp_epochs = 1
-        self.saving_path = os.path.join(
-            saving_path, f"{self.name}_{self.mlp_epochs}" if classifier == "mlp" else self.name)
+        self.saving_path = os.path.join(saving_path, self.name + "_" + str(
+            self.mlp_epochs)) if classifier == "mlp" else os.path.join(saving_path,
+                                                                       self.name)
         self.feature = feature
         self.classifier = classifier
         self.clf = None
         self.vec = None
-        self.X = self.X_train = self.y_train = self.X_test = self.y_test = None
+        self.X = None
+        self.X_train = None
+        self.y_train = None
+        self.X_test = None
+        self.y_test = None
 
     def build_classifier(self, dataset, save=True):
-        """Build and train a classifier using the specified dataset"""
-        X, X_train = self._extract_features(dataset)
-        y = np.asarray(dataset.label)
-
-        # Handle vectorization for text-based features
-        if self.feature in ["drebin", "apigraph"]:
-            X, X_train = self._handle_vectorizer(X, X_train)
-        else:
-            X = np.asarray(X)
-
-        # Split dataset into training and testing sets
-        self._split_dataset(X, y, dataset)
-
-        # Load or train the classifier
-        if os.path.exists(f"{self.saving_path}.clf"):
-            self._load_model()
-        else:
-            self._train_classifier()
-
-            if save:
-                self.save_to_file()
-
-    def _extract_features(self, dataset):
-        """
-        Extract features based on the selected feature type
-        """
-        X_train = None
-
+        X = None
         if self.feature == "malscan":
             X = [np.asarray(apk.malscan_feature) for apk in dataset.total_set]
         elif self.feature == "drebin":
@@ -64,71 +46,65 @@ class Detector:
             X = [apk.apigraph_feature for apk in dataset.total_set]
             X_train = [
                 dataset.total_set[train_idx].apigraph_feature for train_idx in dataset.train_idxs]
-        elif self.feature == "vae_fd":
+        elif self.feature == "fd-vae":
             X = [np.asarray(apk.vae_fd_feature) for apk in dataset.total_set]
-        else:
-            raise ValueError(
-                f"Unknown feature extraction method: {self.feature}")
 
-        return X, X_train
+        if X is None:
+            raise Exception("Unknown Feature Extraction Method")
 
-    def _handle_vectorizer(self, X, X_train):
-        """Handle vectorization for text-based features"""
-        vec_path = f"{self.saving_path}.vec"
-
-        if os.path.exists(vec_path):
-            logging.debug(blue(f'Loading vectorizer from {vec_path}'))
-            with open(vec_path, "rb") as f:
-                self.vec = pickle.load(f)
-            X = self.vec.transform(X)
-        else:
-            self.vec = DictVectorizer()
-            X_train = self.vec.fit_transform(X_train)
-            X = self.vec.transform(X)
-
-        return X, X_train
-
-    def _split_dataset(self, X, y, dataset):
-        """Split the dataset into training and testing sets"""
-        train_idxs = np.asarray(dataset.train_idxs)
-        test_idxs = np.asarray(dataset.test_idxs)
+        y = np.asarray(dataset.label)
+        if self.feature == "drebin" or self.feature == "apigraph":
+            if os.path.exists(self.saving_path + ".vec"):
+                logging.debug(
+                    blue('Loading model from {}...'.format(self.saving_path + ".vec")))
+                with open(self.saving_path + ".vec", "rb") as f:
+                    self.vec = pickle.load(f)
+                X = self.vec.transform(X)
+            else:
+                self.vec = DictVectorizer()
+                X_train = self.vec.fit_transform(X_train)
+                X = self.vec.transform(X)
+        elif self.feature == "malscan" or self.feature == "mamadroid" or self.feature == "fd-vae":
+            X = np.asarray(X)
 
         self.X = X
-        self.X_train = X[train_idxs]
-        self.y_train = y[train_idxs]
-        self.X_test = X[test_idxs]
-        self.y_test = y[test_idxs]
+        self.X_train = X[np.asarray(dataset.train_idxs)]
+        self.y_train = y[np.asarray(dataset.train_idxs)]
+        self.X_test = X[np.asarray(dataset.test_idxs)]
+        self.y_test = y[np.asarray(dataset.test_idxs)]
 
-    def _load_model(self):
-        """Load a pre-trained classifier from disk"""
-        model_path = f"{self.saving_path}.clf"
-        logging.debug(blue(f'Loading model from {model_path}'))
-        with open(model_path, "rb") as f:
-            self.clf = pickle.load(f)
+        if os.path.exists(self.saving_path + ".clf"):
+            logging.debug(
+                blue('Loading model from {}...'.format(self.saving_path + ".clf")))
+            with open(self.saving_path + ".clf", "rb") as f:
+                self.clf = pickle.load(f)
+        else:
+            if self.classifier == "svm":
+                self.clf = LinearSVC(C=1, verbose=True)
+            elif self.classifier == "3nn":
+                self.clf = KNeighborsClassifier(n_neighbors=3)
+            elif self.classifier == 'mlp':
+                # self.clf = MLPClassifier()
+                self.clf = MLP(
+                    input_dim=self.X_train[0].shape[-1], epochs=self.mlp_epochs)
+            elif self.classifier == "rf":
+                self.clf = RandomForestClassifier(max_depth=8, random_state=0)
+            elif self.classifier == "fd-vae-mlp":
+                self.clf = FD_VAE_MLP()
 
-    def _train_classifier(self):
-        """Train a new classifier"""
-        classifiers = {
-            "svm": LinearSVC(C=1, verbose=True),
-            "3nn": KNeighborsClassifier(n_neighbors=3),
-            "mlp": MLP(input_dim=self.X_train[0].shape[-1], epochs=self.mlp_epochs),
-            "rf": RandomForestClassifier(max_depth=8, random_state=0),
-        }
+            assert self.clf is not None
 
-        self.clf = classifiers.get(self.classifier)
-        if self.clf is None:
-            raise ValueError(f"Unknown classifier type: {self.classifier}")
+            self.clf.fit(self.X_train, self.y_train)
+            logging.info(green("Training Finished! Start the next step"))
 
-        self.clf.fit(self.X_train, self.y_train)
-        logging.info(green("Training Finished! Start the next step"))
+        if save and not os.path.exists(self.saving_path + ".clf"):
+            self.save_to_file()
 
     def save_to_file(self):
-        """Save the trained model and vectorizer to disk"""
-        # Save classifier
-        with open(f"{self.saving_path}.clf", "wb") as f:
+
+        with open(self.saving_path + ".clf", "wb") as f:
             pickle.dump(self.clf, f, protocol=4)
 
-        # Save vectorizer if needed
-        if self.feature in ["drebin", "apigraph"] and self.vec is not None:
-            with open(f"{self.saving_path}.vec", "wb") as f:
+        if self.feature == "drebin" or self.feature == "apigraph":
+            with open(self.saving_path + ".vec", "wb") as f:
                 pickle.dump(self.vec, f, protocol=4)

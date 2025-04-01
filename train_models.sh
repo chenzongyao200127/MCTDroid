@@ -4,22 +4,23 @@
 # if you want to train the models, please make sure config['extract_feature'] is set to False
 
 models=("drebin" "apigraph" "mamadroid" "fd-vae")
-classifiers=("svm" "dl" "rf" "3nn" "mlp")
 
 declare -A model_classifier_map=(
-    ["drebin"]="svm dl"
+    ["drebin"]="svm mlp"
     ["apigraph"]="svm"
     ["mamadroid"]="rf 3nn"
-    ["fd-vae"]="mlp"
+    ["fd-vae"]="fd-vae-mlp"
 )
 
-for model in "${models[@]}"; do
+for model in "${!model_classifier_map[@]}"; do
     for classifier in ${model_classifier_map[$model]}; do
-        python main.py -R "${model}-feature" \
+        if ! python main.py -R "${model}-${classifier}" \
             --train_model \
             -D \
             --detection "$model" \
             --classifier "$classifier" \
-            --dataset "Drebin" || echo "Task failed for model: $model, classifier: $classifier. Continuing..."
+            --dataset "Drebin"; then
+            echo "Task failed for model: $model, classifier: $classifier. Continuing..."
+        fi
     done
 done

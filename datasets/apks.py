@@ -35,7 +35,7 @@ class APK:
         self.mamadroid_feature_path = os.path.join(
             features_dir, 'mamadroid', f"{self.name}.npz")
         self.vae_fd_feature_path = os.path.join(
-            features_dir, 'vae_fd', f"{self.name}.npz")
+            features_dir, 'fd-vae', f"{self.name}.npz")
 
         # Initialize feature containers
         self.drebin_feature = None
@@ -171,7 +171,7 @@ class APKSET:
 
     def extract_the_feature(self, method):
         """Extract the training dataset feature"""
-        if method == "mamadroid" or method == "vae_fd":
+        if method == "mamadroid" or method == "fd-vae":
             if config['extract_feature']:
                 show_logging(logging.INFO)
 
@@ -186,7 +186,7 @@ class APKSET:
             elif method == "mamadroid":
                 if not os.path.exists(apk.mamadroid_feature_path):
                     unprocessed_apk_set.append(apk)
-            elif method == "vae_fd":
+            elif method == "fd-vae":
                 if not os.path.exists(apk.vae_fd_feature_path):
                     unprocessed_apk_set.append(apk)
 
@@ -238,7 +238,7 @@ class APKSET:
         elif method == "apigraph":
             for apk in tqdm(self.total_set):
                 apk.apigraph_feature = total_feature[apk.name + ".json"]
-        elif method == "vae_fd":
+        elif method == "fd-vae":
             for apk in tqdm(self.total_set):
                 apk.vae_fd_feature = total_feature[apk.name + ".npz"]
 
@@ -251,5 +251,5 @@ def get_feature_wrapper(apk, method):
         apk.get_mamadroid_feature()
     elif method == "apigraph":
         apk.get_apigraph_feature()
-    elif method == "vae_fd":
+    elif method == "fd-vae":
         apk.get_vae_fd_feature()

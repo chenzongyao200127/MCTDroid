@@ -4,7 +4,7 @@ from pathlib import Path
 # Constants
 PROJECT_PATH = Path("/mnt/sdb2/czy/MCTDroid/")
 ANDROID_SDK_PATH = Path('/mnt/sdb2/andro_apk/android-sdk/')
-SOURCE_APK_PATH = Path('/mnt/sdb2/andro_apk/Drebin/Benign')
+SOURCE_APK_PATH = Path('/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS/')
 
 # Component paths
 JAVA_COMPONENTS = 'java-components'
