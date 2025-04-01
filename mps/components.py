@@ -84,7 +84,7 @@ def process_components(
                     component, []).append(apk_name)
 
 
-def get_candidate_benign_components(sample_size: int = 1000) -> None:
+def get_candidate_benign_components(sample_size: int = 100) -> None:
     show_logging(logging.INFO)
 
     with open(config['meta_data']) as f:
@@ -139,7 +139,10 @@ def prepare_and_queue_slicing_tasks(components_by_type: Dict[str, Dict[str, List
             for apk in apks:
                 output_dir = comp_dir / apk
                 output_dir.mkdir(parents=True, exist_ok=True)
-                slice_tasks.append((apk, comp_name, str(output_dir)))
+                apk_str = str(apk)
+                comp_name_str = str(comp_name)
+                output_dir_str = str(output_dir.resolve())
+                slice_tasks.append((apk_str, comp_name_str, output_dir_str))
 
     with mp.Pool() as pool:
         list(tqdm(

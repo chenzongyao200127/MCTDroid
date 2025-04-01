@@ -1,4 +1,5 @@
 #!/bin/bash
+# before perform attack, please make sure PerturbationSelector has been structured
 
 # Common parameters
 PYTHON_CMD="python main.py"

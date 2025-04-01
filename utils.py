@@ -46,7 +46,8 @@ def configure_logging(run_tag, debug=True):
 
 def run_java_component(jar, args, cwd, timeout=None):
     """Wrapper for calling Java processes used for extraction and injection."""
-    cmd = ['java', '-jar', jar, *args]
+    jar_str = str(jar)
+    cmd = ['java', '-jar', jar_str, *args]
     logging.info(blue('Running command') + f': {" ".join(cmd)}')
 
     try:
