@@ -128,23 +128,6 @@ def calculate_sha256(filename):
     return sha256_hash.hexdigest()
 
 
-def rename_and_move_apks_to_sha256(source_directory, destination_directory):
-    """Rename APK files to their SHA256 hash of the original filename and move them to a new directory."""
-    for filename in os.listdir(source_directory):
-        if filename.endswith(".apk"):
-            source_file_path = os.path.join(source_directory, filename)
-            # Calculate SHA256 hash of the filename only (which may contain package name)
-            sha256 = calculate_sha256(filename)
-            destination_file_path = os.path.join(
-                destination_directory, sha256 + ".apk")
-            # Move and rename the file
-            shutil.move(source_file_path, destination_file_path)
-
-# rename_and_move_apks_to_sha256("/mnt/sdb2/andro_apk/Drebin/Benign", "/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS")
-
-# Process a single APK file and return its metadata
-
-
 def process_file(filepath, label):
     """
     Process a single APK file and return its metadata.
@@ -161,10 +144,10 @@ def process_file(filepath, label):
     # Remove the APK extension from the filename
     filename_without_apk = filename.replace('.apk', '')
     # Calculate SHA256 hash of the filename (not the file content)
-    file_hash = calculate_sha256(filename_without_apk)
+    file_name_hash = calculate_sha256(filename_without_apk)
 
     return {
-        "sha256": file_hash,
+        "sha256": file_name_hash,
         "name": filename_without_apk,
         "label": label,
         "location": filepath  # Absolute path to the file
@@ -172,20 +155,10 @@ def process_file(filepath, label):
 
 
 def create_json_data(folder_path, label):
-    """
-    Process APK files in parallel to create JSON metadata.
-
-    Args:
-        folder_path: Path to folder containing APK files
-        label: Label for the APKs (0 for benign, 1 for malware)
-
-    Returns:
-        list: List of metadata dictionaries for each APK
-    """
     # Find all APK files in the directory
-    apk_files = [os.path.join(folder_path, filename)
-                 for filename in os.listdir(folder_path)
-                 if filename.endswith('.apk')]
+    all_apk_files = [os.path.join(folder_path, filename)
+                     for filename in os.listdir(folder_path)
+                     if filename.endswith('.apk')]
 
     # Use multiprocessing with a reasonable number of workers
     num_workers = min(mp.cpu_count(), config['nproc_feature'])
@@ -194,7 +167,7 @@ def create_json_data(folder_path, label):
     with mp.Pool(processes=num_workers) as pool:
         json_data = pool.starmap(
             process_file,
-            [(filepath, label) for filepath in apk_files]
+            [(filepath, label) for filepath in all_apk_files]
         )
 
     return json_data
@@ -226,4 +199,6 @@ def generate_metadata_json(benign_folder, malware_folder, output_path=None):
 
     return all_data
 
-# generate_metadata_json("/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS", "/mnt/sdb2/andro_apk/Drebin/Malware")
+
+# generate_metadata_json("/disk2/Androzoo/SelectedBenign",
+#                        "/disk2/Androzoo/SelectedMalware")

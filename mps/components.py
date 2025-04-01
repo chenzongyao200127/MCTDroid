@@ -45,7 +45,7 @@ def extract_apk_components(apk_path: str) -> Optional[Dict[str, List[str]]]:
 
 
 def slice_apk(apk_name: str, component_name: str, output_dir: str) -> None:
-    apk_path = Path(config['source_apk_path']) / f"{apk_name}.apk"
+    apk_path = Path(config['source_benign_apk_path']) / f"{apk_name}.apk"
     output_path = Path(output_dir)
 
     if not apk_path.exists():
