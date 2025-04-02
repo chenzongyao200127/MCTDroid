@@ -117,7 +117,7 @@ class APKSET:
             )
             self.label.append(int(sample['label']))
 
-    def split_the_dataset(self, train_ratio=0.8, benign_ratio=0.8, seed=42):
+    def split_the_dataset(self, train_ratio=0.8, benign_ratio=0.5, seed=42):
         """
         Split the dataset into training and testing sets while maintaining a specified benign-to-malicious ratio.
 

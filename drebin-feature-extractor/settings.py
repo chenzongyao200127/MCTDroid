@@ -1,3 +1,5 @@
+import os
+
 #!/usr/bin/env python
 #
 #########################################################################################
@@ -34,8 +36,11 @@
 # AAPT = "/usr/local/bin/aapt"
 
 AAPT = "/usr/bin/aapt"  # location of the aapt binary
-EMPTYICON = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/empty.png"
-APICALLS = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/APIcalls.txt"
+# Get the current project directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+EMPTYICON = os.path.join(BASE_DIR, "empty.png")
+APICALLS = os.path.join(BASE_DIR, "APIcalls.txt")
 # location of the baksmali.jar file
-BACKSMALI = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/baksmali-2.0.3.jar"
-ADSLIBS = "/mnt/sdb2/czy/MCTDroid/drebin-feature-extractor/ads.csv"
+BACKSMALI = os.path.join(BASE_DIR, "baksmali-2.0.3.jar")
+ADSLIBS = os.path.join(BASE_DIR, "ads.csv")

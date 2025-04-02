@@ -27,7 +27,7 @@ config = {
     'saved_features': project(f'{MODEL_RESULTS}/features'),
     'results_dir': project('results'),
     'slice_database': project('slices_database'),
-    'tmp_dir': str(Path('/mnt/sdb2/andro_apk/tmp')),
+    'tmp_dir': str(Path('/disk2/Androzoo/tmp')),
 
     # Source paths
     'meta_data': project(f'{META_INFO}/dataset/dataset_meta_data.json'),
