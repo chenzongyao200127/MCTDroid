@@ -3,7 +3,7 @@
 
 # Common parameters
 PYTHON_CMD="python main.py"
-COMMON_PARAMS="-N 100 --attacker ADZ --ADZ_attack"
+COMMON_PARAMS="-N 100 --attacker RSA --RSA_attack"
 P_VALUES=(10 20 30 40 50 100)
 
 # Models and their classifiers

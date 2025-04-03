@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Constants
 PROJECT_PATH = str(Path("/mnt/sdb2/czy/MCTDroid/"))
-ANDROID_SDK_PATH = str(Path('/mnt/sdb2/andro_apk/android-sdk/'))
+ANDROID_SDK_PATH = str('/mnt/sdb2/andro_apk/android-sdk/')
 SOURCE_APK_PATH = str(
     Path('/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS'))
 

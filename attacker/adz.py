@@ -1,6 +1,3 @@
-from collections import defaultdict
-import math
-from abc import ABC, abstractmethod
 import os
 import shutil
 import logging
@@ -12,12 +9,12 @@ import traceback
 from settings import config
 from androguard.misc import AnalyzeAPK
 from defender.drebin import get_drebin_feature
+from defender.apigraph import get_apigraph_feature
 from defender.mamadroid import get_mamadroid_feature
+from defender.vae_fd import get_vae_fd_feature
 from attacker.pst import PerturbationSelectionTree
-from utils import sign_apk
-from utils import green, red, cyan
+from utils import cyan, sign_apk, green, red
 from utils import run_java_component
-from pprint import pprint
 from datasets.apks import APK
 
 
@@ -121,8 +118,12 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
 
     if model.feature == "drebin":
         victim_feature = model.vec.transform(apk.drebin_feature)
+    elif model.feature == "apigraph":
+        victim_feature = model.vec.transform(apk.apigraph_feature)
     elif model.feature == "mamadroid":
         victim_feature = np.expand_dims(apk.mamadroid_family_feature, axis=0)
+    elif model.feature == "vae_fd":
+        victim_feature = apk.vae_fd_feature
 
     assert victim_feature is not None
     source_label = model.clf.predict(victim_feature)
@@ -162,7 +163,6 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
     inject_activity_name = PerturbationSelector.inject_activity_name
     inject_receiver_name = PerturbationSelector.inject_receiver_name
     inject_receiver_data = PerturbationSelector.inject_receiver_data
-    PerturbationSelector.print_tree()
 
     modification_crash = False
     success = False
@@ -183,7 +183,8 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
                 break
 
         os.remove(copy_apk_path)
-        shutil.copy(os.path.join(process_dir, apk.name), copy_apk_path)
+        shutil.copy(os.path.join(
+            process_dir, apk.name + ".apk"), copy_apk_path)
         if config['sign']:
             sign_apk(copy_apk_path)
 
@@ -192,9 +193,14 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
         if model.feature == "drebin":
             victim_feature = get_drebin_feature(copy_apk_path)
             victim_feature = model.vec.transform(victim_feature)
+        elif model.feature == "apigraph":
+            victim_feature = get_apigraph_feature(copy_apk_path)
+            victim_feature = model.vec.transform(victim_feature)
         elif model.feature == "mamadroid":
             victim_feature = np.expand_dims(
                 get_mamadroid_feature(copy_apk_path), axis=0)
+        elif model.feature == "vae_fd":
+            victim_feature = get_vae_fd_feature(copy_apk_path)
         assert victim_feature is not None
 
         # query the model
@@ -239,20 +245,19 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
 
     end_time = time.time()
     if success:
-        logging.info("Attack Success ----- APK: {}".format(apk.name))
+        logging.info(green("Attack Success ----- APK: {}".format(apk.name)))
         final_res_dir = os.path.join(output_result_dir, "success", apk.name)
     else:
         if modification_crash:
             logging.info(
-                "Attack Modification Crash ----- APK: {}".format(apk.name))
+                red("Attack Modification Crash ----- APK: {}".format(apk.name)))
             final_res_dir = os.path.join(
                 output_result_dir, "modification_crash", apk.name)
         else:
-            logging.info("Attack Fail ----- APK: {}".format(apk.name))
+            logging.info(red("Attack Fail ----- APK: {}".format(apk.name)))
             final_res_dir = os.path.join(output_result_dir, "fail", apk.name)
 
     os.makedirs(final_res_dir, exist_ok=True)
-
     if success:
         with open(os.path.join(final_res_dir, "efficiency.txt"), "w") as f:
             f.write(str(attempt_idx + 1) + "\n")
