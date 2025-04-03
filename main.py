@@ -35,9 +35,11 @@ def main():
         blue('Begin Stage ------- Building the Malware Detection Methods'))
 
     dataset = initialize_dataset(args)
-    model = build_and_test_model(args, dataset)
+    if config['extract_feature']:
+        exit()
 
-    if args.train_model or config['extract_feature']:
+    model = build_and_test_model(args, dataset)
+    if args.train_model:
         exit()
 
     tp_apks = prepare_tp_apks(args, dataset, model)
@@ -159,6 +161,8 @@ def prepare_res_save_dir(args):
         os.path.join(config['saved_features'], 'mamadroid_total'),
         os.path.join(config['saved_features'], 'fd-vae'),
         os.path.join(config['saved_features'], 'fd-vae_total'),
+        os.path.join(config['saved_features'], 'apigraph'),
+        os.path.join(config['saved_features'], 'apigraph_total'),
     ]
     for dir_path in dirs_to_create:
         os.makedirs(dir_path, exist_ok=True)
@@ -193,7 +197,7 @@ def parse_args():
                    help="The creating process of the malware perturbation set.")
 
     # Choose the target android dataset
-    p.add_argument('--dataset', type=str, default="Drebin",
+    p.add_argument('--dataset', type=str, default="drebin",
                    help='The target malware dataset.')
 
     # Choose the target feature extraction method

@@ -47,7 +47,7 @@ class Detector:
             X_train = [
                 dataset.total_set[train_idx].apigraph_feature for train_idx in dataset.train_idxs]
         elif self.feature == "fd-vae":
-            X = [np.asarray(apk.vae_fd_feature) for apk in dataset.total_set]
+            X = [np.asarray(apk.fd_vae_feature) for apk in dataset.total_set]
 
         if X is None:
             raise Exception("Unknown Feature Extraction Method")

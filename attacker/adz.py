@@ -11,11 +11,10 @@ from androguard.misc import AnalyzeAPK
 from defender.drebin import get_drebin_feature
 from defender.apigraph import get_apigraph_feature
 from defender.mamadroid import get_mamadroid_feature
-from defender.vae_fd import get_vae_fd_feature
+from defender.fd_vae import get_fd_vae_feature
 from attacker.pst import PerturbationSelectionTree
 from utils import cyan, sign_apk, green, red
 from utils import run_java_component
-from datasets.apks import APK
 
 
 def get_basic_info(apk_path):
@@ -122,8 +121,8 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
         victim_feature = model.vec.transform(apk.apigraph_feature)
     elif model.feature == "mamadroid":
         victim_feature = np.expand_dims(apk.mamadroid_family_feature, axis=0)
-    elif model.feature == "vae_fd":
-        victim_feature = apk.vae_fd_feature
+    elif model.feature == "fd_vae":
+        victim_feature = apk.fd_vae_feature
 
     assert victim_feature is not None
     source_label = model.clf.predict(victim_feature)
@@ -199,8 +198,8 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
         elif model.feature == "mamadroid":
             victim_feature = np.expand_dims(
                 get_mamadroid_feature(copy_apk_path), axis=0)
-        elif model.feature == "vae_fd":
-            victim_feature = get_vae_fd_feature(copy_apk_path)
+        elif model.feature == "fd_vae":
+            victim_feature = get_fd_vae_feature(copy_apk_path)
         assert victim_feature is not None
 
         # query the model

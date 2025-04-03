@@ -4,8 +4,10 @@ from pathlib import Path
 # Constants
 PROJECT_PATH = str(Path("/mnt/sdb2/czy/MCTDroid/"))
 ANDROID_SDK_PATH = str('/mnt/sdb2/andro_apk/android-sdk/')
-SOURCE_APK_PATH = str(
+SOURCE_BENIGN_APK_PATH = str(
     Path('/mnt/sdb2/andro_apk/Drebin/Drebin_Bengin_SHA256_APKS'))
+SOURCE_MALWARE_APK_PATH = str(
+    Path('/mnt/sdb2/andro_apk/Drebin/Malware'))
 
 # Component paths
 JAVA_COMPONENTS = 'java-components'
@@ -30,7 +32,8 @@ config = {
     # Source paths
     'meta_data': project(f'{META_INFO}/dataset/dataset_meta_data.json'),
     'android_sdk': ANDROID_SDK_PATH,
-    'source_apk_path': SOURCE_APK_PATH,
+    'source_benign_apk_path': SOURCE_BENIGN_APK_PATH,
+    'source_malware_apk_path': SOURCE_MALWARE_APK_PATH,
 
     # Java components
     'resigner': project(f'{JAVA_COMPONENTS}/apk-signer.jar'),
@@ -55,7 +58,7 @@ config = {
     "vae_apis": project(f'{META_INFO}/vae/list_total_apis.txt'),
 
     # Process configuration
-    'nproc_feature': 50,
+    'nproc_feature': 60,
     'nproc_slicer': 10,
     'nproc_attacker': 10,
 
