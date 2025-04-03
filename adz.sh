@@ -9,7 +9,7 @@ P_VALUES=(10 30 50 100)
 # Models and their classifiers
 declare -A model_classifier_map=(
     ["drebin"]="svm mlp"
-    ["apigraph"]="svm"
+    # ["apigraph"]="svm"
     ["mamadroid"]="rf 3nn"
     ["fd-vae"]="fd-vae-mlp"
 )

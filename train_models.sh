@@ -3,7 +3,7 @@
 # Malware Detection Method Building Stage
 # if you want to train the models, please make sure config['extract_feature'] is set to False
 
-models=("drebin" "apigraph" "mamadroid" "fd-vae")
+dataset="Androzoo"
 
 declare -A model_classifier_map=(
     ["drebin"]="svm mlp"
@@ -13,13 +13,14 @@ declare -A model_classifier_map=(
 )
 
 for model in "${!model_classifier_map[@]}"; do
-    for classifier in ${model_classifier_map[$model]}; do
+    classifiers="${model_classifier_map[$model]}"
+    for classifier in $classifiers; do
         if ! python main.py -R "${model}-${classifier}" \
             --train_model \
             -D \
             --detection "$model" \
             --classifier "$classifier" \
-            --dataset "Drebin"; then
+            --dataset "$dataset"; then
             echo "Task failed for model: $model, classifier: $classifier. Continuing..."
         fi
     done

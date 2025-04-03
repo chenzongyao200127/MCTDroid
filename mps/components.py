@@ -62,6 +62,7 @@ def slice_apk(apk_name: str, component_name: str, output_dir: str) -> None:
 
         args = [component_name, str(
             tmp_path), output_dir, config['android_sdk']]
+        # logging.error(f"Running Java component with args: {args}")
         result = run_java_component(config['slicer'], args, tmp_dir)
 
         if "Successfully" not in result:

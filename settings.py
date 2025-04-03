@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Constants
 PROJECT_PATH = str(Path("/disk2/chenzy/MCTDroid/"))
-ANDROID_SDK_PATH = str(Path('/disk2/chenzy/android-sdk/'))
+ANDROID_SDK_PATH = str('/disk2/chenzy/android-sdk/')
 SOURCE_BENIGN_APK_PATH = str(
     Path('/disk2/Androzoo/SelectedBenign'))
 SOURCE_MALWARE_APK_PATH = str(
@@ -64,6 +64,6 @@ config = {
 
     # Flags
     'sign': False,
-    'extract_feature': True,  # only when the feature extractor is not in the pipeline
+    'extract_feature': False,  # only when the feature extractor is not in the pipeline
     'serial': False,
 }

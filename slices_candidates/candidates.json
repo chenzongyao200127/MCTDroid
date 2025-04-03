@@ -1,0 +1,3017 @@
+{
+    "services": {
+        "crc64396a3fe5f8138e3f.KeepAliveService": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.biocatgo.wwwEC6DC7606851984DC3E481EBEF8F4265098192D6",
+            "com.FamaSystems.FamaActivos",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.sysdevsolutions.kclientlibv50.MyFcmListenerService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.MyInstanceIDListenerService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.KFinalService1": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.KFinalService2": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.KFinalService3": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.KFinalService4": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.KFinalService5": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.sysdevsolutions.kclientlibv50.KLocationSensorService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.nordicid.nurapi.UartService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "org.altbeacon.beacon.service.BeaconService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0",
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.honeywell.rfidservice.RfidService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "org.altbeacon.beacon.BeaconIntentProcessor": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0",
+            "com.app.xtraclassesforstudents"
+        ],
+        "org.altbeacon.beacon.service.ScanJob": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0",
+            "com.app.xtraclassesforstudents"
+        ],
+        "org.altbeacon.bluetooth.BluetoothTestJob": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0",
+            "com.app.xtraclassesforstudents"
+        ],
+        "no.nordicsemi.android.support.v18.scanner.ScannerService": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.leo.friendshipalarm.module.ring.service.DaemonService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.leo.friendshipalarm.module.PushService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.leo.friendshipalarm.module.music.service.MusicPlayerService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.leo.friendshipalarm.module.ring.service.AlarmCheckService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.xdandroid.hellodaemon.AbsWorkService$WorkNotificationService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.xdandroid.hellodaemon.JobSchedulerService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.xdandroid.hellodaemon.WatchDogService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.xdandroid.hellodaemon.WatchDogService$WatchDogNotificationService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "cn.jpush.android.service.PushService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.DaemonService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.qq.e.comm.DownloadService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.onesignal.GcmIntentService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.GcmIntentJobService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.RestoreJobService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.RestoreKickoffJobService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.SyncService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.SyncJobService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.NotificationRestoreService": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.applovin.impl.sdk.utils.AppKilledService": [
+            "com.diymakeup.arb.geme.ma",
+            "com.app.Vectors_Academy",
+            "com.hellovpn.tec.app.vpn",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67",
+            "com.army.vehicles.transport.truck.simulator.games",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE"
+        ],
+        "com.applovin.impl.adview.activity.FullscreenAdService": [
+            "com.diymakeup.arb.geme.ma",
+            "com.hellovpn.tec.app.vpn",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67",
+            "com.army.vehicles.transport.truck.simulator.games",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE"
+        ],
+        "io.presage.common.profig.schedule.ProfigSyncIntentService": [
+            "com.diymakeup.arb.geme.ma"
+        ],
+        "io.presage.common.profig.schedule.ProfigJobService": [
+            "com.diymakeup.arb.geme.ma"
+        ],
+        "com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService": [
+            "com.diymakeup.arb.geme.ma"
+        ],
+        "com.huajiao.base.InitService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.base.MediaAutoTestService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.LivePlayerService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.push.service.BusinessHJReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.comm.service.BgService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.heytap.msp.push.service.CompatibleDataMessageCallbackService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.heytap.msp.push.service.DataMessageCallbackService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.qihoo.sdk.report.network.NetworkService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.push.huawei.HJHmsMessageService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.account.AuthenticationService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.account.SyncService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.service.PublishService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.vivo.push.sdk.service.CommandClientService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.xiaomi.push.service.XMPushService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.xiaomi.push.service.XMJobService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.xiaomi.mipush.sdk.PushMessageHandler": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.xiaomi.mipush.sdk.MessageHandleService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.engine.logfile.WarningService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.pushsdk.cx.PushService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.pushsdk.cx.PushService$InnerService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.pushsdk.keepalive.PushJobService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.pushsdk.cx.PushLocalService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.pushsdk.keepalive.account.AuthenticationService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.pushsdk.keepalive.account.SyncService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.qchatkit.push_360.QPushHandlerService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.communication_host.CommunicationHostService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huawei.hms.support.api.push.service.HmsMsgService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huajiao.homessdk.Holmes": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo360.qos.QosService": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huawei.agconnect.core.ServiceDiscovery": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.equeo.downloadable.DownloadService": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA"
+        ],
+        "com.equeo.reminder.ReminderService": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA"
+        ],
+        "com.equeo.core.services.account_manager.EqueoAccountService": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA"
+        ],
+        "com.equeo.services.mobile_services.android.FirebaseCloudMessagingService": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA"
+        ],
+        "com.equeo.services.mobile_services.android.HuaweiMessagingService": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA"
+        ],
+        "io.intercom.android.sdk.fcm.IntercomFcmMessengerService": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.startapp.android.publish.common.metaData.PeriodicMetaDataService": [
+            "aicon.mini.player",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784"
+        ],
+        "com.startapp.android.publish.common.metaData.InfoEventService": [
+            "aicon.mini.player",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784"
+        ],
+        "com.startapp.android.publish.common.metaData.PeriodicJobService": [
+            "aicon.mini.player",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784"
+        ],
+        "org.strongswan.android.logic.VpnStateService": [
+            "com.hellovpn.tec.app.vpn"
+        ],
+        "org.strongswan.android.logic.CharonVpnService": [
+            "com.hellovpn.tec.app.vpn"
+        ],
+        "de.blinkt.openvpn.core.OpenVPNService": [
+            "com.hellovpn.tec.app.vpn",
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "de.blinkt.openvpn.api.ExternalOpenVPNService": [
+            "com.hellovpn.tec.app.vpn",
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.hellovpn.netutilstec.service.ConnectInfoService": [
+            "com.hellovpn.tec.app.vpn"
+        ],
+        "com.allenliu.versionchecklib.core.MyService": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.allenliu.versionchecklib.v2.ui.VersionService": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.yanzhenjie.permission.bridge.BridgeService": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.appyet.service.SyncService": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.service.MediaService": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.exoplayer.ExoDownloadService": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.service.FCMService": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.twitter.sdk.android.tweetcomposer.TweetUploadService": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F",
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9",
+            "com.app.xtraclassesforstudents",
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.gwunited.mobile.platform.PaymentHostApduService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.gwunited.mobile.platform.service.PaymentService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "kernal.idcard.android.AuthService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "kernal.idcard.android.RecogService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "kernal.idcard.android.TimeService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.iss.sdpersonalbank.task.LogService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.baidu.location.f": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.igexin.sdk.PushService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.iss.sdpersonalbank.service.BankIntentService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.iss.sdpersonalbank.service.BankPushService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.meizu.cloud.pushsdk.NotificationService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.igexin.sdk.OppoPushService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.igexin.sdk.OppoAppPushService": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.gsmobil.apploc.service.AppLockerService": [
+            "com.gsmobil.apploc"
+        ],
+        "cn.thinkingdata.android.TDQuitSafelyService$TDKeepAliveService": [
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67"
+        ],
+        "com.startapp.sdk.adsbase.InfoEventService": [
+            "com.Suestudio.suara_pikat_burung_perkutut"
+        ],
+        "com.startapp.sdk.adsbase.PeriodicJobService": [
+            "com.Suestudio.suara_pikat_burung_perkutut"
+        ],
+        "com.vehicletracking.inthefield.BackgroundJobService": [
+            "com.vehicletracking.inthefield"
+        ],
+        "com.autel.mobvdt200.service.VCIConnectCheckService": [
+            "com.autel.maxiap200.bs200D124454003BE52DEB09FD68F6D62F2D509E6E254"
+        ],
+        "com.autel.mobvdt200.service.LoadCarInfoService": [
+            "com.autel.maxiap200.bs200D124454003BE52DEB09FD68F6D62F2D509E6E254"
+        ],
+        "com.autel.mobvdt200.service.DataService": [
+            "com.autel.maxiap200.bs200D124454003BE52DEB09FD68F6D62F2D509E6E254"
+        ],
+        "com.kontakt.sdk.android.ble.service.ProximityService": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "b.fsb": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "b.fse": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "b.fsa": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "b.fct": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "crc641c442c1f6cd3b04e.PelicanInstanceIIDService": [
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D"
+        ],
+        "crc641c442c1f6cd3b04e.PelicanFirebaseMessagingService": [
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D"
+        ],
+        "crc64db501a7cf487dec6.AMCLocationService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.gimbal.internal.service.GimbalService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.gimbal.android.jobs.JobManagerService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.gimbal.internal.push.FcmListenerService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.gimbal.internal.push.PushHandlerService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.urbanairship.job.AirshipService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.urbanairship.job.AndroidJobService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.braintreepayments.api.internal.AnalyticsIntentService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B",
+            "com.app.xtraclassesforstudents",
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.urbanairship.push.fcm.AirshipFirebaseMessagingService": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "crc64a98abb514ffad9f1.KeepAliveService": [
+            "com.alpha1marketing.ksalesman"
+        ],
+        "crc64175f675737fa2c0b.ReminderService": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B"
+        ],
+        "com.baidu.shucheng91.setting.settingservice.ModeSetService": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.baidu.shucheng91.download.DownloadManagerService": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.baidu.shucheng91.bookread.text.SmartSplitChapter": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.baidu.shucheng91.common.PushAppDownloadService": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.tapread.reader.firebase.TapreadFirebaseMessagingService": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.tapread.reader.ui.common.DownloadNovelService": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "io.dcloud.feature.unipush.GTNormalIntentService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "io.dcloud.feature.unipush.CustomGTService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.igexin.sdk.HmsPushMessageService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "io.dcloud.feature.aps.ApsActionService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "io.dcloud.common.adapter.io.MiniServerService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.getui.gtc.GtcService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.example.update.downUpdater.service.DownloadService": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.yandex.metrica.MetricaService": [
+            "com.riselogic.dm.autogrill",
+            "com.yandex.browser.beta"
+        ],
+        "crc64106b7a92079d6b63.MyFirebaseMessagingService": [
+            "com.riselogic.dm.autogrill"
+        ],
+        "crc640f1fe57ce48cbf60.MetricaMonoRuntimeLoaderService": [
+            "com.riselogic.dm.autogrill"
+        ],
+        "com.yandex.metrica.ConfigurationService": [
+            "com.riselogic.dm.autogrill",
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.ConfigurationJobService": [
+            "com.riselogic.dm.autogrill",
+            "com.yandex.browser.beta"
+        ],
+        "org.eclipse.paho.android.service.MqttService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.fcm.CoreNotificationService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.alarm.MyAlarmService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.radio.player.RadioService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.audio.AudioSignal": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.radio.player.MediaPlaybackService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.pedometer.StepService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.amazonaws.mobileconnectors.s3.transferutility.TransferService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.activity.geofence.intentservice.GeoFenceJobIntentService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.activity.beacon.BeaconJobIntentService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "es.voghdev.pdfviewpager.library.service.CopyAssetService": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.firebase.jobdispatcher.GooglePlayReceiver": [
+            "com.app.xtraclassesforstudents",
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "io.trigger.forge.android.modules.parse.StaffbaseMessagingService": [
+            "com.trinity.trinconnect.android"
+        ],
+        "deversity.discoverbooks.app.droid.services.firebase.messagingservice": [
+            "de.lesio"
+        ],
+        "com.nathnetwork.xciptv.services.XCEPGJobService": [
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.nathnetwork.xciptv.services.OTRServices": [
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.nathnetwork.xciptv.services.EZServerEPGJobService": [
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.nathnetwork.xciptv.services.RecordingServices": [
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.facebook.ads.internal.ipc.AdsProcessPriorityService": [
+            "com.ebsa.horse.derby.quest.racing0F0D94250962F52677A2B32320B31F4019EF1E3E"
+        ],
+        "com.facebook.ads.internal.ipc.AdsMessengerService": [
+            "com.ebsa.horse.derby.quest.racing0F0D94250962F52677A2B32320B31F4019EF1E3E"
+        ],
+        "com.zappallas.android.noahlib.purchase.google.BillingService": [
+            "com.zappallas.android.app.minami464927D405F0F589F0181EF5A265660AD7F5C3F3"
+        ],
+        "com.dewmobile.kuaiya.sensor.PushService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.sensor.PushInnerService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.mediaex.DmAudioPlayerService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.mediaex.DmAudioNotificationService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.library.plugin.service.DmPluginSdkService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.service.HeadlessSmsSendService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.service.DmMessageService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.sdk.api.DmLocalHotspotService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.sensor.MyJobService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.ss.android.socialbase.appdownloader.DownloadHandlerService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.ss.android.socialbase.appdownloader.RetryJobSchedulerService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.socialbase.downloader.notification.DownloadNotificationService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.socialbase.downloader.downloader.DownloadService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.socialbase.downloader.impls.DownloadHandleService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.mob.guard.MobGuardPullUpService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.mob.id.MobIDService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.mob.MobACService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.mbridge.msdk.shell.MBService": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.elationllc.springs_maid.BackgroundService": [
+            "com.elationllc.springs_maid1E4F157843D29C68A44BD82EF19E31F2ABB2F061"
+        ],
+        "crc6432f24c417102bc02.BackgroundService": [
+            "com.elationllc.springs_maid1E4F157843D29C68A44BD82EF19E31F2ABB2F061"
+        ],
+        "crc6432f24c417102bc02.MyFirebaseMessagingService": [
+            "com.elationllc.springs_maid1E4F157843D29C68A44BD82EF19E31F2ABB2F061"
+        ],
+        "com.microsoft.windowsazure.messaging.notificationhubs.FirebaseReceiver": [
+            "com.elationllc.springs_maid1E4F157843D29C68A44BD82EF19E31F2ABB2F061"
+        ],
+        "com.pandora.PandoraService": [
+            "com.kumareng.ravanshenasikoodak"
+        ],
+        "com.appbrain.AppBrainService": [
+            "com.kumareng.ravanshenasikoodak"
+        ],
+        "com.appbrain.AppBrainJobService": [
+            "com.kumareng.ravanshenasikoodak"
+        ],
+        "com.blinglink.phonelive.socket.ConnectService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.blinglink.phonelive.socket.WakeupService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.amap.api.location.APSService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tencent.android.tpush.service.XGVipPushService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.tpush.rpc.XGRemoteService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.tpns.mqttchannel.services.MqttService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.huawei.android.hms.tpns.HWHmsMessageService": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "crc6422870c7093d42bcc.FirebaseService": [
+            "com.biocatgo.wwwEC6DC7606851984DC3E481EBEF8F4265098192D6"
+        ],
+        "crc64aa7b1b41c3aeafdf.StateMachineService": [
+            "com.biocatgo.wwwEC6DC7606851984DC3E481EBEF8F4265098192D6"
+        ],
+        "com.yandex.browser.push.gcm.BroInstanceIDListenerService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.updates.UpdateService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.downloader.DownloadNotificationsService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.sync.SyncWorkerService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.cleardata.service.ClearDataService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.reset.ResetService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.recovery.service.RecoveryService": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PlaybackListenerService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.push.gcm.GcmDispatchingService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.push.hms.HmsDispatchingService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.sync.gcm.GcmIntentService": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.chrome.browser.notifications.NotificationService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.importer.ImportService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.customtab.CustomTabConnectionService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.zen.ui.notification.service.ZenNotificationService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.autofill.service.ExternalAutofillService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.voicereader.service.VoiceReaderService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.android.websearch.net.logging.TrafficChartRegistryService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.LogsHelperService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.alice.messenger.DeleteNotificationLogService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.alice.messenger.calls.AlincengerCallService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.messaging.calls.MessengerCallService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.core.auth.AuthenticationService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.core.sync.SyncService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.push.PassportGcmRegistrationService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.experiments.FetchExperimentsService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.kamera.blacklist.KameraBlacklistService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.music.sdk.engine.backend.MusicSdkService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.zenkit.zennotifications.NotificationsUpdateService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.WidgetService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.WidgetJobService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.BarMarkerService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.music.sdk.helper.foreground.mediasession.MediaSessionService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.music.sdk.helper.foreground.core.MusicForegroundService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.informers.InformerDataUpdateService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.informers.InformerDataUpdateJobService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.NotificationForegroundService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.NotificationService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.clid.ClidService": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.NotificationJobService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.push.PushService": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService0": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService1": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService2": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService3": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService4": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService5": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService6": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService7": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService8": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService9": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService10": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService11": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService12": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService13": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService14": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService15": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService16": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService17": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService18": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.YaSandboxedProcessService19": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService0": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService1": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService2": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService3": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService4": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService5": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService6": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService7": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService8": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService9": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService10": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService11": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService12": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService13": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService14": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService15": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService16": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService17": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService18": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.UnSandboxedProcessService19": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.PrivilegedProcessService0": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.PrivilegedProcessService1": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.content.app.PrivilegedProcessService2": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.components.background_task_scheduler.internal.BackgroundTaskGcmTaskService": [
+            "com.yandex.browser.beta"
+        ],
+        "com.cdel.dlbizplayer.audio.DLAudioService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.updateversion.service.UpdateVersionService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.hlsplayer.activity.CourseHandoutsDownloadService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.AppService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.SplashService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.LoopService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.jpush.JpushService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.SyncService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.SyncFavService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.classroom.cwarepackage.download.AddonDownloadService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.classroom.cwarepackage.download.DownloadService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.exam.task.UpdateService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.LoadCourseAndRecordService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.webcast.websocket.WebSocketServer": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.service.AlarmClockService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.tencent.qalsdk.service.QalService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.tencent.qalsdk.service.QalAssistService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.ebook.download.BookDownloadService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cmb.pb.cmbsafe.CmbService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.datamanager.CdelDataService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.app.allcatch.UpLoadAllCatchDataService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.newexam.task.NewExamPaperCenterService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.dlupdate.service.DownloadService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.dlbizplayer.studyrecord.DLPlayRecordIntentService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.dlbizplayer.studyrecord.DLStudyRecordIntentService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.jpush.service.JPushCommonService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.PluginOppoPushService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.taobao.sophix.aidl.DownloadService": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "o.gt": [
+            "com.bt_prod.bad04A539C5F393267BF7AD3DCC7AAB4BD934B2633F"
+        ],
+        "org.acra.sender.LegacySenderService": [
+            "com.bt_prod.bad04A539C5F393267BF7AD3DCC7AAB4BD934B2633F",
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "org.acra.sender.JobSenderService": [
+            "com.bt_prod.bad04A539C5F393267BF7AD3DCC7AAB4BD934B2633F",
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "com.talkingdata.sdk.TDAntiCheatingService": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.eve.todolist.widget.table.WidgetSetService": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.eve.todolist.widget.table.WidgetRecentlySetService": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.eve.todolist.service.FloatingTomatoService": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.onesignal.ADMMessageHandler": [
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e"
+        ],
+        "com.firstnational.session.AppKilledLogoutService": [
+            "com.firstnational.scheels312307C6BD2150DEC7BD212EBB946594185525B5"
+        ],
+        "com.bas.hit.volm.dy.service.VolumeBoosterService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.bas.hit.volm.dy.service.keep.StepHistoryService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.bas.hit.volm.dy.service.keep.StepHistoryService$InnerService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.gyf.cactus.service.BassBoosterJobService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.gyf.cactus.service.HideForegroundService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.gyf.cactus.service.LocalService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.gyf.cactus.service.RemoteService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.common.statistics.services.ShBaseService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "crc6494e14b9856016c30.PNFirebaseMessagingService": [
+            "com.FamaSystems.FamaActivos",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4",
+            "com.digitatanetworks.infinitymobile"
+        ],
+        "teamdoppelganger.smarterbus.service.RideOnAlarmService": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "teamdoppelganger.smarterbus.service.RideOffAlarmService": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "teamdoppelganger.smarterbus.service.WidgetService4x2": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "teamdoppelganger.smarterbus.service.WidgetJobService4x2": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "com.shopgate.android.lib.controller.push.SGFirebaseMessagingService": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.plotprojects.retail.android.EmulatorTestingService": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.plotprojects.retail.android.BackgroundProcessingService": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "o.gs": [
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "bibliabible.com.biblenewlifeversion..starter": [
+            "bibliabible.com.biblenewlifeversion"
+        ],
+        "bibliabible.com.biblenewlifeversion..s1": [
+            "bibliabible.com.biblenewlifeversion"
+        ],
+        "com.hive.installreferrer.ReferrerService": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.hive.push.fcm.MessagingService": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "au.whitech.mobile.ane.notifications.FCMMessagingService": [
+            "air.au.whitech.mobile.imagine.generic.ireland0FA973B68E4B137344B8693A9F0F03222E72CE49"
+        ],
+        "au.whitech.mobile.ane.notifications.FCMInstanceIdService": [
+            "air.au.whitech.mobile.imagine.generic.ireland0FA973B68E4B137344B8693A9F0F03222E72CE49"
+        ],
+        "com.jodelapp.jodelandroidv3.features.pushnotifications.PushNotificationListenerService": [
+            "com.tellm.android.app"
+        ],
+        "com.sobatku.mb.util.FirebaseMessagingService": [
+            "com.sobatku.mbCE48854843391D97E23BC1B9980C1E1150661614"
+        ],
+        "com.abinbev.android.tapwiser.push.FireBaseService": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.appboy.AppboyFirebaseMessagingService": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.abinbev.android.ratings.config.RatingService": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "org.godotengine.godot.GodotDownloaderService": [
+            "org.godotengine.clarence"
+        ],
+        "com.appypie.snappy.radio.player.AudioSignal": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.geofences.GeofenceService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.pocketTools.pedometer.StepService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.pushNotification.MyFirebaseMessagingService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.radiusnetworks.ibeacon.service.IBeaconService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.radiusnetworks.ibeacon.IBeaconIntentProcessor": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.alarm.MyAlarmService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.geofences.GeofenceJobIntentService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.countDown.CountDownService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.radiusnetworks.ibeacon.BeaconBgService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.geofences.GPSTrackerService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.radio.player.RadioService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "net.authorize.acceptsdk.network.AcceptService": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "yemenmobile.app.com.railmobile..MyFirebaseMessagingService": [
+            "yemenmobile.app.com.railmobile"
+        ],
+        "com.ss.android.lark.voip.service.impl.app.VoipForegroundService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.vc.meeting.module.foregroundservice.ForegroundService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.vc.meeting.module.foregroundservice.XForegroundService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.bear.basesdk.keeplive.KeepLiveService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.multitask.MultitaskRemoteService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.multitask.screencapture.MainProcessScreenshotCaptureService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.multitask.screencapture.P0ProcessScreenshotCaptureService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.upgrade.silent.SilentUpgradeJobService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.mm.module.player.notification.MmVideoService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.mm.module.record.audiorecorder.MmAudioRecordService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.mm.module.record.upload.MmAudioUploadService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.wschannelprocess.WschannelLaunchService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService0": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService5": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService6": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService7": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService3": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService8": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService4": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.placeholder.MiniappService9": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.process.HostCrossProcessCallService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.tt.miniapphost.feedback.FeedbackRecordService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.lark.oryxgadget.host.stub.OryxServiceStub0": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.lark.oryxgadget.host.stub.OryxServiceStub1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.lark.oryxgadget.host.stub.OryxServiceStub2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.lark.oryxgadget.host.stub.OryxServiceStub3": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.lark.oryxgadget.host.stub.OryxServiceStub4": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.lark.android.module.offlinepush.MessageHandler": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.message.log.LogService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.lark.android.module.offlinepush.account.AccountSyncService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.lark.android.module.offlinepush.account.AuthenticatorService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.fcm.push.service.SSGcmListenerService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.fcm.push.service.SSInstanceIDListenerService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.fcm.service.SSGcmListenerService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.wschannelnotification.offline.WschannelMessageHandler": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.larksuite.framework.utils.sharedmemory.FileDescriptorService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.message.NotifyService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.push.DefaultService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.common.wschannel.server.WsChannelService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.common.wschannel.client.WsClientService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.smartisanos.push.PushIntentService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.larksuite.component.dybrid.h5core.ipc.H5MainProcessMessenger": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.RedirectService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.am.KeepAlive": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.am.KeepAlive$InnerService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p0.StubService1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p0.StubService2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p0.StubService3": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p0.StubService4": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p1.StubService1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p1.StubService2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService0": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService3": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService4": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService5": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService6": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService7": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService8": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.org.chromium.content.app.SandboxedProcessService9": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huawei.MessageService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.heytap.mcssdk.PushService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.heytap.mcssdk.AppPushService": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "crc646e364d2ff34954e7.MediaBrowserService": [
+            "com.dtsocialize.uup1D2AE90E424F8CD265FEDFBC6FFFF095065C8379"
+        ],
+        "crc643b2c320795200204.FirebaseMessageService": [
+            "com.dtsocialize.uup1D2AE90E424F8CD265FEDFBC6FFFF095065C8379"
+        ],
+        "com.pure.cleaner.optimizer.clear_notify.PureNotiListenerService": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.pure.cleaner.optimizer.service.PureService": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.quickswipe.service.SwipePureService": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.pure.applock.APureLService": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.smartcharge.services.MonitorBatteryStateService": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "imp.live2.lib.assist.Service0": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "imp.live2.lib.assist.Service1": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "imp.live2.lib.assist.Service2": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.onesignal.HmsMessageServiceOneSignal": [
+            "com.biworldwide.MeritorRewards"
+        ]
+    },
+    "providers": {
+        "com.facebook.FacebookContentProvider": [
+            "com.traplight.battleslides2D5A8F4C814214A75A8CB342521340FF61491BA4",
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9",
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.facebook.internal.FacebookInitProvider": [
+            "com.traplight.battleslides2D5A8F4C814214A75A8CB342521340FF61491BA4",
+            "com.hellovpn.tec.app.vpn",
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67",
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B",
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9",
+            "com.riselogic.dm.autogrill",
+            "com.app.xtraclassesforstudents",
+            "com.joycity.heroballC6AF9EB4BC84D751579BD009FB8C274CE3E84D5E",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE",
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497",
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.facebook.ads.AudienceNetworkContentProvider": [
+            "com.traplight.battleslides2D5A8F4C814214A75A8CB342521340FF61491BA4",
+            "com.diymakeup.arb.geme.ma",
+            "cl.birdie.antenas731AB14D43BB138AFA0C23D43CDFC762FE804AD0",
+            "com.hellovpn.tec.app.vpn",
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67",
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B",
+            "com.joycity.heroballC6AF9EB4BC84D751579BD009FB8C274CE3E84D5E",
+            "com.ebsa.horse.derby.quest.racing0F0D94250962F52677A2B32320B31F4019EF1E3E",
+            "com.nbapps.ryanrunner",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3",
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A",
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.ironsource.lifecycle.IronsourceLifecycleProvider": [
+            "com.traplight.battleslides2D5A8F4C814214A75A8CB342521340FF61491BA4",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F"
+        ],
+        "xamarin.essentials.fileProvider": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D",
+            "com.technokinetix.fitnessrepcounter",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.biocatgo.wwwEC6DC7606851984DC3E481EBEF8F4265098192D6",
+            "com.FamaSystems.FamaActivos",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4"
+        ],
+        "mono.android.MultiDexLoader": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B",
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.trophy.app"
+        ],
+        "mono.MonoRuntimeProvider": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "cl.birdie.antenas731AB14D43BB138AFA0C23D43CDFC762FE804AD0",
+            "ro_camper.ro",
+            "com.vehicletracking.inthefield",
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D",
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B",
+            "com.alpha1marketing.ksalesman",
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B",
+            "it.duepuntotre.zuppometro",
+            "com.technokinetix.fitnessrepcounter",
+            "com.riselogic.dm.autogrill",
+            "cz.jj.jjmorningbible50CB38566FDA5203C379864A009ADAED0B873CF1",
+            "de.lesio",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.elationllc.springs_maid1E4F157843D29C68A44BD82EF19E31F2ABB2F061",
+            "com.biocatgo.wwwEC6DC7606851984DC3E481EBEF8F4265098192D6",
+            "com.trophy.app",
+            "com.FamaSystems.FamaActivos",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4",
+            "com.digitatanetworks.infinitymobile",
+            "com.dtsocialize.uup1D2AE90E424F8CD265FEDFBC6FFFF095065C8379",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.squareup.picasso.PicassoProvider": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0",
+            "com.diymakeup.arb.geme.ma",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.riselogic.dm.autogrill",
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5",
+            "color.master.by.number.flower.beauty.coloring.book.artworks.fun.pictures",
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE",
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.blankj.utilcode.util.Utils$FileProvider4UtilCode": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "cn.jpush.android.service.DataProvider": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.DownloadProvider": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.bytedance.sdk.openadsdk.multipro.TTMultiProvider": [
+            "com.diymakeup.arb.geme.ma",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.vungle.warren.utility.VungleProvider": [
+            "com.diymakeup.arb.geme.ma",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.joycity.heroballC6AF9EB4BC84D751579BD009FB8C274CE3E84D5E"
+        ],
+        "com.qihoo.antispam.holmes.provider.HolmesContentProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.qihoo.sdk.report.common.MultiprocessSharedPreferences": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.upgrade.UpgradeFileProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huawei.hms.support.api.push.PushProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huawei.hms.aaid.InitProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.sina.weibo.sdk.content.FileProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huawei.hms.update.provider.UpdateProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huawei.agconnect.core.provider.AGConnectInitializeProvider": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huawei.hms.device.provider.CheckHmsProvider": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "io.intercom.android.sdk.IntercomInitializeContentProvider": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.applovin.sdk.AppLovinInitProvider": [
+            "com.hellovpn.tec.app.vpn",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67"
+        ],
+        "per.goweii.anylayer.ActivityProvider": [
+            "com.hellovpn.tec.app.vpn"
+        ],
+        "com.lzy.imagepicker.ImagePickerProvider": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.allenliu.versionchecklib.core.VersionFileProvider": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.yanzhenjie.permission.FileProvider": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.just.agentweb.AgentWebFileProvider": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158",
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.download.library.DownloadFileProvider": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.noober.background.BackgroundContentProvider": [
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158"
+        ],
+        "com.appyet.provider.SuggestionProvider": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.crashlytics.android.CrashlyticsInitProvider": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "callerfind.number.locator",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.flurry.android.agent.FlurryContentProvider": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F",
+            "com.app.xtraclassesforstudents",
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.iss.sdpersonalbank.ImagePickerProvider": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.iss.sdpersonalbank.FileProvider": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.iss.sdpersonalbank.ShareFileProvider": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.avl.engine.security.AVLProvider": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.sccba.jsbridge.util.ImagePickerProvider": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.secneo.apkwrapper.CP": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.autel.maxiap200.bs200D124454003BE52DEB09FD68F6D62F2D509E6E254"
+        ],
+        "com.thinking.analyselibrary.TDContentProvider": [
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67"
+        ],
+        "com.startapp.sdk.adsbase.StartAppInitProvider": [
+            "com.Suestudio.suara_pikat_burung_perkutut"
+        ],
+        "b.hs": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "b.oy": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "com.urbanairship.UrbanAirshipProvider": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "io.dcloud.common.util.DCloud_FileProvider": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.getui.gtc.base.GtcProvider": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.example.update.downUpdater.provider.AppUpdaterFileProvider": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "mono.MonoRuntimeProvider_1": [
+            "com.riselogic.dm.autogrill"
+        ],
+        "com.adobe.air.CameraUIProvider": [
+            "air.com.fernus.vectorvideo.newton12419AF358151298EAB5C5BBE70D64A64F2685E4",
+            "air.com.girlsgameschristmastreecookiesgamesforgirls",
+            "air.LearnCarsNames",
+            "air.zip.vcF55F22E72BCAB60EAA89BE30E945F6EE714F5331",
+            "air.au.whitech.mobile.imagine.generic.ireland0FA973B68E4B137344B8693A9F0F03222E72CE49",
+            "air.com.littlebigplay.games.free.balloonspop"
+        ],
+        "com.myflashlabs.videoPlayer.AneVideoProvider": [
+            "air.com.fernus.vectorvideo.newton12419AF358151298EAB5C5BBE70D64A64F2685E4"
+        ],
+        "io.trigger.forge.android.core.ForgeFileProvider": [
+            "com.trinity.trinconnect.android"
+        ],
+        "io.trigger.forge.android.core.ForgeContentProvider": [
+            "com.trinity.trinconnect.android"
+        ],
+        "com.preference.provider.PreferenceProvider": [
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.dewmobile.transfer.provider.DmTransferProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.es.provider.DmOffLineMsgProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.es.provider.DmInviteMsgProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.mbridge.msdk.foundation.tools.MBFileProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.bytedance.sdk.openadsdk.TTFileProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.qq.e.comm.GDTFileProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.bytedance.pangle.servermanager.MainServerManager": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.bytedance.pangle.provider.MainProcessProviderProxy": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.huawei.hms.nearby.framework.internal.NearbyInstaller": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.mob.MobProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "cn.sharesdk.framework.utils.ShareSDKFileProvider": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.percy29.theme.skulls.activity.DocksProvider": [
+            "com.percy29.theme.skulls24C2731C5C9FC759D8B3911EB933E24A9CA12083"
+        ],
+        "com.appbrain.AppBrainInitProvider": [
+            "com.kumareng.ravanshenasikoodak"
+        ],
+        "com.tencent.qcloud.tim.uikit.utils.TUIKitFileProvider": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.tpush.XGPushProvider": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.tpush.SettingsContentProvider": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.tpush.XGVipPushKAProvider": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.tpns.baseapi.base.SettingsContentProvider": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.yandex.browser.fonts.FontsProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.beta.FileProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.beta.YandexAccountProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.beta.BrowserProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.firstscreen.content.ResourceProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.debugpanel.DebugPanelContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.SuperAppContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.speech.alice.shortcut.AliceIconContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.alice.DialogFileProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.messaging.MessagingFileProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.attachments.chooser.ChooserFileProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.provider.InternalProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.authsdk.AuthSdkProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.core.sync.SyncProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.sso.SsoContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.music.sdk.provider.InternalProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.eye.camera.kit.util.FileProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "splitties.init.AppCtxInitProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.music.sdk.helper.images.ImageProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.music.sdk.helper.foreground.core.ForegroundProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.SearchLibContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.WidgetInfoContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.PreloadInfoContentProvider": [
+            "com.yandex.browser.beta"
+        ],
+        "com.cdel.accmobile.app.provider.MyUriProvider": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.dlupdate.UpdateFileProvider": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "org.acra.attachment.AcraContentProvider": [
+            "com.bt_prod.bad04A539C5F393267BF7AD3DCC7AAB4BD934B2633F",
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "com.sl.utakephoto.TakePhotoProvider": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.SecShell.SecShell.CP": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "nl.xservices.plugins.FileProvider": [
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e"
+        ],
+        "io.github.pwlin.cordova.plugins.fileopener2.FileProvider": [
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e"
+        ],
+        "com.prolificinteractive.materialcalendarview.MaterialCalendarViewInitProvider": [
+            "com.firstnational.scheels312307C6BD2150DEC7BD212EBB946594185525B5"
+        ],
+        "com.base.lib.crash.CaocInitProvider": [
+            "color.master.by.number.flower.beauty.coloring.book.artworks.fun.pictures"
+        ],
+        "com.smaato.sdk.core.lifecycle.ProcessLifecycleOwnerInitializer": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.smaato.sdk.sys.LifecycleProvider": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "crc647c3ddcd418b664a1.ClipboardContentProvider": [
+            "com.FamaSystems.FamaActivos"
+        ],
+        "com.toast.android.ToastInitProvider": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "com.shopgate.android.controller.provider.SGClientContentProvider": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.plotprojects.retail.android.DebugLogProvider": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.plotprojects.retail.android.WorkContentProvider": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.dimelo.dimelosdk.utilities.DimeloFileProvider": [
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "com.microsoft.appcenter.loader.AppCenterLoader": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.hive.base.FileProvider": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.gcp.hivecore.HiveCoreInitProvider": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.hive.base.HiveInitProvider": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.abinbev.account.credit.ui.utils.CreditFileProvider": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.abinbev.account.invoice.domain.data.GenericFileProvider": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.ss.android.lark.platform.lifecycle.AppLifecycle$LifecycleContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.platform.network.ttnet.MultiProcessSharedProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.vcxp.provider.MainProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.vcxp.provider.VCProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.littleapp.router.LittleAppFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.larkbrand.hostbridge.sync.LarkCrossProcessHostDataProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.larkbrand.LarkBrandFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.multitask.task.MultitaskStartTaskEventContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.bear.drive.biz.upload.filepicker.common.OpenExternalFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.android.file.picker.lib.provider.FilePickerProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.thirdshare.base.impl.ThirdShareBaseApiImpl$ShareProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.mediapicker.fileprovider.PickerFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.mediarecorder.fileprovider.MediaRecorderFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.lark.android.module.offlinepush.MultiProcessSharedProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.lark.android.module.offlinepush.account.AccountProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.provider.spprovider.SPContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.larksuite.framework.utils.CommonFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.bear.service.remote.TokenContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.bear.service.remote.TokenContentProvider0": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.bear.service.remote.TokenContentProvider1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.bear.service.remote.TokenContentProvider2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.apm.battery.dao.MonitorContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.push.PushFileProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.eetroublecapture.contentprovider.CaptureProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.frankie.provider.FrankieProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.pm.PluginPackageManagerProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.am.PluginActivityManagerProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p0.StubContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.mira.stub.p1.StubContentProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.push.settings.storage.PushProvider": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider0": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider1": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider2": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider3": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider4": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider5": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider6": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider7": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "ee.android.framework.manis.base.stub.ManisStubProvider8": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.quickswipe.SwipePurefreeProvider": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ]
+    },
+    "receivers": {
+        "com.appsflyer.MultipleInstallBroadcastReceiver": [
+            "com.traplight.battleslides2D5A8F4C814214A75A8CB342521340FF61491BA4",
+            "com.diymakeup.arb.geme.ma",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67"
+        ],
+        "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver": [
+            "com.traplight.battleslides2D5A8F4C814214A75A8CB342521340FF61491BA4",
+            "com.hellovpn.tec.app.vpn",
+            "com.legend.hyperw32D332128E85E03309327B5DC169AAF9EBEAB158",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F",
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67",
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B",
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9",
+            "com.riselogic.dm.autogrill",
+            "com.app.xtraclassesforstudents",
+            "com.yandex.browser.beta",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE",
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497",
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.wongeta.smartcashtransact.BootReceiver": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685"
+        ],
+        "crc643608f90ad72583ad.BootReceiver": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685"
+        ],
+        "crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "com.vehicletracking.inthefield",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4",
+            "com.dtsocialize.uup1D2AE90E424F8CD265FEDFBC6FFFF095065C8379",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver": [
+            "com.wongeta.smartcashtransact1969D415C8F54DDD4CB980B2C37A1256B9E02685",
+            "cl.birdie.antenas731AB14D43BB138AFA0C23D43CDFC762FE804AD0",
+            "ro_camper.ro",
+            "com.vehicletracking.inthefield",
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D",
+            "it.duepuntotre.zuppometro",
+            "com.technokinetix.fitnessrepcounter",
+            "cz.jj.jjmorningbible50CB38566FDA5203C379864A009ADAED0B873CF1",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.biocatgo.wwwEC6DC7606851984DC3E481EBEF8F4265098192D6",
+            "com.trophy.app",
+            "com.FamaSystems.FamaActivos",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4",
+            "com.digitatanetworks.infinitymobile",
+            "com.dtsocialize.uup1D2AE90E424F8CD265FEDFBC6FFFF095065C8379",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "org.altbeacon.beacon.startup.StartupBroadcastReceiver": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0",
+            "com.app.xtraclassesforstudents"
+        ],
+        "no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver": [
+            "net.atntechnology.ATAN92FC26C5B45B06D7D4FB26B062A60BB8B36A23E0"
+        ],
+        "com.leo.friendshipalarm.module.music.receiver.PlayerManagerReceiver": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.leo.friendshipalarm.module.ring.service.StartupService": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.leo.friendshipalarm.module.notification.JPushReceiver": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.leo.friendshipalarm.module.notification.JPushMessageReceiverChild": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.xdandroid.hellodaemon.WakeUpReceiver": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "com.xdandroid.hellodaemon.WakeUpReceiver$WakeUpAutoStartReceiver": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3"
+        ],
+        "cn.jpush.android.service.PushReceiver": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.AlarmReceiver": [
+            "com.leo.friendshipalarm3AB856C98800BC7AB9C09DDBADD3CB3F9F82E4B3",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.onesignal.GcmBroadcastReceiver": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.NotificationOpenedReceiver": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.BootUpReceiver": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.onesignal.UpgradeReceiver": [
+            "com.Searchkaroji.India13DCFA9CDAA24B0E560DC1697CF932C2722EF7F5",
+            "com.app.Vectors_Academy",
+            "aicon.mini.player",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE",
+            "com.trophy.app",
+            "com.footballforecast.cricketera6DFD6E70632E8FB6E35A80EED3C2A97FBD3A4328",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e",
+            "callerfind.number.locator",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.vungle.warren.NetworkProviderReceiver": [
+            "com.diymakeup.arb.geme.ma",
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F"
+        ],
+        "io.presage.common.profig.schedule.ProfigAlarmReceiver": [
+            "com.diymakeup.arb.geme.ma"
+        ],
+        "com.huajiao.base.StateReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.LivePlayerService$ToTopActivityBroadcastReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huajiao.push.service.PushMessageReceiverImpl": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.xiaomi.push.service.receivers.NetworkStatusReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.xiaomi.push.service.receivers.PingReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huajiao.push.xiaomi.XiaomiPushReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC"
+        ],
+        "com.huawei.hms.support.api.push.PushMsgReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.huawei.hms.support.api.push.PushReceiver": [
+            "com.huajiaoC7179ED2CA2F01AED826394EE575E618B89B8CBC",
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE",
+            "com.yandex.browser.beta",
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.fgl.enhance.referral.ReferralReceiver": [
+            "com.app.Vectors_Academy",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE"
+        ],
+        "com.fgl.enhance.notification.FGLLocalNotificationReceiver": [
+            "com.app.Vectors_Academy",
+            "in.mikmok2E64BB40A8F7E67FC35F5BFBA9E4DA4DDF778CCE"
+        ],
+        "com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA"
+        ],
+        "io.intercom.android.sdk.push.IntercomPushBroadcastReceiver": [
+            "com.equeo.dyson442665C2918BB97D1A448AC0983DAFED02C35CBA",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.startapp.android.publish.common.metaData.BootCompleteListener": [
+            "aicon.mini.player",
+            "com.appssofia06.tonosgalaxys4parallamadasdecelulardescargagratis",
+            "io.kodular.jatgurjarrajput.kisan_ganna_parchi1E2A2BA6A638ECA0FCEFE9B0EAE18D7C6E8C0784"
+        ],
+        "com.face.gender.changer.faceapp.SplashExit.Receiver.S_NetworkChangeReceiver": [
+            "com.face.gender.changer.faceapp"
+        ],
+        "com.appyet.receiver.DownloadReceiver": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.receiver.CommonReceiver": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.receiver.AlarmUpdateReceiver": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.receiver.AlarmHeartBeatReceiver": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.receiver.BootCompletedReceiver": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.provider.WidgetProvider": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.appyet.provider.WidgetProvider_4_1": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.download.library.NotificationCancelReceiver": [
+            "com.persian.fairy.talesA08A26204B924657AA6DE8D55497AFFD04FA9D4F"
+        ],
+        "com.gwunited.mobile.platform.receiver.PaymentReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "kernal.idcard.android.DataChangeReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.igexin.sdk.PushReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.igexin.sdk.HmsPushReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.igexin.sdk.HmsPushSubReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6"
+        ],
+        "com.meizu.cloud.pushsdk.SystemReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.igexin.sdk.FlymePushReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.igexin.sdk.VivoPushMessageReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.igexin.sdk.MiuiPushReceiver": [
+            "com.iss.linshangbank795BF4EE885E0853C4E6C9DBB5DA62E3398414F6",
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.fyber.inneractive.sdk.dv.DVKit": [
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F"
+        ],
+        "com.fyber.inneractive.sdk.mraid.IAMraidKit": [
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F"
+        ],
+        "com.fyber.inneractive.sdk.video.IAVideoKit": [
+            "com.pepyous.hostore4B25A8DEAE05470A21AEB7C5F8B1CD4E39590C1F"
+        ],
+        "com.gsmobil.apploc.service.receiver.BootCompleteReceiver": [
+            "com.gsmobil.apploc"
+        ],
+        "com.gsmobil.apploc.ui.activity.main.settings.AdminReceiver": [
+            "com.gsmobil.apploc"
+        ],
+        "com.gsmobil.apploc.service.receiver.AlarmReceiver": [
+            "com.gsmobil.apploc"
+        ],
+        "com.adjust.sdk.AdjustReferrerReceiver": [
+            "com.bc.avengerA7DB38AC44C68AD47E8EA72EA7C39D8A99AE8A67",
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener": [
+            "com.Suestudio.suara_pikat_burung_perkutut"
+        ],
+        "com.ebankit.com.bt..widget.SystemWidget": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "b.cjj": [
+            "com.ebankit.com.bt0B5D7ED94A935B7C71C2026A36B30941CF6D6F63"
+        ],
+        "crc64f98dd38067c0c88b.CustomTabsActionsBroadcastReceiver": [
+            "com.hantecconnect.pelican456A13F46AAA5AFA7B72F057569CB5BEA393403D",
+            "com.alpha1marketing.ksalesman",
+            "com.FamaSystems.FamaActivos"
+        ],
+        "crc64a120eee067428a11.NetworkStatusBroadcastReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "crc642be94fbae2965402.ConnectivityBroadcastReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "crc64cea48322b3427ae9.ConnectivityChangeBroadcastReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B",
+            "com.alpha1marketing.ksalesman",
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F",
+            "com.trophy.app",
+            "com.FamaSystems.FamaActivos",
+            "com.biworldwide.MeritorRewards"
+        ],
+        "com.gimbal.internal.service.GimbalServiceStartStopReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.qsl.faar.service.location.sensors.playservices.FusedLocationReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.qsl.faar.service.location.sensors.playservices.GeofenceReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.urbanairship.automation.alarms.AlarmOperationReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.urbanairship.push.NotificationProxyReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.urbanairship.locale.LocaleChangeReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.microsoft.appcenter.distribute.DownloadManagerReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B",
+            "de.lesio"
+        ],
+        "com.urbanairship.location.LocationReceiver": [
+            "com.amc7C0E5B5E6F5301E435D7D88D8BB73F612BC5C89B"
+        ],
+        "com.AdX.tag.AdXAppTracker": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B"
+        ],
+        "com.appsflyer.SingleInstallBroadcastReceiver": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B"
+        ],
+        "com.appboy.AppboyGcmReceiver": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B"
+        ],
+        "sm.android.InstallReferrerBroadcastReceiver": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B"
+        ],
+        "vds.android.appboynotifications.AndroidPushBroadcastReciever": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B"
+        ],
+        "com.appboy.receivers.AppboyActionReceiver": [
+            "air.com.playtika.cvsD48FD8AE3841B2775DAAE89EB92CB1D493CEEA8B",
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.baidu.shucheng91.AppRegister": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.baidu.shucheng91.zone.push.ChapterPushBroadcastReceiver": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.tapread.reader.receiver.GoogleInstallReceiver": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.tapread.reader.share.TwitterReceiver": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.nd.android.pandareaderlib.util.storage.StorageStateReceiver": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9"
+        ],
+        "com.facebook.CampaignTrackingReceiver": [
+            "com.tapread.reader57B62C89CA57E534CFE141F3B16BD0597866DCE9",
+            "com.riselogic.dm.autogrill",
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "io.dcloud.feature.unipush.GTNotificationReceiver": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "io.dcloud.common.adapter.io.PushReceiver": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "io.dcloud.common.adapter.io.DownloadReceiver": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.taobao.weex.WXGlobalEventReceiver": [
+            "com.wta.NewCloudApp.jiuwei82032"
+        ],
+        "com.yandex.metrica.MetricaEventHandler": [
+            "com.riselogic.dm.autogrill"
+        ],
+        "crc64106b7a92079d6b63.BroadcastReceiverFirebase": [
+            "com.riselogic.dm.autogrill"
+        ],
+        "com.kotlin.mNative.oldCode.alarm.MyReceiver": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.audio.RemoteControlReciever": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.oldCode.pedometer.DateChangedBroadcast": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.kotlin.mNative.activity.geofence.receiver.GeoFenceBroadcastReceiver": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "org.matomo.sdk.extra.InstallReferrerReceiver": [
+            "com.app.xtraclassesforstudents"
+        ],
+        "com.parse.ForgePushBroadcastReceiver": [
+            "com.trinity.trinconnect.android",
+            "com.trinity.trinconnect.android"
+        ],
+        "crc644f6c2b15ce478836.NetworkStatusBroadcastReceiver": [
+            "de.lesio"
+        ],
+        "com.nathnetwork.xciptv.bootcomplete.BootCompleteReceiver": [
+            "com.delbrnew.gameof47D5802A80AF2CF3A8F7E05EFEB27B0E1169A4B9"
+        ],
+        "com.zappallas.android.noahlib.purchase.google.BillingReceiver": [
+            "com.zappallas.android.app.minami464927D405F0F589F0181EF5A265660AD7F5C3F3"
+        ],
+        "crc640f1d6fd1ba796493.NetworkReachability_NetworkStatusChangeBroadcastReceiver": [
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F"
+        ],
+        "crc64c1852205a52d643f.AlarmHandler": [
+            "com.yumcha.dswapp2E189B521DE18164F4C73919330BEF06E9BBF76F"
+        ],
+        "com.dewmobile.kuaiya.sensor.DmNetworkStateReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.sensor.DmPackageReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.sensor.DmEmptyReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.receiver.SmsReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.receiver.MmsReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.dewmobile.kuaiya.receiver.DmNotificationOperationReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.ss.android.downloadlib.core.download.DownloadReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.mbridge.msdk.click.AppReceiver": [
+            "com.dewmobile.kuaiya87B455F31292056376DF4BBE6281F2F378311174"
+        ],
+        "com.blinglink.phonelive.tpush.XMPushReceiver": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.tpush.XGPushReceiver": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.mipush.XMPushMessageReceiver": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.tencent.android.vivopush.VivoPushMessageReceiver": [
+            "com.blinglink.phonelive401E328146E27F57C7B50E041CAF075E47D9DEDE"
+        ],
+        "com.yandex.clid.ClidsInstaller": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.chrome.browser.notifications.NotificationIntentInterceptor$Receiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.recovery.cleardata.RecoveryRequestReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.notifications.BootReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.passman.shortcut.PassmanShortcutCreateReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.shortcuts.ShortcutCreateReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.speech.alice.shortcut.AliceShortcutReceiverForOreo": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.personaldatamanager.shortcut.LoyaltyCardsShortcutCreateReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.auth.browser.LoginAccountsChangedReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.chrome.browser.notifications.NotificationService$Receiver": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.report.ReferrerBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.push.silent.SilentPushBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.ResetSettingsReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.loader.PackageUpdateReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.offline.notifications.OfflineNotificationsReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.externalcache.ExternalStorageStateReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.subresourcefilter.UpdateFilterBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.InstallReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.voicereader.service.VoiceReaderMediaButtonReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.browser.setdefault.push.NotificationCancelBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.BatteryInfoReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.ConnectivityChangeReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.ScreenStateReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.PackageEventReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.DeviceBootReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.TimeZoneChangeReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.WifiScanCompletedReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.session.receivers.LocaleChangeReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.core.announcing.AccountsChangedReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.core.announcing.PackageRemovedReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.smsretriever.SmsRetrieverReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.passport.internal.sso.announcing.SsoAnnouncingReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.alice.shortcut.AlicengerShortcutsResultReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchplugin.notifications.NotificationChannelChangedBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.zenkit.zennotifications.NotificationsReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.zenkit.zennotifications.NotificationsBootCompleteReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.zenkit.zennotifications.NotificationsLocaleReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.surface.SurfaceBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.WidgetExtSearchLine": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.WidgetExtWeather": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.WidgetExt": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.WidgetExtEventsReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.widget.ext.NextAlarmReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.NotificationConnectivityBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.common.clid.ClidBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.NotificationStartBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "ru.yandex.searchlib.notification.NotificationBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.push.core.notification.MetricaPushBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.push.core.notification.MetricaPushNotificationStatusChangeHandler": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.push.core.notification.TtlBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.yandex.metrica.ConfigurationServiceReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "org.chromium.components.background_task_scheduler.internal.BackgroundTaskBroadcastReceiver": [
+            "com.yandex.browser.beta"
+        ],
+        "com.cdel.accmobile.app.service.AlarmReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.tencent.qalsdk.QALBroadcastReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.tencent.qalsdk.core.NetConnInfoCenter": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.accmobile.login.recevier.KickReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.dlplayer.base.audio.NotificationStatusBarReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "com.cdel.jpush.core.JPushCoreMessageReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.PluginXiaomiPlatformsReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.PluginMeizuPlatformsReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "cn.jpush.android.service.PluginHuaweiPlatformsReceiver": [
+            "com.cdel.zikao.phoneE5B8DF7124B5FDBA80ABE4FCE5CB98B202837507"
+        ],
+        "o.Ic": [
+            "com.bt_prod.bad04A539C5F393267BF7AD3DCC7AAB4BD934B2633F"
+        ],
+        "com.myflashlabs.localNotifi.Alarm": [
+            "air.zip.vcF55F22E72BCAB60EAA89BE30E945F6EE714F5331"
+        ],
+        "com.myflashlabs.localNotifi.RebootRescheduleNotifications": [
+            "air.zip.vcF55F22E72BCAB60EAA89BE30E945F6EE714F5331"
+        ],
+        "com.eve.todolist.widget.table.TodoListWidget": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.eve.todolist.widget.table.TodoListWidgetRecently": [
+            "com.eve.todolist6AD23CC51692D4FB0DDDDA42A82A7ACF2F0B1AC5"
+        ],
+        "com.onesignal.ADMMessageHandler$Receiver": [
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e"
+        ],
+        "nl.xservices.plugins.ShareChooserPendingIntent": [
+            "com.hustay.swing.dd3209d80b23a4ad694a1e0b99fad310e"
+        ],
+        "com.firstnational.session.SessionLogoutBroadcastReceiver": [
+            "com.firstnational.scheels312307C6BD2150DEC7BD212EBB946594185525B5"
+        ],
+        "com.firstnational.session.SessionWarningBroadcastReceiver": [
+            "com.firstnational.scheels312307C6BD2150DEC7BD212EBB946594185525B5"
+        ],
+        "com.firstnational.session.SessionServerBroadcastReceiver": [
+            "com.firstnational.scheels312307C6BD2150DEC7BD212EBB946594185525B5"
+        ],
+        "com.bas.hit.volm.dy.util.VendingInstallReferrerReceiver": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.bas.hit.volm.dy.service.keep.StepHistoryService$MathReceiver": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "com.kochava.base.ReferralReceiver": [
+            "com.bas.hit.volm.dy4505786A1B00FCE5F9CB8DC4D9098005D8F6ADB3"
+        ],
+        "crc6494e14b9856016c30.PushNotificationActionReceiver": [
+            "com.FamaSystems.FamaActivos",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4",
+            "com.digitatanetworks.infinitymobile"
+        ],
+        "crc6494e14b9856016c30.PushNotificationDeletedReceiver": [
+            "com.FamaSystems.FamaActivos",
+            "gov.la.omv.lawallet879F0FDD299C73BD78A43E8177D899F892C7A7B4",
+            "com.digitatanetworks.infinitymobile"
+        ],
+        "crc6464b151ab0c8e99f1.NFCImplementation_NfcBroadcastReceiver": [
+            "com.FamaSystems.FamaActivos"
+        ],
+        "teamdoppelganger.smarterbus.service.WorkAlarmReceiver": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "teamdoppelganger.smarterbus.service.BootReceiver": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "teamdoppelganger.smarterbus.service.WidgetProvider2x1": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "teamdoppelganger.smarterbus.service.WidgetProvider4x2": [
+            "teamdoppelganger.smarterbusD3DC6B061DA2F7D71B982FF12F1A6E6EC788364A"
+        ],
+        "com.shopgate.android.lib.controller.appconfig.notification.SGAppConfigLogoutNotificationResultReceiver": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.shopgate.android.lib.controller.installtracking.SGReferrerReceiver": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.shopgate.android.lib.controller.geofencing.plotprojects.SGPlotNotificationOpenReceiver": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.shopgate.android.lib.controller.geofencing.plotprojects.SGPlotConfigHook": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.plotprojects.retail.android.PlotBootReceiver": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.plotprojects.retail.android.PlotBroadcastHandler": [
+            "com.shopgate.android.app12251AB81FCA7D02528A33EA19974618EC9FC229A9594",
+            "com.shopgate.android.app31533ED09708A53F8C40DF349A3803EED3D7EC8F8F315"
+        ],
+        "com.dimelo.dimelosdk.main.ConnectionChangeReceiver": [
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "com.dimelo.dimelosdk.main.ReplyBroadcastReceiver": [
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "o.Jj": [
+            "com.mona_prod.bad89C202643929ACE637171B1C22A668B5B0143E4D"
+        ],
+        "bibliabible.com.biblenewlifeversion..starter$starter_BR": [
+            "bibliabible.com.biblenewlifeversion"
+        ],
+        "bibliabible.com.biblenewlifeversion..s1$s1_BR": [
+            "bibliabible.com.biblenewlifeversion"
+        ],
+        "com.amazon.device.iap.ResponseReceiver": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.hive.push.local.LocalPushReceiver": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.hive.push.local.DeviceStatusReceiver": [
+            "com.com2us.hw2.normal.freefull.google.global.android.common190E650BDAE477FE7E7873165E707E95FB76C1CE"
+        ],
+        "com.sobatku.mb.util.ReferralCodeReceiver": [
+            "com.sobatku.mbCE48854843391D97E23BC1B9980C1E1150661614"
+        ],
+        "com.abinbev.android.tapwiser.notifications.DeliveryWindowReminderReceiver": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.abinbev.android.tapwiser.notifications.OrderDeadlineReminderReceiver": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.abinbev.android.tapwiser.common.AppboyBroadcastReceiver": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.optimizely.ab.android.datafile_handler.DatafileRescheduler": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.optimizely.ab.android.event_handler.EventRescheduler": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.appboy.AppboyFcmReceiver": [
+            "com.abinbev.android.tapwiser.beesParaguay56FBC6C7903D9262F3B77D6C8736D384392C0497"
+        ],
+        "com.appypie.snappy.pocketTools.pedometer.DateChangedBroadcast": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.radioStream.RemoteControlReciever": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.alarm.MyReceiver": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.tune.TuneTracker": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.geofences.GeofenceReceiver": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.geofences.GeoLocationAlarmReceiver": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.customView.ActionReceiver": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.appypie.snappy.customView.BeaconStopReceiver": [
+            "com.app.intheblackqF1DC2C254C90BC7F4BC70B775670E22F471F14DD"
+        ],
+        "com.ss.android.lark.voip.service.impl.app.KeyguardUnLockReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.notification.offline.NotificationClickReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.ee.android.file.picker.lib.receiver.CloseReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.mediapicker.receiver.CloseReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.meizu.message.MzMessageReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.lark.http.netstate.NetworkBroadcastReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.ss.android.push.DefaultReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.smartisanos.push.PushReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.sdk.account.platform.onekey.SimStateReceive": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.sdk.account.platform.onekey.ConnectivityChangeReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.applog.collector.Collector": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.xiaomi.push.service.receivers.MIPushMessageHandler": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.bytedance.raphael.RaphaelReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.meizu.cloud.pushsdk.MzPushSystemReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.vivo.VivoPushMessageReceiver": [
+            "com.ss.android.larkDE0789960BFCC25C3642C265A547A546A1DB57C5"
+        ],
+        "com.pure.cleaner.optimizer.service.PureReceiver": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.pure.cleaner.optimizer.notifications.shortcut.PureSutReceiver": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.quickswipe.PureBootReceiver": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "com.smartcharge.receivers.BootCompletedReceiver": [
+            "com.pure.cleaner.optimizerB1C1349F1FF096A855DCAC60CC75B9BAE666BBF5"
+        ],
+        "crc64c89f9a7f3c38f9b9.SmsReceiver": [
+            "com.biworldwide.MeritorRewards"
+        ]
+    }
+}

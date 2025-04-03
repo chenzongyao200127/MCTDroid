@@ -10,4 +10,6 @@ This repository is intended solely for academic research and records the relevan
 
 1. construct `dataset_meta_data.json`
 2. exact all kinds of features
-3. 
+3. train all kinds of target models
+4. construct Malware Perturbation Set
+5. 
