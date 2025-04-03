@@ -242,30 +242,34 @@ def AdvDroidZero_attacker(apk, model, query_budget, output_result_dir):
         # update the tree
         PerturbationSelector.update_tree(action, perturbation_results)
 
+    finalize_attack(apk, output_result_dir, success, modification_crash,
+                    tmp_dir, copy_apk_path, start_time, attempt_idx)
+
+
+def finalize_attack(apk, output_result_dir, success, modification_crash, tmp_dir, copy_apk_path, start_time, attempt_idx):
     end_time = time.time()
     if success:
         logging.info(green("Attack Success ----- APK: {}".format(apk.name)))
         final_res_dir = os.path.join(output_result_dir, "success", apk.name)
+    elif modification_crash:
+        logging.info(
+            red("Attack Modification Crash ----- APK: {}".format(apk.name)))
+        final_res_dir = os.path.join(
+            output_result_dir, "modification_crash", apk.name)
     else:
-        if modification_crash:
-            logging.info(
-                red("Attack Modification Crash ----- APK: {}".format(apk.name)))
-            final_res_dir = os.path.join(
-                output_result_dir, "modification_crash", apk.name)
-        else:
-            logging.info(red("Attack Fail ----- APK: {}".format(apk.name)))
-            final_res_dir = os.path.join(output_result_dir, "fail", apk.name)
+        logging.info(red("Attack Fail ----- APK: {}".format(apk.name)))
+        final_res_dir = os.path.join(output_result_dir, "fail", apk.name)
 
     os.makedirs(final_res_dir, exist_ok=True)
+
     if success:
         with open(os.path.join(final_res_dir, "efficiency.txt"), "w") as f:
-            f.write(str(attempt_idx + 1) + "\n")
-            f.write(str(end_time - start_time))
+            f.write(f"{attempt_idx + 1}\n{end_time - start_time}")
 
         if os.path.exists(copy_apk_path):
             shutil.copy(apk.location, os.path.join(
-                final_res_dir, apk.name + ".source"))
+                final_res_dir, f"{apk.name}.source"))
             shutil.copy(copy_apk_path, os.path.join(
-                final_res_dir, apk.name + ".adv"))
+                final_res_dir, f"{apk.name}.adv"))
 
-    shutil.rmtree(tmp_dir)
+    shutil.rmtree(tmp_dir, ignore_errors=True)
