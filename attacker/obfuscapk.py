@@ -19,7 +19,7 @@ import tempfile
 import time
 from attacker.adz import get_basic_info
 from attacker.rsa import finalize_attack, get_model_predictions, get_updated_victim_feature, get_victim_feature, handle_self_crash
-from utils import sign_apk
+from utils import green, sign_apk
 from utils import red, cyan
 from datasets.apks import APK
 
@@ -57,12 +57,11 @@ def obfuscation_attack(apk, model, query_budget, output_result_dir):
 
     # Create temporary directory and copy APK
     tmp_dir = tempfile.mkdtemp()
-    copy_apk_path = os.path.join(tmp_dir, apk.name)
+    copy_apk_path = os.path.join(tmp_dir, apk.name + ".apk")
     shutil.copy(apk.location, copy_apk_path)
 
     # Initialize attack state
     success, modification_crash, start_time = False, False, time.time()
-
     # Attempt obfuscation attack within query budget
     for attempt_idx in range(query_budget):
         # Define Obfuscapk obfuscation parameters
@@ -70,14 +69,12 @@ def obfuscation_attack(apk, model, query_budget, output_result_dir):
         # ref: https://github.com/ClaudiuGeorgiu/Obfuscapk
         obfuscation_cmd = [
             "docker", "run", "--rm", "-it",
-            "-u", f"{os.getuid()}:{os.getgid()}",
-            "-v", f"{tmp_dir}:/workdir",
+            "-v", f"/tmp:/tmp",  # Mount /tmp to access APKs
             "obfuscapk",
             "-o", "RandomManifest",  # Randomize Manifest file
             "-o", "Rebuild",         # Rebuild APK
             "-o", "NewAlignment",    # Align APK
-            "-o", "NewSignature",    # Resign APK
-            copy_apk_path            # Input APK file path
+            copy_apk_path            # Input APK file path (use copied APK)
         ]
 
         # Execute obfuscation
@@ -92,7 +89,9 @@ def obfuscation_attack(apk, model, query_budget, output_result_dir):
 
         # Update APK path to obfuscated output
         obfuscated_apk_path = os.path.join(
-            tmp_dir, f"{apk.name.split('.')[0]}_obfuscated.apk")
+            os.path.join(tmp_dir, "obfuscation_working_dir"),
+            f"{apk.name.split('.')[0]}_obfuscated.apk"
+        )
         if not os.path.exists(obfuscated_apk_path):
             logging.error(
                 f"Obfuscated APK file not generated: {obfuscated_apk_path}")
@@ -114,6 +113,15 @@ def obfuscation_attack(apk, model, query_budget, output_result_dir):
             break
 
     # Finalize attack and record results
+    if success:
+        logging.info(green("Attack Success ----- APK: {}".format(apk.name)))
+    else:
+        if modification_crash:
+            logging.info(
+                red("Attack Modification Crash ----- APK: {}".format(apk.name)))
+        else:
+            logging.info(red("Attack Fail ----- APK: {}".format(apk.name)))
+
     finalize_attack(apk, output_result_dir, success, modification_crash,
                     tmp_dir, obfuscated_apk_path if success else copy_apk_path,
                     start_time, attempt_idx)

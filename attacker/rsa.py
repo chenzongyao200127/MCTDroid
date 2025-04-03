@@ -27,7 +27,7 @@ def random_select_attacker(apk, model, query_budget, output_result_dir):
         cyan(f"Attack Start ----- APK: {apk.name}, Query budget: {query_budget}"))
 
     victim_feature = get_victim_feature(apk, model)
-    if not victim_feature:
+    if victim_feature is None or not victim_feature.any():
         return
 
     source_label, source_confidence = get_model_predictions(
@@ -70,8 +70,8 @@ def perform_attack_iteration(apk, model, perturbation_selector, tmp_dir, copy_ap
         sign_apk(copy_apk_path)
 
     victim_feature = get_updated_victim_feature(apk, copy_apk_path, model)
-    if not victim_feature:
-        return True  # Indicates failure to retrieve updated features
+    if victim_feature is None or not victim_feature.any():
+        return
 
     next_label = model.clf.predict(victim_feature)
     if next_label == 0:
@@ -135,7 +135,7 @@ def initialize_perturbation_selector(basic_info):
 
 
 def update_apk(copy_apk_path, process_dir, apk_name):
-    shutil.copy(os.path.join(process_dir, apk_name), copy_apk_path)
+    shutil.copy(os.path.join(process_dir, apk_name + ".apk"), copy_apk_path)
 
 
 def cleanup_dirs(dirs):
@@ -148,12 +148,25 @@ def finalize_attack(apk, output_result_dir, success, modification_crash, tmp_dir
     final_res_dir = os.path.join(output_result_dir, result_type, apk.name)
     os.makedirs(final_res_dir, exist_ok=True)
 
-    if success:
-        with open(os.path.join(final_res_dir, "efficiency.txt"), "w") as f:
-            f.write(f"{attempt_idx + 1}\n{time.time() - start_time}")
-        shutil.copy(apk.location, os.path.join(
-            final_res_dir, f"{apk.name}.source"))
-        shutil.copy(copy_apk_path, os.path.join(
-            final_res_dir, f"{apk.name}.adv"))
+    try:
+        if success:
+            with open(os.path.join(final_res_dir, "efficiency.txt"), "w") as f:
+                f.write(f"{attempt_idx + 1}\n{time.time() - start_time}")
+            shutil.copy(apk.location, os.path.join(
+                final_res_dir, f"{apk.name}.source"))
+            shutil.copy(copy_apk_path, os.path.join(
+                final_res_dir, f"{apk.name}.adv"))
+    except Exception as e:
+        logging.error(f"Error during finalizing attack: {e}")
+        traceback.print_exc()
 
-    shutil.rmtree(tmp_dir)
+    try:
+        shutil.rmtree(tmp_dir, ignore_errors=False)
+    except PermissionError:
+        logging.warning(
+            f"Permission denied while removing {tmp_dir}. Attempting with sudo.")
+        # os.system(f"sudo rm -rf {tmp_dir}")
+    except Exception as e:
+        logging.error(
+            f"Error while removing temporary directory {tmp_dir}: {e}")
+        traceback.print_exc()
