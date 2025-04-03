@@ -17,7 +17,7 @@ from defender.detector import Detector
 from mps.components import get_candidate_benign_components
 from attacker.mcts import MCTS_attacker
 from attacker.adz import AdvDroidZero_attacker
-from attacker.ra import random_select_attacker
+from attacker.rsa import random_select_attacker
 from androguard.core.androconf import show_logging
 from datetime import datetime
 

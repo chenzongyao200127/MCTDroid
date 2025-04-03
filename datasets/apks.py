@@ -13,7 +13,7 @@ from utils import red
 from defender.drebin import get_drebin_feature
 from defender.mamadroid import get_mamadroid_feature
 from defender.apigraph import get_apigraph_feature
-from defender.vae_fd import get_vae_fd_feature
+from defender.fd_vae import get_fd_vae_feature
 from androguard.core.androconf import show_logging
 
 
@@ -34,14 +34,14 @@ class APK:
             features_dir, 'apigraph', f"{self.name}.json")
         self.mamadroid_feature_path = os.path.join(
             features_dir, 'mamadroid', f"{self.name}.npz")
-        self.vae_fd_feature_path = os.path.join(
+        self.fd_vae_feature_path = os.path.join(
             features_dir, 'fd-vae', f"{self.name}.npz")
 
         # Initialize feature containers
         self.drebin_feature = None
         self.apigraph_feature = None
         self.mamadroid_family_feature = None
-        self.vae_fd_feature = None
+        self.fd_vae_feature = None
 
     def get_drebin_feature(self):
         """Extract the drebin feature"""
@@ -76,16 +76,16 @@ class APK:
             self.mamadroid_family_feature = get_mamadroid_feature(
                 self.location, self.mamadroid_feature_path)
 
-    def get_vae_fd_feature(self):
-        """Extract the vae_fd feature"""
-        if os.path.exists(self.vae_fd_feature_path):
+    def get_fd_vae_feature(self):
+        """Extract the fd_vae feature"""
+        if os.path.exists(self.fd_vae_feature_path):
             logging.info(
-                f"Load APK: {self.name}, vae_fd feature from file {self.vae_fd_feature_path}")
-            data = np.load(self.vae_fd_feature_path)
-            self.vae_fd_feature = data['vae_fd_feature']
+                f"Load APK: {self.name}, fd-vae feature from file {self.fd_vae_feature_path}")
+            data = np.load(self.fd_vae_feature_path)
+            self.fd_vae_feature = data['fd_vae_feature']
         else:
-            self.vae_fd_feature = get_vae_fd_feature(
-                self.location, self.vae_fd_feature_path)
+            self.fd_vae_feature = get_fd_vae_feature(
+                self.location, self.fd_vae_feature_path)
 
 
 class APKSET:
@@ -187,7 +187,7 @@ class APKSET:
                 if not os.path.exists(apk.mamadroid_feature_path):
                     unprocessed_apk_set.append(apk)
             elif method == "fd-vae":
-                if not os.path.exists(apk.vae_fd_feature_path):
+                if not os.path.exists(apk.fd_vae_feature_path):
                     unprocessed_apk_set.append(apk)
 
         with mp.Pool(processes=config['nproc_feature']) as p:
@@ -215,7 +215,7 @@ class APKSET:
                     total_data[apk] = data['family_feature'].tolist()
             else:
                 data = np.load(os.path.join(dirname, apk))
-                total_data[apk] = data['vae_fd_feature'].tolist()
+                total_data[apk] = data['fd_vae_feature'].tolist()
         with open(total_feature_fn, "w") as f:
             json.dump(total_data, f)
 
@@ -240,7 +240,7 @@ class APKSET:
                 apk.apigraph_feature = total_feature[apk.name + ".json"]
         elif method == "fd-vae":
             for apk in tqdm(self.total_set):
-                apk.vae_fd_feature = total_feature[apk.name + ".npz"]
+                apk.fd_vae_feature = total_feature[apk.name + ".npz"]
 
 
 def get_feature_wrapper(apk, method):
@@ -252,4 +252,4 @@ def get_feature_wrapper(apk, method):
     elif method == "apigraph":
         apk.get_apigraph_feature()
     elif method == "fd-vae":
-        apk.get_vae_fd_feature()
+        apk.get_fd_vae_feature()

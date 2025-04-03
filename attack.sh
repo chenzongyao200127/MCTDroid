@@ -8,7 +8,7 @@ P_VALUES=(10 20 30 40 50 100)
 # Attack configurations
 declare -A attack_params=(
     ["ADZ"]="-N 100 --attacker ADZ --ADZ_attack"
-    ["RSA"]="-N 100 --attacker RSA --RSA_attack"
+    # ["RSA"]="-N 100 --attacker RSA --RSA_attack"
 )
 
 # Models and their classifiers
